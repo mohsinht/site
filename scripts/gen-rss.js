@@ -32,6 +32,20 @@ async function generate() {
     })
   )
 
+  // Adding resume to rss feed
+
+  const resumeContent = await fs.readFile(
+    path.join(__dirname, '..', 'pages', 'resume.mdx')
+  )
+  const frontmatter = matter(resumeContent)
+
+  await feed.item({
+    title: frontmatter.data.title,
+    url: '/resume',
+    date: frontmatter.data.date,
+    description: frontmatter.data.description,
+  })
+
   await fs.writeFile('./public/feed.xml', feed.xml({ indent: true }))
 }
 
