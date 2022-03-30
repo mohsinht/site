@@ -141,7 +141,7 @@ img.resume-dp:hover {
   font-size: 12px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .skill-banner-icon {
     font-size: 34px;
   }
@@ -154,6 +154,20 @@ img.resume-dp:hover {
   
   .skill-banner-text {
     font-size: 12px;
+  }
+
+  .resume-icon {
+    margin-left: 0px;
+    right: 15px;
+    font-size: 100px;
+  }
+
+  img.resume-dp {
+    margin-top: -50px;
+  }
+
+  img.resume-dp {
+    margin-right: 0px;
   }
 }
 
