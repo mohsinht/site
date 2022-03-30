@@ -16,8 +16,8 @@ body {
   font-feature-settings: 'case' 1, 'cpsp' 1, 'dlig' 1, 'cv01' 1, 'cv02',
     'cv03' 1, 'cv04' 1;
   font-variation-settings: 'wght' 450;
-  font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
+  font-variant: common-ligatures contextual;
 }
 b,
 strong,
@@ -56,4 +56,29 @@ img.next-image {
 
 .nav-line .nav-link {
   color: #69778c;
+}
+
+.nav-line {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  background: #0c0c0c;
+  color: #d3d3d3;
+  padding: 10px 19px;
+  border-radius: 5px;
+  margin-left: -15px;
+  width: calc(100% + 30px);
+  border-bottom: 1px solid #6d6d6d4d;
+}
+
+.icon-link, .icon-link > i {
+  font-size: 18px;
+  margin-left: 5px;
+  color: #7e7e7e;
+}
+.icon-link:hover, .icon-link > i:hover {
+  color: #f3f4f6;
 }

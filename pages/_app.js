@@ -20,6 +20,7 @@ export default function Nextra({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
+
       <Component {...pageProps} />
     </>
   )
