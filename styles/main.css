@@ -104,9 +104,11 @@ img.resume-dp {
   width: 110px;
   border-radius: 50%;
   opacity: 0.5;
+  filter: grayscale(100%);
 }
 img.resume-dp:hover {
   opacity: 1;
+  filter: grayscale(0%);
 }
 
 .contact-icon {
