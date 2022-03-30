@@ -170,6 +170,11 @@ img.resume-dp:hover {
   img.resume-dp {
     margin-right: 0px;
   }
+
+  .nav-line { 
+    margin-left: 0;
+    width: 100%;
+  }
 }
 
 .skills-banner-item:hover {
