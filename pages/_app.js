@@ -1,6 +1,7 @@
 import 'nextra-theme-blog/style.css'
 import Head from 'next/head'
-
+import Script from 'next/script'
+import '@fortawesome/fontawesome-svg-core'
 import '../styles/main.css'
 
 export default function Nextra({ Component, pageProps }) {
@@ -20,7 +21,7 @@ export default function Nextra({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
-
+      <Script src="https://kit.fontawesome.com/6145703c0a.js" crossOrigin="anonymous" />
       <Component {...pageProps} />
     </>
   )

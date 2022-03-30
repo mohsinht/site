@@ -82,3 +82,37 @@ img.next-image {
 .icon-link:hover, .icon-link > i:hover {
   color: #f3f4f6;
 }
+
+.resume-icon {
+  color: #1d1d1d;
+  font-size: 100px;
+  position: absolute;
+  z-index: -1;
+  margin-top: -14px;
+  margin-left: 550px;
+}
+
+.designation-with-img {
+  display: flex;
+}
+
+img.resume-dp {
+  margin: 0;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: -70px;
+  width: 110px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+img.resume-dp:hover {
+  opacity: 1;
+}
+
+.contact-icon {
+  font-size: 15px;
+  vertical-align: middle;
+  margin-right: 6px;
+  width: 15px;
+  text-align: center;
+}

@@ -21,7 +21,6 @@ export default function Document() {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
-        <script src="https://kit.fontawesome.com/6145703c0a.js" crossorigin="anonymous"></script>
       </Head>
       <body>
         <Main />
