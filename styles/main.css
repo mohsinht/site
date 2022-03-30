@@ -116,3 +116,45 @@ img.resume-dp:hover {
   width: 15px;
   text-align: center;
 }
+
+.skills-banner {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+.skills-banner-item {
+  margin: 0 15px;
+  text-align: center;
+  color: #7e7e7e;
+}
+
+.skill-banner-icon {
+  font-size: 64px;
+}
+
+.skill-banner-text {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .skill-banner-icon {
+    font-size: 34px;
+  }
+
+  .skills-banner-item {
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  
+  .skill-banner-text {
+    font-size: 12px;
+  }
+}
+
+.skills-banner-item:hover {
+  color: #f3f4f6;
+}
