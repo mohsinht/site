@@ -157,9 +157,10 @@ img.resume-dp:hover {
   }
 
   .resume-icon {
-    margin-left: 0px;
-    right: 15px;
+    margin-left: 0;
+    left:calc(100vw - 120px);
     font-size: 100px;
+    opacity: 0.6;
   }
 
   img.resume-dp {
