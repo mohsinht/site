@@ -1,5 +1,4 @@
 const YEAR = new Date().getFullYear()
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default {
   footer: (
     <>
@@ -38,8 +37,9 @@ export default {
   logo: (
     <>
       <svg>...</svg>
-      <span>Next.js Static Site Generator</span>
+      <span>Mohsin Hayat</span>
     </>
   ),
-  titleSuffix: " – Mohsin's Resumé"
+  titleSuffix: " – Mohsin's Resumé",
+  back: 'Read More →',
 }
