@@ -4,14 +4,13 @@
         <description><![CDATA[Mohsin Hayat]]></description>
         <link>https://mohsinht.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 02 Apr 2022 05:11:54 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 Apr 2022 20:30:40 GMT</lastBuildDate>
         <atom:link href="https://mohsinht.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Advises from my mentors]]></title>
-            <description><![CDATA[Some suggestions from my mentors at Awell Health to become better engineer.]]></description>
-            <link>/posts/advises-from-my-mentors</link>
-            <guid isPermaLink="true">/posts/advises-from-my-mentors</guid>
-            <category><![CDATA[engineering]]></category>
+            <title><![CDATA[Stand-out in your job application]]></title>
+            <description><![CDATA[Some simple tips from me to stand out in the job application for remote jobs.]]></description>
+            <link>/posts/standout-in-your-job-application</link>
+            <guid isPermaLink="true">/posts/standout-in-your-job-application</guid>
             <category><![CDATA[remote work]]></category>
             <dc:creator><![CDATA[You]]></dc:creator>
             <pubDate>Sat, 02 Apr 2022 19:00:00 GMT</pubDate>
@@ -24,6 +23,16 @@
             <category><![CDATA[remote work]]></category>
             <dc:creator><![CDATA[You]]></dc:creator>
             <pubDate>Fri, 01 Apr 2022 19:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Advises from my mentors]]></title>
+            <description><![CDATA[Some suggestions from my mentors at Awell Health to become better engineer.]]></description>
+            <link>/posts/advises-from-my-mentors</link>
+            <guid isPermaLink="true">/posts/advises-from-my-mentors</guid>
+            <category><![CDATA[engineering]]></category>
+            <category><![CDATA[remote work]]></category>
+            <dc:creator><![CDATA[You]]></dc:creator>
+            <pubDate>Sat, 02 Apr 2022 19:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Resume]]></title>
