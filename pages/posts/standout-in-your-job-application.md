@@ -51,3 +51,9 @@ _However, we feel that for the role that we had imagined for you, we will need s
 _This is quite unique to *** and the specific way we choose to do things so I'd like to encourage you to not take these as anything other than an observation based on some signals we have gathered._
 
 _We know our process requires some personal investment, thank you for that."_
+
+**Summary:**   
+- Stronger alignment with company's culture
+- how you can have an impact 
+- the product you want to build 
+- what you want to do at the company 

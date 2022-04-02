@@ -32,7 +32,7 @@ At least for me, the growth has been great. I've never felt the need for an in-p
 
 When I started hunting for jobs during my last semester at the university, I realized there was an abundance of jobs in the job market which were giving 70,000PKR to 90,000PKR to top performers of the University. This equates to around USD400 to USD500 per month. A great offer meant 140,000PKR which is also less than a thousand dollars. 
 
-I was skeptical about these jobs from the start and when I started looking at the international market, I got the notion that we are getting insultingly underpaid jobs and we are among the most talented people in the world. The university where I studied is the premium computer science university in the country. I thought, maybe this is meant to be this way. But seeing how Indian software engineers are getting about at least 10 times more salary than an average software engineer in Pakistan, my skepticism was amplified by 10x.
+I was skeptical about these jobs from the start and when I started looking at the international market, I got the notion that we are getting insultingly underpaid jobs and we are among the most talented people in the world. The university where I studied is the premium computer science university in the country. I thought, maybe this is meant to be this way. But seeing how Indian software engineers are getting more remote jobs and resultantly more salary than an average software engineer in Pakistan, my skepticism was amplified by 10x.
 
 I always thought getting 100K per month should be the dream of every Pakistani engineer out there in the job market. But I was wrong. The amount is way more than that.
 
