@@ -22,6 +22,17 @@ export default function Nextra({ Component, pageProps }) {
         />
       </Head>
       <Script src="https://kit.fontawesome.com/6145703c0a.js" crossOrigin="anonymous" />
+
+      {{ /* <!-- Global site tag (gtag.js) - Google Analytics --> */ }}
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-RJJ7FBBKY2"></Script>
+      <Script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-RJJ7FBBKY2');
+      </Script>
+
       <Component {...pageProps} />
     </>
   )
