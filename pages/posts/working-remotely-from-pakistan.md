@@ -39,3 +39,5 @@ I always thought getting 100K per month should be the dream of every Pakistani e
 I watched an Indian guy explaining this in a [Youtube video](https://www.youtube.com/watch?v=HbZK-tNHXW4) that he was able to cover all his four-year tuition fee in a single paycheck. SINGLE PAYCHECK! If this isn't an eye-openner for you, then what is? 
 
 The salaries for a junior software developer in any startup in the European or US region is at least USD40,000 which equates to around 5 lacs PKR per month. And this is just for a junior developer, if you grow, you'll get equity, bonuses, increments and lots and lots of incentives.
+
+And you don't have to pay taxes on foreign remittance earned through software services. If you compare this to your salary which would have been if you lived in the EU or US, you'd realise you earn 40% more than them.
