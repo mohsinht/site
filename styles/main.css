@@ -198,3 +198,10 @@ img.resume-dp:hover {
 .recommendation-item:hover, .testimonial-item:hover {
   background: #121212;
 }
+
+@media screen and (max-width: 768px) {
+  .recommendations-container, .testimonials-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
