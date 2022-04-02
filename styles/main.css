@@ -180,3 +180,21 @@ img.resume-dp:hover {
 .skills-banner-item:hover {
   color: #f3f4f6;
 }
+
+.recommendations-container, .testimonials-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.recommendation-item, .testimonial-item {
+  padding: 10px 25px;
+  background: #0c0c0c;
+  color: #d3d3d3;
+  border-radius: 5px;
+  border-bottom: 1px solid #6d6d6d4d;
+}
+
+.recommendation-item:hover, .testimonial-item:hover {
+  background: #121212;
+}
