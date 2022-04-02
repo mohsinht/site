@@ -22,11 +22,11 @@ After one year of my successful career as a remote software engineer, I can tell
 
 The most important thing for anyone to grow is **feedback** and you can get it from anywhere. Getting feedback has nothing to do with whether you work remotely or from the office. Software engineers usually rely on code reviews and my code reviews were extremely brutal. I always had like 30 comments on 3 lines of codes in my merge requests. 
 
-My first mentor in the company was [Yann Buydens](https://yannbuy.com/), who is the co-founder and was the CTO of the company. He not only gave me thorough reviews on my merge requests, but also advises me that will remain with me till the end of my life. He literally gave feedback to me on what to speak in meetings, how to think efficiently and how to write good content. He added composure to my thinking and gave me confidence that I didn't know I have.
+My first mentor in the company was [Yann Buydens](https://yannbuy.com/), who is the co-founder and was the CTO of the company. He not only gave me thorough reviews on my merge requests, but also gave advises to me that will remain with me till the end of my life. He literally gave feedback to me on what to speak in meetings, how to think efficiently and how to write good content. He added composure to my thinking and gave me confidence that I didn't know I have.
 
-My second mentor in the company was Etienne Bomcke who is the tech lead of the company. He's very objective about everything and all the advice I got from him was super valuable and easy to follow. He does 1-on-1 meetings every two weeks and does complete retrospection of your performance like a psychologist. He even asks if I'm happy or not with the company and work that I do.
+My second mentor in the company was Etienne Bomcke who is the tech lead of the company. He's very objective about everything and all the advice I got from him is super valuable and easy to follow. He does 1-on-1 meetings every two weeks and does complete retrospection of my performance like a psychologist. He even asks if I'm happy or not with the company and work that I do.
 
-At least for me, the growth has been great. I've never felt the need for an in-person meeting or work from the office of any sort.
+At least for me, the growth has been great. I've never felt the need for an in-person meeting or work from office of any sort. My growth and learning hasn't been affected by the fact that I work from home and work thousand miles apart from my colleagues.
 
 ## Salaries
 
