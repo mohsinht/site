@@ -56,6 +56,7 @@ img.next-image {
 
 .nav-line .nav-link {
   color: #69778c;
+  transition: all 0.2s ease-out;
 }
 
 .nav-line a.nav-link {
@@ -89,7 +90,7 @@ img.next-image {
   text-align: right;
   background: #0c0c0c;
   color: #d3d3d3;
-  padding: 10px 19px;
+  padding: 12px 12px;
   border-radius: 5px;
   margin-left: -15px;
   width: calc(100% + 30px);
@@ -127,6 +128,7 @@ img.resume-dp {
   border-radius: 50%;
   opacity: 0.5;
   filter: grayscale(100%);
+  transition: all 0.2s ease-out;
 }
 img.resume-dp:hover {
   opacity: 1;

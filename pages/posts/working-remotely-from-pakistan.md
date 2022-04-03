@@ -6,7 +6,7 @@ tag: remote work
 author: You
 ---
 
-## Stand out
+## Work with big brains
 
 The best of all luxuries of working remotely for a European/US startup is that you get a chance to work with the big brains. Big brains in the sense that these people compete from all around the world to get the job. They are from diverse backgrounds. Someone could be from Harvard, another one could be from MIT. When all of the brains sit together to get a task done, the interaction is very fascinating.
 
@@ -41,3 +41,9 @@ I watched an Indian guy explaining this in a [Youtube video](https://www.youtube
 The salaries for a junior software developer in any startup in the European or US region is at least USD40,000 which equates to around 5 lacs PKR per month. And this is just for a junior developer, if you grow, you'll get equity, bonuses, increments, and lots and lots of incentives.
 
 And you don't have to pay taxes on foreign remittances earned through software services. If you compare this to your salary which would have been if you lived in the EU or US, you'd realize that you would earn a lot less.
+
+## Living cost
+
+The living cost in Pakistan is way cheaper than US or any European country. Just for the comparison, if you see [Cost of Living index](https://www.numbeo.com/cost-of-living/rankings.jsp) on Numbeo, you'll notice Pakistan's index is at 21.53 which is below average in the score table.
+
+This means you can enjoy a luxurious life in Pakistan by earning standard European/US salary.
