@@ -114,7 +114,7 @@ So if someone asks you to get the current state of the grid, you simply fetch al
 
 ### Example command
 
-Lets take an example from tic-tac-toe again, assume you you need to make a turn:
+Lets take an example from tic-tac-toe again, assume you you need to add an 'O' at second column in third row:
 
 – | – | –&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;– | – | –    
 – | o | –&nbsp;&nbsp;->&nbsp;&nbsp;– | o | –    
@@ -133,7 +133,7 @@ What info do you need to make this change?
 
 <small>* characters are for [p1, p2] respectively, and position indicates [row, col]</small>
 
-In the command, we can do validations, error handling, checks etc. For the above command, we can check whether `character.length === 2`, otherwise through error.
+In the command, we can do validations, error handling, checks etc. For the above command, we can check whether `character.length === 2`, otherwise throw error.
 
 We use the command payload to create an event such as following:
 ```
