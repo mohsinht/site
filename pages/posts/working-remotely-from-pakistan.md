@@ -28,6 +28,18 @@ My second mentor in the company was Etienne Bomcke who is the tech lead of the c
 
 At least for me, the growth has been great. I've never felt the need for an in-person meeting or work from office of any sort. My growth and learning hasn't been affected by the fact that I work from home and work thousand miles apart from my colleagues.
 
+Here are some pointers:
+
+- **Growth 1:** I was shy in the start, I felt hesitant to ask questions, to ask for reviews etc. This changed gradually. They pointed out this flaw right away.   
+- **Growth 2:** I had no composure when I used to approach a problem. I went too far or too less to figure out the solutions. They also pointed out this flaw in me and suggested remedies. They said to break down the problems into mini-problems and then asked me to write about the solutions first, then peer review those solutions. And they suggested some books which helped me a lot.   
+- **Growth 3:** I was taking too much time in reading documentations and going through code to understand everything. They suggested to experiment with anything I learn new. I created multiple mini-projects which they reviewed very thoroughly to assess my progress. This increased my learning pace up to 5x.   
+- **Growth 4:** Learning the whole stack the company used was very difficult to follow. So they forced me into pairing sessions where senior developers would just code and I was supposed to shadow them and ask questions. This increased my confidence and allowed me to code without much help later on, because I knew what to do and where to find things.   
+- **Growth 5:** I told them that I want to become a software architect. They took immediate action and assigned me problems which I had no idea about. Those problems were mostly architecture related and I had to read a lot and ask for help to come up with an optimised solution. Not only that, they asked me to draw software architectures of the small problems I'm assigned to. This helped me sharpen my architecture related skills.   
+- **Growth 6:** I had no leadership quality. So my manager added me into discussions and asked me to lead the meetings. I was the most junior member of the team. I handled the meetings and asked questions and gave presentations some times. This was completely new experience for me.   
+
+
+I can go on, but you get the idea. The company helped me a lot in my growth and got me out of my comfort zone. Learning the technology stack is a secondary growth aspect in my opinion. Because if you teach someone how to learn, it becomes easy to learn any technology stack. And my mentors never suggested me to strictly stick to one technology stack.   
+
 ## Salaries
 
 When I started hunting for jobs during my last semester at the university, I realized there was an abundance of jobs in the job market which were giving 70,000PKR to 90,000PKR to top performers of the University. This equates to around USD400 to USD500 per month. A great offer meant 140,000PKR which is also less than a thousand dollars. 
