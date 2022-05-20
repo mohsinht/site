@@ -1,5 +1,5 @@
 ---
-title: What the f*** is CQRS?
+title: Brief guide on CQRS
 date: 2022/4/26
 description: CQRS explanation for someone who hasn't heard of it before.
 tag: engineering, design pattern

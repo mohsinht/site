@@ -1,7 +1,7 @@
 ---
-title: How to apply for a remote job
+title: Applying for a remote job (from scratch)
 date: 2022/4/03
-description: Comprehensive guide from start to end on how to apply for a remote job.
+description: Guide to find remote jobs if you are completely blank.
 tag: engineering, remote work
 author: You
 ---
@@ -85,15 +85,18 @@ Use your google doc to write your cover letter template.
 
 Here are a few websites where you can easily find high-paying remote jobs:
 
-- https://angel.co
+- https://angel.co (Recommended)
 - https://www.linkedin.com/jobs
 - https://arc.dev
-- https://www.workatastartup.com
+- https://www.workatastartup.com (Recommended)
 - https://indeed.com
 - https://nodesk.co/remote-work/startups
 - https://weworkremotely.com
 - https://remote.co/remote-jobs
 - https://www.flexjobs.com
 
-But don't stop just here, keep searching for other places too. Github, GitLab, StackOverflow, etc. also have job portals that you can try.
+But don't stop just here, keep searching for other places too.
 
+## Shortlisting
+
+[Click here](/posts/shortlisting-remote-companies) to see brief list to filter the jobs. 
