@@ -27,7 +27,7 @@ That doesn't mean you shouldn't apply to US companies, it just means you need to
 
 - Always communicate your timezone restrictions with the company in your cover letter or interview. 
 - If the company has >5 hour difference, negotiate your time for active collaboration with them. Ask them if 4 hour collaboration is enough, most will agree. And spend rest of 4 hours in your own schedule.
-- Don't consider a job if the company has active collaboration time in the night. This is very very unhealthy and counter-productive in the long-term. Even they pay you extra, applying to such jobs is not suggested.
+- Don't consider a job if the company has active collaboration time in the night. This is very very unhealthy and counter-productive in the long-term. Even if they pay you extra, applying to such jobs is not suggested.
 
 ## Communication barriers
 

@@ -18,6 +18,8 @@ body {
   font-variation-settings: 'wght' 450;
   letter-spacing: -0.02em;
   font-variant: common-ligatures contextual;
+
+  background-color: #121212;
 }
 b,
 strong,
