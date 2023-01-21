@@ -3,7 +3,7 @@ title: Working remotely from Pakistan
 date: 2022/4/02
 description: Why working remotely for a European/US startup is the best ever thing for a Pakistani.
 tag: remote work
-author: You
+author: Mohsin Hayat
 ---
 
 ## Work with big brains

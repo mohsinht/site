@@ -3,7 +3,7 @@ title: Stand-out in your job application
 date: 2022/4/03
 description: Some simple tips from me to stand out in the job application for remote jobs.
 tag: remote work
-author: You
+author: Mohsin Hayat
 ---
 
 ## Educational background is not important

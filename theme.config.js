@@ -1,5 +1,27 @@
 const YEAR = new Date().getFullYear()
 export default {
+  components: {
+    h1: ({ children }) => (
+      <h1 style={{
+        WebkitBackgroundClip: 'text',
+        WebkitTextFillColor: 'transparent',
+        backgroundClip: 'text',
+        backgroundImage: 'linear-gradient(90deg,#FFFFFF,#f5b402)',
+      }}
+      >
+        {children}
+      </h1>
+    )
+  },
+  head: ({ title, meta }) => (
+    <>
+      {meta.description && (
+        <meta name="description" content={meta.description} />
+      )}
+      {meta.tag && <meta name="keywords" content={meta.tag} />}
+      {meta.author && <meta name="author" content={meta.author} />}
+    </>
+  ),
   footer: (
     <>
       <small style={{ display: 'block', marginTop: '8rem' }}>
@@ -40,6 +62,6 @@ export default {
       <span>Mohsin Hayat</span>
     </>
   ),
-  titleSuffix: " – Mohsin's Resumé",
+  titleSuffix: " – Mohsin Hayat's Resumé",
   back: 'Read More →',
 }

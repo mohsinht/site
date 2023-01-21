@@ -3,7 +3,7 @@ title: Advises from my mentors
 date: 2022/4/03
 description: Some suggestions from my mentors at Awell Health to become a better engineer.
 tag: engineering, remote work
-author: You
+author: Mohsin Hayat
 ---
 
 ## Becoming better engineer

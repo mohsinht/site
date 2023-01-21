@@ -3,7 +3,7 @@ title: Shortlisting remote companies to apply
 date: 2022/5/21
 description: Comprehensive guide from start to end on how to find remote companies.
 tag: engineering, remote work
-author: You
+author: Mohsin Hayat
 ---
 
 ## Find your niche

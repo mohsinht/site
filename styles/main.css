@@ -132,7 +132,7 @@ img.next-image {
   background-size: cover;
 
   /* To make it in line with name heading*/
-  margin-top: -61px;
+  margin-top: -75px;
 }
 .resume-dp:hover {
   opacity: 1;
@@ -195,7 +195,7 @@ img.next-image {
   .resume-dp {
     width: 100px;
     height: 100px;
-    margin-top: -50px;
+    margin-top: -10px;
   }
 
   img.resume-dp {

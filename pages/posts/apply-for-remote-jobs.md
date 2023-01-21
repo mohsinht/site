@@ -3,7 +3,7 @@ title: Applying for a remote job (from scratch)
 date: 2022/4/03
 description: Guide to find remote jobs if you are completely blank.
 tag: engineering, remote work
-author: You
+author: Mohsin Hayat
 ---
 
 ## Preparation
