@@ -120,22 +120,24 @@ img.next-image {
 
 .designation-with-img {
   display: flex;
+  justify-content: space-between;
 }
 
-img.resume-dp {
-  margin: 0;
-  margin-left: auto;
-  margin-right: 10px;
-  margin-top: -70px;
-  width: 110px;
-  border-radius: 50%;
-  opacity: 0.5;
-  filter: grayscale(100%);
-  transition: all 0.2s ease-out;
-}
-img.resume-dp:hover {
+.resume-dp {
   opacity: 1;
-  filter: grayscale(0%);
+  transition: all 0.2s ease-out;
+  background: url("/images/Mohsin_DP.png") no-repeat;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+
+  /* To make it in line with name heading*/
+  margin-top: -61px;
+}
+.resume-dp:hover {
+  opacity: 1;
+  background: url("/images/Mohsin_DP2.png") no-repeat;
+  background-size: cover;
 }
 
 .contact-icon {
@@ -190,7 +192,9 @@ img.resume-dp:hover {
     opacity: 0.6;
   }
 
-  img.resume-dp {
+  .resume-dp {
+    width: 100px;
+    height: 100px;
     margin-top: -50px;
   }
 
