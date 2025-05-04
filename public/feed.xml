@@ -4,7 +4,7 @@
         <description><![CDATA[Mohsin Hayat]]></description>
         <link>https://mohsinht.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 21 Jan 2023 22:20:57 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 May 2025 19:22:38 GMT</lastBuildDate>
         <atom:link href="https://mohsinht.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Advises from my mentors]]></title>
@@ -14,16 +14,7 @@
             <category><![CDATA[engineering]]></category>
             <category><![CDATA[remote work]]></category>
             <dc:creator><![CDATA[Mohsin Hayat]]></dc:creator>
-            <pubDate>Sat, 02 Apr 2022 19:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Stand-out in your job application]]></title>
-            <description><![CDATA[Some simple tips from me to stand out in the job application for remote jobs.]]></description>
-            <link>/posts/standout-in-your-job-application</link>
-            <guid isPermaLink="true">/posts/standout-in-your-job-application</guid>
-            <category><![CDATA[remote work]]></category>
-            <dc:creator><![CDATA[Mohsin Hayat]]></dc:creator>
-            <pubDate>Sat, 02 Apr 2022 19:00:00 GMT</pubDate>
+            <pubDate>Sat, 02 Apr 2022 21:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Applying for a remote job (from scratch)]]></title>
@@ -33,16 +24,7 @@
             <category><![CDATA[engineering]]></category>
             <category><![CDATA[remote work]]></category>
             <dc:creator><![CDATA[Mohsin Hayat]]></dc:creator>
-            <pubDate>Sat, 02 Apr 2022 19:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Working remotely from Pakistan]]></title>
-            <description><![CDATA[Why working remotely for a European/US startup is the best ever thing for a Pakistani.]]></description>
-            <link>/posts/working-remotely-from-pakistan</link>
-            <guid isPermaLink="true">/posts/working-remotely-from-pakistan</guid>
-            <category><![CDATA[remote work]]></category>
-            <dc:creator><![CDATA[Mohsin Hayat]]></dc:creator>
-            <pubDate>Fri, 01 Apr 2022 19:00:00 GMT</pubDate>
+            <pubDate>Sat, 02 Apr 2022 21:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Shortlisting remote companies to apply]]></title>
@@ -52,14 +34,232 @@
             <category><![CDATA[engineering]]></category>
             <category><![CDATA[remote work]]></category>
             <dc:creator><![CDATA[Mohsin Hayat]]></dc:creator>
-            <pubDate>Fri, 20 May 2022 19:00:00 GMT</pubDate>
+            <pubDate>Fri, 20 May 2022 21:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Working remotely from Pakistan]]></title>
+            <description><![CDATA[Why working remotely for a European/US startup is the best ever thing for a Pakistani.]]></description>
+            <link>/posts/working-remotely-from-pakistan</link>
+            <guid isPermaLink="true">/posts/working-remotely-from-pakistan</guid>
+            <category><![CDATA[remote work]]></category>
+            <dc:creator><![CDATA[Mohsin Hayat]]></dc:creator>
+            <pubDate>Fri, 01 Apr 2022 21:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Stand-out in your job application]]></title>
+            <description><![CDATA[Some simple tips from me to stand out in the job application for remote jobs.]]></description>
+            <link>/posts/standout-in-your-job-application</link>
+            <guid isPermaLink="true">/posts/standout-in-your-job-application</guid>
+            <category><![CDATA[remote work]]></category>
+            <dc:creator><![CDATA[Mohsin Hayat]]></dc:creator>
+            <pubDate>Sat, 02 Apr 2022 21:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Resume]]></title>
             <description><![CDATA[Mohsin Hayat is a passionate full-stack web developer with extensive experience in frontend, backend, automation, and scaling of multiple web applications. He has more than two years of experience working with remote teams. He has done internships, freelancing, and multiple personal projects. He has also won first prize in a university-level programming competition and he is part of the dean's list of FAST-NUCES.]]></description>
-            <link>/resume</link>
-            <guid isPermaLink="true">/resume</guid>
+            <link>https://mohsinht.com/resume</link>
+            <guid isPermaLink="true">https://mohsinht.com/resume</guid>
+            <category><![CDATA[Resume]]></category>
+            <category><![CDATA[About]]></category>
+            <dc:creator><![CDATA[Mohsin Hayat]]></dc:creator>
             <pubDate>Tue, 29 Mar 2022 00:00:00 GMT</pubDate>
+            <content:encoded>&lt;![CDATA[Malik Mohsin Hayat
+
+    
+        Senior Software Engineer (Full Stack) 
+        
+             From Lahore, Pakistan   
+             mohsinhayat104@gmail.com   
+PERSONAL STATEMENT
+BACKGROUND
+I started programming in 2014 out of curiosity — building websites as a hobby, then turning that passion into a profession. By 2016, I was working with international clients as a freelancer, consistently earning top-rated status for delivering high-quality full-stack solutions. I began with WordPress, but quickly transitioned to modern stacks like Node.js and TypeScript, driven by a love for clean, scalable architecture.
+
+In the last few years, I’ve focused on building healthtech infrastructure at scale — owning backend systems, designing APIs, and contributing to open-source at Awell Health, a Series A company focused on clinical automation.
+OBJECTIVE
+I&apos;m passionate about solving complex problems through thoughtful engineering and system design. My goal is to grow into a Software Architect, helping shape the foundations of impactful products — especially in mission-driven, high-scale environments.
+
+EDUCATION
+Bachelor of Science (Computer Science)   
+National University of Computer and Emerging Sciences (FAST-NUCES)   
+August 2016 – July 2020 &amp;nbsp; | &amp;nbsp;  CGPA: 3.34/4 &amp;nbsp; | &amp;nbsp;  Lahore, Pakistan
+
+Intermediate in Computer Science (w/ Physics)   
+Government College University   
+2014 – 2016 &amp;nbsp; | &amp;nbsp;  Marks: 928/1100  &amp;nbsp; | &amp;nbsp;  Lahore, Pakistan
+
+
+Matric (w/ Computer Science)   
+KIPSchool   
+2012 – 2014 &amp;nbsp; | &amp;nbsp;  Marks: 983/1100  &amp;nbsp; | &amp;nbsp;  Lahore, Pakistan
+
+EXPERIENCE
+
+AWELL HEALTH   
+Senior Software Engineer    
+April 2021 – present  &amp;nbsp; | &amp;nbsp;  Remote
+
+Led development of core backend systems (Orchestration, Task, and Design APIs) powering 100K+ clinical workflows/month, contributing to company growth from MVP to $1M+ ARR.
+Designed and implemented event-driven architecture (CQRS) to support versioned, composable workflows and streamline automation across health providers.
+Optimized CI/CD pipelines (Docker, Kubernetes, GitLab), reducing deployment time by 50% and improving team velocity.
+Built and maintained 100+ end-to-end tests (Cypress) and unit tests (Jest), raising overall product quality by 40%.
+Collaborated with product and clinical teams to manage feature spikes, prioritize backlogs, and resolve integration issues with customer teams.
+Owned customer-facing proof-of-concepts (POCs) and led releases, including documentation, release notes, and test coordination.
+Contributed to Awell’s open-source tools: hosted-pages, ui-library, awell-extensions.
+
+Languages: Javascript/Typescript   
+Tools/Frameworks: React, ArangoDB, GraphQL, MongoDB, Meteor, MoleculerJS, NextJS, Docker &amp; Kubernetes
+
+
+TINTASH   
+Software Engineer
+July 2020 – April, 2021 &amp;nbsp; | &amp;nbsp; Lahore, Pakistan
+
+
+Worked on a web-based game called &quot;Unlocked: Rogue Scientist 1990&quot; by The Escape Game. Developed the dashboard using React/Redux, and the backend using NodeJs with Sequelize, contributing to the successful launch of the game.
+Developed the complete backend for a web-based multiplayer game using NodeJS, resulting in a seamless user experience for players.
+Worked as a Full-Stack developer to implement a complete solution for booking and automating remote experiences, utilizing my skills in both front-end and back-end development to deliver a functional and user-friendly application.
+
+
+SOLUTION-INN   
+Web Developer Intern (Summers)   
+June 2019 – October 2019 &amp;nbsp; | &amp;nbsp; Lahore, Pakistan
+
+
+Worked on Node.JS and React.JS to create a real-time tutoring system.
+Worked on Socket.io to implement realtime Whiteboard, Code/Text Editor and Chat app.
+Implemented an efficient backend using PHP and MySQL, resulting in a reliable and scalable system to support the real-time tutoring system.
+Worked on the main iOS app of SolutionInn, intended for students to search and buy solutions.
+
+
+RESPOND.IO   
+Frontend Developer Intern (Summers)
+July 2018 – September 2018  &amp;nbsp; | &amp;nbsp; Lahore, Pakistan
+
+
+Worked on Vue.JS and implemented a centralized Vuex store in the web app (app.rocketbots.io), resulting in a more organized and efficient codebase.
+Developed a webchat plugin for websites using PReact, Socket.io &amp; Botman, allowing businesses to easily integrate live chat functionality on their websites.
+Consistently addressed and resolved daily reported bugs on Jira, contributing to the overall stability and performance of the application.
+Worked on Dyson node.js server to create JSON APIs for demo bot.
+
+
+UPWORK &amp; FIVERR   
+Freelance Product Engineer    
+July 2016 – September 2018 &amp;nbsp; | &amp;nbsp; Lahore, Pakistan
+
+
+Delivered 15+ MVPs for international clients as a freelance developer, providing end-to-end full-stack development (frontend, backend, database) and rapid prototyping for startup products.
+Achieved Top Rated status on Upwork by consistently meeting project deadlines, communicating effectively with clients, and delivering quality solutions, resulting in 100% client satisfaction and repeat engagements.
+
+PROJECTS
+Taskbarter – Exchange skills for free!   
+taskbarter.com   
+
+Frontend: React, Redux   
+Backend: NodeJS, ExpressJS, MongoDB   
+Deployment: Heroku, MongoDB Atlas, Github    
+Utilities: Bootstrap, Socket.io, FontAwesome, Cloudflare, Sendgrid, Lodash, Moment.js
+
+
+40+ Freelancing Projects   
+fiverr.com &amp; upwork.com
+
+
+I&apos;ve completed more than 40 WordPress related projects on Upwork and Fiverr. Most of my work is on core WordPress including theme customization and websites built from scratch. Moreover, I also did some projects on bug-fixing and plugin customization. Other than that, I&apos;ve done some branding related tasks including Logo Design, UI/UX Design etc.
+
+
+Final Year Project   
+Unburn.AI
+
+Unburn.AI is a burn degree classifier that can detect whether a skin area is burned or not and if burned, what degree of burning it is (First, Second, Third) using images. I implemented the model in a group of 4 students using Keras, Tensorflow, LabelBox and deep learning neural network called U-NET.
+
+
+University Semester Projects   
+at FAST-National University, Lahore    
+
+These are some of the projects that were given as an assignment in different courses
+Coded complete Library Management System in JAVA. Including Multi-user Authentication, SWING-GUI, SQL Database and Multi-Threading.
+Designed a machine learning algorithm based on Convolutional Neural Networks to classify Cats and Dogs. Built using Tensorflow, Keras and Numpy.
+Coded complete Robozzle Game using C++. Console based game but has puzzles and is fun for new users.
+Programmed a Polymorphic Paint Brush tool using core concepts of OOP in C++.
+Created Brick Breaker Game in 8088 Assembly Language
+Airbnb sort of website in C#, ASPX and MS-SQL Database. It has extensive features including Booking through Calendar, Rating, Viewing and Admin panel.
+
+
+Personal Projects   
+Some projects that I did in my spare time
+
+Citizen Portal App – A web app to add/resolve complaints. Built using React, Redux, Firebase (Auth, Firestore, Cloud Functions) and Thunk. (Github | Website)
+Purzey Website – An eCommerce website to manage orders and provide a campus management system to students. Built using WordPress and WooCommerce. (Website)
+Spamsort – A web app to add, manage and search spammers/fraudulent cases in realtime. Built using simple JS, Jquery, Firebase. (Website)
+Purzey AI ChatBot – An Artificially Intelligent chatbot that tracks, maintains and attracts online customers on Purzey&apos;s Facebook page. Built using NodeJS, Wit.ai, Messenger API and Firebase. (Github | Website)
+
+MOST PROUD OF
+
+First in ACM&apos;s Programming Competition
+
+I won the first prize in a programming competition that was held at FAST-National University, Lahore in 2016 and was organized by ACM and FAST officials.
+
+
+Completion of Taskbarter during the lockdown
+
+I learned a lot during the development of the project, from the inception of the design to optimization and deployments. I wrote an article on Dev.to for more details.   
+(Visit Blog)
+
+
+
+Listed in Dean&apos;s Honorary List
+
+I got the Third Position in fall 2019 at FAST National University. I am listed in the Dean&apos;s Honorary list for getting 3.5+ SGPA and was awarded a bronze medal by the Head of Computer Science department in 2019.
+
+
+Participant in Multiple Programs
+
+I&apos;ve attended a two months long Whizkids program arranged by PITB&apos;s Plan9 which taught me intermediate level Programming, Entrepreneurship and Robotics in the summer vacations of 2016. I&apos;ve participated in ICPC Asia Regionals 2019 and got 11th place out of 100+ teams. I&apos;ve participated in a 6-Hour Bootcamp on Python which was organized by Techjuice and Arbisoft in which I learned basics of Python, Django and Deployment on Heroku. I&apos;ve attended Pycon in 2018 which was organized by Arbisoft. I&apos;m part of FreeCodeCamp and I&apos;ve completed 100+ hours of web programming tasks. I&apos;ve also attended multiple programming meetups in Lahore.
+
+
+Director Graphics &amp; Publications for SOFTEC &apos;20
+
+SOFTEC (SOFTware Exhibition and Competition) is one of the biggest IT events in Pakistan. It is organized every year at FAST-NU, Lahore. I was part of the senior executive team and my responsibilities were to manage and direct the junior team for the preparation of the event. Earlier: Creative Design Team Head in SOFTEC &apos;19, Creative Design Deputy Head in SOFTEC &apos;18
+
+Recommendations &amp; More
+
+
+Click here to see recommendations from my previous companies, certifications and testimonials.
+
+
+    
+        
+        Javascript
+    
+
+    
+        
+        NodeJS
+    
+
+    
+        
+        ReactJS
+    
+
+    
+        
+        Docker
+    
+
+    
+        
+        VueJS
+    
+
+    
+        
+        Firebase
+    
+
+        
+        
+        Python]]&gt;</content:encoded>
         </item>
     </channel>
 </rss>

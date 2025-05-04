@@ -2,6 +2,8 @@ const { promises: fs } = require('fs')
 const path = require('path')
 const RSS = require('rss')
 const matter = require('gray-matter')
+const removeMd = require('remove-markdown')
+const striptags = require('striptags')
 
 async function generate() {
   const feed = new RSS({
@@ -32,18 +34,22 @@ async function generate() {
     })
   )
 
-  // Adding resume to rss feed
+  // Add resume to RSS
+  const resumePath = path.join(__dirname, '..', 'pages', 'resume.mdx')
+  const resumeContent = await fs.readFile(resumePath)
+  const { data: resumeData, content } = matter(resumeContent)
+  const cleanedContent = removeMd(striptags(content)).trim()
 
-  const resumeContent = await fs.readFile(
-    path.join(__dirname, '..', 'pages', 'resume.mdx')
-  )
-  const frontmatter = matter(resumeContent)
-
-  await feed.item({
-    title: frontmatter.data.title,
-    url: '/resume',
-    date: frontmatter.data.date,
-    description: frontmatter.data.description,
+  feed.item({
+    title: resumeData.title || 'Resume – Mohsin Hayat',
+    url: 'https://mohsinht.com/resume',
+    date: resumeData.date || new Date(),
+    description: resumeData.description || 'Resume of Mohsin Hayat – Fullstack Engineer and AI enthusiast.',
+    author: 'Mohsin Hayat',
+    categories: ['Resume', 'About'],
+    custom_elements: [
+      { 'content:encoded': `<![CDATA[${cleanedContent}]]>` }
+    ]
   })
 
   await fs.writeFile('./public/feed.xml', feed.xml({ indent: true }))
