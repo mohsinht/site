@@ -6,7 +6,6 @@ import '../styles/main.css'
 import { useRouter } from 'next/router'
 import * as ga from '../lib/analytics'
 import { useEffect } from 'react'
-// Removed unused import
 
 export default function Nextra({ Component, pageProps }) {
   const router = useRouter()
@@ -29,16 +28,6 @@ export default function Nextra({ Component, pageProps }) {
           type="application/rss+xml"
           title="RSS"
           href="/feed.xml"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet"
         />
         {/* Preload critical fonts */}
         <link
@@ -111,6 +100,24 @@ export default function Nextra({ Component, pageProps }) {
         src="https://kit.fontawesome.com/6145703c0a.js"
         crossOrigin="anonymous"
         strategy="lazyOnload"
+      />
+      {/* Performance monitoring */}
+      <Script
+        id="web-vitals"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            if (typeof window !== 'undefined') {
+              import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+                getCLS(console.log);
+                getFID(console.log);
+                getFCP(console.log);
+                getLCP(console.log);
+                getTTFB(console.log);
+              });
+            }
+          `,
+        }}
       />
       <Component {...pageProps} />
     </>
