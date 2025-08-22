@@ -4,7 +4,7 @@
         <description><![CDATA[Mohsin Hayat]]></description>
         <link>https://mohsinht.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 22 Aug 2025 23:16:06 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Aug 2025 23:31:04 GMT</lastBuildDate>
         <atom:link href="https://mohsinht.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Advises from my mentors]]></title>
@@ -56,7 +56,7 @@
         </item>
         <item>
             <title><![CDATA[Resume]]></title>
-            <description><![CDATA[Mohsin Hayat is a passionate full-stack web developer with extensive experience in frontend, backend, automation, and scaling of multiple web applications. He has more than two years of experience working with remote teams. He has done internships, freelancing, and multiple personal projects. He has also won first prize in a university-level programming competition and he is part of the dean's list of FAST-NUCES.]]></description>
+            <description><![CDATA[Mohsin Hayat's comprehensive resume - Senior Software Engineer with expertise in healthtech, AI, Node.js, TypeScript, and distributed systems. View experience, projects, and skills.]]></description>
             <link>https://mohsinht.com/resume</link>
             <guid isPermaLink="true">https://mohsinht.com/resume</guid>
             <category><![CDATA[Resume]]></category>
