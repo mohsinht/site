@@ -6,7 +6,7 @@ import '../styles/main.css'
 import { useRouter } from 'next/router'
 import * as ga from '../lib/analytics'
 import { useEffect } from 'react'
-import { route } from 'next/dist/server/router'
+// Removed unused import
 
 export default function Nextra({ Component, pageProps }) {
   const router = useRouter()
@@ -40,12 +40,65 @@ export default function Nextra({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Mohsin Hayat",
+              "jobTitle": "Senior Software Engineer",
+              "description": "Senior Full-Stack Engineer from Lahore, Pakistan. Remote experience with Awell Health (Belgium) and Trafilea. Expertise in healthtech, AI, Next.js, and distributed systems.",
+              "url": "https://mohsinht.com",
+              "image": "https://mohsinht.com/images/Mohsin_DP.jpg",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lahore",
+                "addressCountry": "Pakistan"
+              },
+              "worksFor": [
+                {
+                  "@type": "Organization",
+                  "name": "Trafilea",
+                  "url": "https://trafilea.com"
+                },
+                {
+                  "@type": "Organization", 
+                  "name": "Awell Health",
+                  "url": "https://awellhealth.com"
+                }
+              ],
+              "alumniOf": {
+                "@type": "Organization",
+                "name": "FAST NUCES",
+                "url": "https://nu.edu.pk"
+              },
+              "sameAs": [
+                "https://www.linkedin.com/in/mohsinhayatt/",
+                "https://github.com/mohsinht",
+                "https://facebook.com/mohsinhayatt"
+              ],
+              "knowsAbout": [
+                "Software Engineering",
+                "Healthtech",
+                "Artificial Intelligence", 
+                "Full-Stack Development",
+                "Node.js",
+                "Next.js",
+                "TypeScript",
+                "Microservices",
+                "Kubernetes",
+                "Remote Development"
+              ]
+            })
+          }}
+        />
       </Head>
       <Script
         src="https://kit.fontawesome.com/6145703c0a.js"
         crossOrigin="anonymous"
       />
-      <Component {...pageProps} key={route} />
+      <Component {...pageProps} />
     </>
   )
 }

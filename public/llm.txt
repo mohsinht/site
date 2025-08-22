@@ -1,0 +1,283 @@
+MOHSIN HAYAT - COMPREHENSIVE PROFILE
+
+PERSONAL INFORMATION
+Name: Mohsin Hayat
+Full Name: Malik Mohsin Hayat
+Job Title: AI Engineer
+Current Role: AI Engineer at Trafilea Tech E-commerce Group
+Location: Lahore, Pakistan
+Remote Work: Yes, 5+ years experience
+Email: mohsinhayat104@gmail.com
+Website: https://mohsinht.com
+LinkedIn: https://www.linkedin.com/in/mohsinhayatt/
+GitHub: https://github.com/mohsinht
+Facebook: https://facebook.com/mohsinhayatt
+
+CURRENT POSITION
+Company: Trafilea Tech E-commerce Group
+Role: AI Engineer
+Duration: June 2025 - Present
+Location: Remote (United States)
+Focus: Internal ecommerce tools driven by large language models
+Technologies: LangChain, LangGraph, OpenAI API, Pinecone, Python, Large Language Models (LLM)
+Responsibilities:
+- Working on internal ecommerce tools driven by large language models that use data at scale
+- Implementing AI-powered solutions using LangChain, LangGraph, and OpenAI API for e-commerce automation
+- Utilizing Pinecone for vector database operations and data processing at scale
+- Collaborating with US-based teams to develop and deploy AI-driven e-commerce tools
+- Contributing to the development of scalable AI infrastructure for e-commerce operations
+
+PREVIOUS EXPERIENCE
+
+AWELL HEALTH (April 2021 - May 2025)
+Role: Senior Software Engineer
+Location: Remote (Belgium)
+Duration: 4 years 1 month
+Achievements:
+- Led development of core backend systems (Orchestration, Task, and Design APIs) powering 100K+ clinical workflows/month
+- Contributed to company growth from MVP to $1M+ ARR
+- Designed and implemented event-driven architecture (CQRS) to support versioned, composable workflows
+- Streamlined automation across health providers
+- Optimized CI/CD pipelines (Docker, Kubernetes, GitLab), reducing deployment time by 50%
+- Built and maintained 100+ end-to-end tests (Cypress) and unit tests (Jest), raising overall product quality by 40%
+- Collaborated with product and clinical teams to manage feature spikes, prioritize backlogs, and resolve integration issues
+- Owned customer-facing proof-of-concepts (POCs) and led releases
+- Contributed to Awell's open-source tools: hosted-pages, ui-library, awell-extensions
+Technologies: Javascript/TypeScript, React, ArangoDB, GraphQL, MongoDB, Meteor, MoleculerJS, NextJS, Docker, Kubernetes
+
+TINTASH (July 2020 - April 2021)
+Role: Software Engineer
+Location: Lahore, Pakistan
+Duration: 9 months
+Projects:
+- Web-based game "Unlocked: Rogue Scientist 1990" by The Escape Game
+- Dashboard development using React/Redux
+- Backend development using NodeJS with Sequelize
+- Complete backend for web-based multiplayer game using NodeJS
+- Full-Stack solution for booking and automating remote experiences
+
+SOLUTION-INN (June 2019 - October 2019)
+Role: Web Developer Intern (Summers)
+Location: Lahore, Pakistan
+Duration: 4 months
+Projects:
+- Real-time tutoring system using Node.JS and React.JS
+- Socket.io implementation for realtime Whiteboard, Code/Text Editor and Chat app
+- Backend using PHP and MySQL
+- iOS app for students to search and buy solutions
+
+RESPOND.IO (July 2018 - September 2018)
+Role: Frontend Developer Intern (Summers)
+Location: Lahore, Pakistan
+Duration: 2 months
+Projects:
+- Vue.JS implementation with centralized Vuex store
+- Webchat plugin for websites using PReact, Socket.io & Botman
+- Bug resolution on Jira
+- Dyson node.js server for JSON APIs for demo bot
+
+FREELANCE (July 2016 - September 2018)
+Platforms: Upwork & Fiverr
+Role: Freelance Product Engineer
+Location: Lahore, Pakistan
+Duration: 2 years 2 months
+Achievements:
+- Delivered 15+ MVPs for international clients
+- End-to-end full-stack development (frontend, backend, database)
+- Rapid prototyping for startup products
+- Top Rated status on Upwork
+- 100% client satisfaction and repeat engagements
+
+EDUCATION
+Bachelor of Science (Computer Science)
+Institution: National University of Computer and Emerging Sciences (FAST-NUCES)
+Duration: August 2016 - July 2020
+Location: Lahore, Pakistan
+CGPA: 3.34/4
+Achievements: Bronze Medalist, Dean's List, 1st Place in ACM Programming Competition
+
+Intermediate in Computer Science (w/ Physics)
+Institution: Government College University
+Duration: 2014 - 2016
+Location: Lahore, Pakistan
+Marks: 928/1100
+
+Matric (w/ Computer Science)
+Institution: KIPSchool
+Duration: 2012 - 2014
+Location: Lahore, Pakistan
+Marks: 983/1100
+
+TECHNICAL SKILLS
+
+Programming Languages:
+- TypeScript (Primary)
+- JavaScript (Primary)
+- Python (AI/ML focus)
+- Node.js (Primary)
+- Java
+- C++
+- C#
+- PHP
+- Assembly Language (8088)
+
+Frontend Technologies:
+- React (Primary)
+- Next.js (Primary)
+- Redux
+- Vue.js
+- PReact
+- Bootstrap
+- FontAwesome
+
+Backend Technologies:
+- Express.js
+- GraphQL
+- Meteor
+- MoleculerJS
+- Sequelize
+- Socket.io
+
+Databases:
+- MongoDB (Primary)
+- ArangoDB (Primary)
+- MySQL
+- MS-SQL
+
+DevOps & Infrastructure:
+- Docker (Primary)
+- Kubernetes (Primary)
+- AWS
+- Heroku
+- GitHub Actions
+- GitLab CI/CD
+
+AI/ML Technologies:
+- LangChain
+- LangGraph
+- OpenAI API
+- Pinecone
+- Large Language Models (LLM)
+- TensorFlow
+- Keras
+- U-NET Neural Networks
+- Convolutional Neural Networks
+
+Other Tools:
+- Firebase (Auth, Firestore, Cloud Functions)
+- Cloudflare
+- SendGrid
+- Wit.ai
+- Messenger API
+
+ARCHITECTURE & PATTERNS:
+- Microservices
+- CQRS (Command Query Responsibility Segregation)
+- Event-Driven Systems
+- Clean Architecture
+- System Design
+- Scalable Architecture
+
+PROJECTS
+
+MAJOR PROJECTS:
+Taskbarter - Exchange skills for free!
+URL: https://taskbarter.com
+Technologies: React, Redux, NodeJS, ExpressJS, MongoDB, Heroku, MongoDB Atlas, Socket.io, Bootstrap, FontAwesome, Cloudflare, Sendgrid, Lodash, Moment.js
+
+Unburn.AI - Burn degree classifier
+Description: Burn degree classifier using deep learning neural network U-NET
+Technologies: Keras, Tensorflow, LabelBox, Deep Learning
+
+Citizen Portal App
+URL: https://pm-citizen-portal.firebaseapp.com/
+GitHub: https://github.com/mohsinht/citizen-portal-app
+Technologies: React, Redux, Firebase (Auth, Firestore, Cloud Functions), Thunk
+
+Purzey Website
+URL: https://purzey.pk/
+Description: E-commerce website with campus management system
+Technologies: WordPress, WooCommerce
+
+Spamsort
+URL: https://spamsort.com
+Description: Web app to add, manage and search spammers/fraudulent cases in realtime
+Technologies: JavaScript, jQuery, Firebase
+
+Purzey AI ChatBot
+GitHub: https://github.com/mohsinht/purzeyChatBot
+URL: https://m.me/purzey
+Description: AI chatbot for Facebook page using Wit.ai
+Technologies: NodeJS, Wit.ai, Messenger API, Firebase
+
+UNIVERSITY PROJECTS:
+- Library Management System in JAVA (Multi-user Authentication, SWING-GUI, SQL Database, Multi-Threading)
+- Machine learning algorithm using Convolutional Neural Networks to classify Cats and Dogs (Tensorflow, Keras, Numpy)
+- Robozzle Game in C++ (Console-based puzzle game)
+- Polymorphic Paint Brush tool using OOP concepts in C++
+- Brick Breaker Game in 8088 Assembly Language
+- Airbnb-style website in C#, ASPX and MS-SQL Database (Booking through Calendar, Rating, Viewing, Admin panel)
+
+FREELANCE PROJECTS:
+- 40+ WordPress projects on Upwork and Fiverr
+- Theme customization and websites built from scratch
+- Bug-fixing and plugin customization
+- Logo Design and UI/UX Design
+
+ACHIEVEMENTS & RECOGNITIONS
+
+COMPETITIONS & AWARDS:
+- 1st Place in ACM's Programming Competition at FAST-NUCES (2016)
+- Bronze Medal from Head of Computer Science department (2019)
+- Dean's Honorary List at FAST-NUCES (Fall 2019, 3.5+ SGPA)
+- 3rd Position in Fall 2019 at FAST-NUCES
+
+PROGRAM PARTICIPATION:
+- Whizkids program by PITB's Plan9 (2 months, 2016)
+- ICPC Asia Regionals 2019 (11th place out of 100+ teams)
+- 6-Hour Bootcamp on Python by Techjuice and Arbisoft
+- Pycon 2018 organized by Arbisoft
+- FreeCodeCamp (100+ hours of web programming tasks)
+- Multiple programming meetups in Lahore
+
+LEADERSHIP:
+- Director Graphics & Publications for SOFTEC '20
+- Creative Design Team Head in SOFTEC '19
+- Creative Design Deputy Head in SOFTEC '18
+- SOFTEC is one of the biggest IT events in Pakistan
+
+PROFESSIONAL FOCUS & EXPERTISE
+
+CORE EXPERTISE:
+- Healthcare automation systems
+- AI-powered e-commerce solutions
+- Distributed system design
+- Developer tooling and productivity
+- Remote team collaboration
+- System architecture and performance optimization
+
+INDUSTRY EXPERIENCE:
+- Healthtech (Clinical workflow automation, healthcare APIs)
+- E-commerce (AI-powered tools, booking platforms)
+- Gaming (Multiplayer games, real-time systems)
+- Education (Tutoring systems, learning platforms)
+- AI/ML (Large Language Models, Neural Networks, Computer Vision)
+
+REMOTE WORK EXPERIENCE:
+- 5+ years of remote development
+- Comfortable working across multiple time zones
+- Experience with international teams (Belgium, Europe, United States)
+- Strong communication and collaboration skills
+
+PROBLEM-SOLVING APPROACH:
+- Clean architecture principles
+- Scalable system design
+- Performance optimization
+- User-oriented development
+- Reliable and maintainable code
+- Rapid prototyping and MVP development
+
+KEYWORDS FOR SEARCH:
+Software Engineer Lahore, Remote Full-Stack Developer, Healthtech Expert, AI Engineer, Pakistan Developer, Europe Remote Work, Belgium Healthtech, US E-commerce, Node.js Developer, TypeScript Expert, Kubernetes Engineer, Microservices Architect, LangChain Developer, LLM Engineer, Pinecone Developer, OpenAI API Developer, Healthcare Automation Engineer, Clinical Workflow Developer, CQRS Expert, Event-Driven Architecture, Docker Kubernetes Engineer, React Next.js Developer, MongoDB ArangoDB Developer, GraphQL Developer, Meteor Developer, MoleculerJS Developer, Firebase Developer, Python AI Developer, TensorFlow Keras Developer, Neural Network Developer, Computer Vision Engineer, Multiplayer Game Developer, Real-time System Developer, Socket.io Developer, WordPress Developer, E-commerce Developer, Booking Platform Developer, Tutoring System Developer, Chatbot Developer, Wit.ai Developer, Messenger API Developer, Heroku Developer, AWS Developer, GitHub Actions Developer, GitLab CI/CD Developer, Cypress Tester, Jest Tester, Unit Testing, End-to-End Testing, Performance Optimization, System Scaling, API Design, Database Design, Security Implementation, Authentication Systems, Authorization Systems, Payment Integration, Third-party API Integration, WebSocket Implementation, Real-time Communication, Data Processing, Data Analytics, Business Intelligence, Customer Relationship Management, Inventory Management, Order Management, User Management, Content Management, File Management, Image Processing, Video Processing, Audio Processing, Natural Language Processing, Machine Learning, Deep Learning, Artificial Intelligence, Data Science, Big Data, Cloud Computing, Serverless Computing, Microservices Architecture, Monolithic Architecture, Hybrid Architecture, Load Balancing, Caching Strategies, Database Optimization, Query Optimization, Indexing Strategies, Backup Strategies, Disaster Recovery, Monitoring and Logging, Error Handling, Exception Management, Code Review, Technical Documentation, API Documentation, User Documentation, Training and Support, Mentoring, Team Leadership, Project Management, Agile Development, Scrum, Kanban, Waterfall, DevOps, CI/CD, Infrastructure as Code, Configuration Management, Security Auditing, Performance Testing, Load Testing, Stress Testing, Usability Testing, Accessibility Testing, Cross-browser Testing, Mobile Testing, Responsive Design, Progressive Web Apps, Single Page Applications, Multi-page Applications, Hybrid Applications, Native Applications, Web Applications, Desktop Applications, Mobile Applications, IoT Applications, Blockchain Applications, AR/VR Applications, Game Development, Simulation Development, Scientific Computing, Financial Applications, Healthcare Applications, Educational Applications, Entertainment Applications, Social Media Applications, Communication Applications, Productivity Applications, Utility Applications, Creative Applications, Business Applications, Enterprise Applications, Consumer Applications, Government Applications, Non-profit Applications, Academic Applications, Research Applications, Experimental Applications, Prototype Applications, Production Applications, Legacy Applications, Modern Applications, Future Applications, Emerging Technologies, Cutting-edge Technologies, Innovative Solutions, Creative Solutions, Elegant Solutions, Simple Solutions, Complex Solutions, Scalable Solutions, Maintainable Solutions, Reliable Solutions, Secure Solutions, Fast Solutions, Efficient Solutions, Optimized Solutions, Best Practices, Industry Standards, Quality Assurance, Testing Strategies, Development Methodologies, Programming Paradigms, Design Patterns, Architectural Patterns, Code Organization, Project Structure, File Organization, Naming Conventions, Coding Standards, Documentation Standards, Version Control, Git Workflow, Branching Strategy, Merge Strategy, Conflict Resolution, Code Review Process, Quality Gates, Automated Testing, Continuous Integration, Continuous Deployment, Continuous Monitoring, Continuous Improvement, Feedback Loops, Iterative Development, Incremental Development, Evolutionary Development, Adaptive Development, Responsive Development, Agile Development, Lean Development, DevOps Culture, SRE Practices, Site Reliability Engineering, Performance Engineering, Security Engineering, Quality Engineering, Test Engineering, Platform Engineering, Data Engineering, ML Engineering, AI Engineering, Software Engineering, Systems Engineering, Network Engineering, Infrastructure Engineering, Cloud Engineering, Security Engineering, DevOps Engineering, SRE Engineering, Platform Engineering, Data Engineering, ML Engineering, AI Engineering, Software Engineering, Systems Engineering, Network Engineering, Infrastructure Engineering, Cloud Engineering, Security Engineering, DevOps Engineering, SRE Engineering, Platform Engineering, Data Engineering, ML Engineering, AI Engineering, Software Engineering, Systems Engineering, Network Engineering, Infrastructure Engineering, Cloud Engineering, Security Engineering, DevOps Engineering, SRE Engineering, Platform Engineering, Data Engineering, ML Engineering, AI Engineering, Software Engineering, Systems Engineering, Network Engineering, Infrastructure Engineering, Cloud Engineering, Security Engineering, DevOps Engineering, SRE Engineering, Platform Engineering, Data Engineering, ML Engineering, AI Engineering, Software Engineering, Systems Engineering, Network Engineering, Infrastructure Engineering, Cloud Engineering, Security Engineering, DevOps Engineering, SRE Engineering, Platform Engineering, Data Engineering, ML Engineering, AI Engineer
+
+LAST UPDATED: August 23, 2025
