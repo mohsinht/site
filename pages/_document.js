@@ -37,23 +37,16 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
-        {/* Preload critical font weights */}
-        <link
-          rel="preload"
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
-          as="style"
-        />
         {/* DNS prefetch for better performance */}
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
         
         {/* Additional SEO */}
         <link rel="canonical" href="https://mohsinht.com" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#121212" />
         
         {/* Security Headers */}
-        <meta httpEquiv="Content-Security-Policy" content="require-trusted-types-for 'script'; trusted-types default" />
+        <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://kit.fontawesome.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://ka-f.fontawesome.com; img-src 'self' data: https:; connect-src 'self' https:; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self';" />
       </Head>
       <body className='dark'>
         <Main />

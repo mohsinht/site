@@ -23,12 +23,30 @@ export default function Nextra({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link
-          rel="alternate"
-          type="application/rss+xml"
-          title="RSS"
-          href="/feed.xml"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Mohsin Hayat – Senior Software Engineer (Healthtech, AI, Remote) | Lahore, Europe, US</title>
+        <meta name="description" content="Mohsin Hayat, Senior Full-Stack Engineer from Lahore, Pakistan. Remote experience with Awell Health (Belgium) and Trafilea. Expertise in healthtech, AI, Next.js, and distributed systems." />
+        <meta name="keywords" content="Mohsin Hayat, Software Engineer, AI Engineer, Healthtech, Remote Developer, Lahore Pakistan, Node.js, TypeScript, React, Next.js, Kubernetes, Microservices" />
+        <meta name="author" content="Mohsin Hayat" />
+        <meta name="robots" content="follow, index" />
+        
+        {/* Open Graph Meta Tags */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Mohsin Hayat - Senior Software Engineer" />
+        <meta property="og:description" content="Senior Software Engineer specializing in healthtech, AI, and distributed systems. Remote developer from Lahore, Pakistan." />
+        <meta property="og:url" content="https://mohsinht.com" />
+        <meta property="og:site_name" content="Mohsin Hayat" />
+        <meta property="og:image" content="https://mohsinht.com/images/Mohsin_DP.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Mohsin Hayat - Senior Software Engineer" />
+        <meta name="twitter:description" content="Senior Software Engineer specializing in healthtech, AI, and distributed systems." />
+        <meta name="twitter:image" content="https://mohsinht.com/images/Mohsin_DP.jpg" />
+        
+        {/* JSON-LD Person Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -83,12 +101,15 @@ export default function Nextra({ Component, pageProps }) {
           }}
         />
       </Head>
+      
+      {/* FontAwesome */}
       <Script
         src="https://kit.fontawesome.com/6145703c0a.js"
         crossOrigin="anonymous"
         strategy="lazyOnload"
       />
-      {/* Performance monitoring */}
+      
+      {/* Performance Monitoring */}
       <Script
         id="web-vitals"
         strategy="afterInteractive"
@@ -128,6 +149,7 @@ export default function Nextra({ Component, pageProps }) {
           `,
         }}
       />
+      
       <Component {...pageProps} />
     </>
   )
