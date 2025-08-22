@@ -61,30 +61,34 @@ img.next-image {
 }
 
 .nav-line .nav-link {
-  color: #9ca3af;
+  color: #e5e7eb;
   transition: all 0.2s ease-out;
+  font-weight: 500;
 }
 
 .nav-line a.nav-link {
   text-decoration: none;
-  color: #9ca3af;
+  color: #e5e7eb;
   padding: 0 10px;
+  border-radius: 3px;
+  transition: all 0.2s ease-out;
 }
 
 .nav-line a.nav-link:hover {
-  background: #2e2e2e;
+  background: #374151;
   border-radius: 3px;
-  color: white;
+  color: #ffffff;
+  text-decoration: none;
 }
-
 
 .nav-line span.nav-link {
   text-decoration: none;
-  background: white;
-  color: #0c0c0c;
+  background: #f3f4f6;
+  color: #111827;
   padding: 0 10px;
   border-radius: 3px;
   box-shadow: #282626 0px 7px 17px 0px;
+  font-weight: 600;
 }
 
 .nav-line {
@@ -94,13 +98,161 @@ img.next-image {
   align-items: center;
   justify-content: flex-end;
   text-align: right;
-  background: #0c0c0c;
+  background: #1f2937;
   color: #e5e7eb;
   padding: 12px 12px;
   border-radius: 5px;
   margin-left: -15px;
   width: calc(100% + 30px);
-  border-bottom: 1px solid #6d6d6d4d;
+  border-bottom: 1px solid #4b5563;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Nextra navigation overrides */
+nav {
+  background: #1f2937 !important;
+  color: #e5e7eb !important;
+}
+
+nav a {
+  color: #e5e7eb !important;
+}
+
+nav a:hover {
+  color: #ffffff !important;
+  background: #374151 !important;
+}
+
+/* Navigation menu items */
+.nav-line > * {
+  color: #e5e7eb !important;
+}
+
+.nav-line a {
+  color: #e5e7eb !important;
+}
+
+.nav-line a:hover {
+  color: #ffffff !important;
+  background: #374151 !important;
+}
+
+/* Ensure all navigation text is visible */
+.nav-line .nav-link,
+.nav-line a,
+.nav-line span {
+  color: #e5e7eb !important;
+}
+
+/* Active/current page styling */
+.nav-line .nav-link.active,
+.nav-line a.active {
+  background: #374151 !important;
+  color: #ffffff !important;
+  border-radius: 3px;
+  padding: 4px 8px;
+}
+
+/* Hover effects for better visibility */
+.nav-line .nav-link:hover,
+.nav-line a:hover {
+  background: #374151 !important;
+  color: #ffffff !important;
+  border-radius: 3px;
+  padding: 4px 8px;
+  transition: all 0.2s ease-out;
+}
+
+/* Nextra theme navigation overrides */
+.nextra-nav-container {
+  background: #1f2937 !important;
+  color: #e5e7eb !important;
+}
+
+.nextra-nav-container a {
+  color: #e5e7eb !important;
+}
+
+.nextra-nav-container a:hover {
+  color: #ffffff !important;
+  background: #374151 !important;
+}
+
+/* Header navigation */
+header nav,
+header .nav-line,
+header .nextra-nav-container {
+  background: #1f2937 !important;
+  color: #e5e7eb !important;
+}
+
+header nav a,
+header .nav-line a,
+header .nextra-nav-container a {
+  color: #e5e7eb !important;
+}
+
+header nav a:hover,
+header .nav-line a:hover,
+header .nextra-nav-container a:hover {
+  color: #ffffff !important;
+  background: #374151 !important;
+}
+
+/* Global navigation improvements */
+.nav-container,
+.navigation,
+.menu {
+  background: #1f2937 !important;
+  color: #e5e7eb !important;
+}
+
+.nav-container a,
+.navigation a,
+.menu a {
+  color: #e5e7eb !important;
+}
+
+.nav-container a:hover,
+.navigation a:hover,
+.menu a:hover {
+  color: #ffffff !important;
+  background: #374151 !important;
+}
+
+/* Ensure all text in navigation areas is visible */
+nav *,
+.nav-line *,
+.navigation *,
+.menu * {
+  color: #e5e7eb !important;
+}
+
+/* Force visibility for any remaining dark text */
+nav,
+.nav-line,
+.navigation,
+.menu {
+  color: #e5e7eb !important;
+}
+
+nav a,
+.nav-line a,
+.navigation a,
+.menu a {
+  color: #e5e7eb !important;
+}
+
+/* Hover states for all navigation elements */
+nav a:hover,
+.nav-line a:hover,
+.navigation a:hover,
+.menu a:hover {
+  color: #ffffff !important;
+  background: #374151 !important;
+  border-radius: 3px;
+  padding: 4px 8px;
+  transition: all 0.2s ease-out;
 }
 
 .icon-link, .icon-link > i {
