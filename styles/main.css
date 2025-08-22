@@ -3,9 +3,16 @@
   font-family: 'Inter', sans-serif;
   font-style: italic;
   font-weight: 100 900;
-  font-display: block;
+  font-display: swap;
   src:url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
   font-named-instance: 'Italic';
+}
+
+/* Optimize font loading */
+@font-face {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  font-display: swap;
 }
 
 body {

@@ -40,6 +40,19 @@ export default function Nextra({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
+        {/* Preload critical fonts */}
+        <link
+          rel="preload"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+          as="style"
+          onLoad="this.onload=null;this.rel='stylesheet'"
+        />
+        <noscript>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+            rel="stylesheet"
+          />
+        </noscript>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -97,6 +110,7 @@ export default function Nextra({ Component, pageProps }) {
       <Script
         src="https://kit.fontawesome.com/6145703c0a.js"
         crossOrigin="anonymous"
+        strategy="lazyOnload"
       />
       <Component {...pageProps} />
     </>

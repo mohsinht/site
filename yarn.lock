@@ -352,9 +352,9 @@ bail@^2.0.0:
   integrity sha512-0xO6mYd7JB2YesxDKplafRpsiOzPt9V02ddPCLbY1xYGPOX24NTyN50qnUxgCPcSoYMhKpAuBTjQoRZCAkUDRw==
 
 caniuse-lite@^1.0.30001406:
-  version "1.0.30001446"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001446.tgz#6d4ba828ab19f49f9bcd14a8430d30feebf1e0c5"
-  integrity sha512-fEoga4PrImGcwUUGEol/PoFCSBnSkA9drgdkxXkJLsUBOnJ8rs3zDv6ApqYXGQFOyMPsjh79naWhF4DAxbF8rw==
+  version "1.0.30001737"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001737.tgz"
+  integrity sha512-BiloLiXtQNrY5UyF0+1nSJLXUENuhka2pzy2Fx5pGxqavdrxSCW4U6Pn/PoG3Efspi2frRbHpBV2XsrPE6EDlw==
 
 ccount@^2.0.0:
   version "2.0.1"
