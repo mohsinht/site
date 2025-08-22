@@ -20,7 +20,7 @@ body {
   font-variant: common-ligatures contextual;
 
   background-color: #121212;
-  color: #d1d5db;
+  color: #e5e7eb;
 }
 b,
 strong,
@@ -29,12 +29,15 @@ h4,
 h5,
 h6 {
   font-variation-settings: 'wght' 650;
+  color: #f3f4f6;
 }
 h1 {
   font-variation-settings: 'wght' 850;
+  color: #ffffff;
 }
 h2 {
   font-variation-settings: 'wght' 750;
+  color: #f9fafb;
 }
 
 @media screen and (min-device-pixel-ratio: 1.5),
@@ -54,17 +57,17 @@ img.next-image {
 }
 
 .prose a {
-  color: #0074de;
+  color: #60a5fa;
 }
 
 .nav-line .nav-link {
-  color: #69778c;
+  color: #9ca3af;
   transition: all 0.2s ease-out;
 }
 
 .nav-line a.nav-link {
   text-decoration: none;
-  color:  #69778c;
+  color: #9ca3af;
   padding: 0 10px;
 }
 
@@ -92,7 +95,7 @@ img.next-image {
   justify-content: flex-end;
   text-align: right;
   background: #0c0c0c;
-  color: #d3d3d3;
+  color: #e5e7eb;
   padding: 12px 12px;
   border-radius: 5px;
   margin-left: -15px;
@@ -103,14 +106,14 @@ img.next-image {
 .icon-link, .icon-link > i {
   font-size: 18px;
   margin-left: 5px;
-  color: #7e7e7e;
+  color: #9ca3af;
 }
 .icon-link:hover, .icon-link > i:hover {
   color: #f3f4f6;
 }
 
 .resume-icon {
-  color: #1d1d1d;
+  color: #374151;
   font-size: 100px;
   position: absolute;
   z-index: -1;
@@ -146,6 +149,7 @@ img.next-image {
   margin-right: 6px;
   width: 15px;
   text-align: center;
+  color: #9ca3af;
 }
 
 .skills-banner {
@@ -159,15 +163,17 @@ img.next-image {
 .skills-banner-item {
   margin: 0 15px;
   text-align: center;
-  color: #7e7e7e;
+  color: #9ca3af;
 }
 
 .skill-banner-icon {
   font-size: 64px;
+  color: #9ca3af;
 }
 
 .skill-banner-text {
   font-size: 12px;
+  color: #9ca3af;
 }
 
 @media screen and (max-width: 768px) {
@@ -212,6 +218,11 @@ img.next-image {
   color: #f3f4f6;
 }
 
+.skills-banner-item:hover .skill-banner-icon,
+.skills-banner-item:hover .skill-banner-text {
+  color: #f3f4f6;
+}
+
 .recommendations-container, .testimonials-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -221,7 +232,7 @@ img.next-image {
 .recommendation-item, .testimonial-item {
   padding: 10px 25px;
   background: #0c0c0c;
-  color: #d3d3d3;
+  color: #e5e7eb;
   border-radius: 5px;
   border-bottom: 1px solid #6d6d6d4d;
 }
@@ -251,4 +262,125 @@ img.next-image {
 
 a.post-item-more:hover, .dark .meta a.tag:hover {
   background: #ededed;
+}
+
+/* Additional contrast improvements */
+p, span, div {
+  color: #e5e7eb;
+}
+
+a {
+  color: #60a5fa;
+}
+
+a:hover {
+  color: #93c5fd;
+}
+
+/* Ensure all text elements have proper contrast */
+article, section, .content {
+  color: #e5e7eb;
+}
+
+/* Improve readability for code blocks and technical content */
+code, pre {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  border: 1px solid #374151;
+}
+
+/* Better contrast for lists */
+ul, ol {
+  color: #e5e7eb;
+}
+
+li {
+  color: #e5e7eb;
+}
+
+/* Improve table readability */
+table {
+  color: #e5e7eb;
+}
+
+th, td {
+  color: #e5e7eb;
+  border-color: #374151;
+}
+
+/* Resume page specific improvements */
+.resume-content {
+  color: #e5e7eb;
+}
+
+.resume-content h1,
+.resume-content h2,
+.resume-content h3,
+.resume-content h4,
+.resume-content h5,
+.resume-content h6 {
+  color: #f9fafb;
+}
+
+.resume-content p,
+.resume-content span,
+.resume-content div {
+  color: #e5e7eb;
+}
+
+.resume-content strong,
+.resume-content b {
+  color: #f3f4f6;
+}
+
+/* Ensure all text in resume sections is visible */
+.resume-content .experience-item,
+.resume-content .education-item,
+.resume-content .project-item {
+  color: #e5e7eb;
+}
+
+/* Improve contrast for contact information */
+.contact-info {
+  color: #e5e7eb;
+}
+
+.contact-info i {
+  color: #9ca3af;
+}
+
+/* Better visibility for skills and technologies */
+.tech-stack,
+.skills-list {
+  color: #e5e7eb;
+}
+
+.tech-stack strong,
+.skills-list strong {
+  color: #f3f4f6;
+}
+
+/* Ensure proper contrast for all interactive elements */
+button, input, select, textarea {
+  color: #e5e7eb;
+  background-color: #1f2937;
+  border-color: #374151;
+}
+
+/* Improve visibility for any remaining dark text */
+* {
+  color: inherit;
+}
+
+/* Force light colors for critical text elements */
+h1, h2, h3, h4, h5, h6 {
+  color: #f9fafb !important;
+}
+
+p, span, div, li {
+  color: #e5e7eb !important;
+}
+
+strong, b {
+  color: #f3f4f6 !important;
 }

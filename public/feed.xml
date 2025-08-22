@@ -4,7 +4,7 @@
         <description><![CDATA[Mohsin Hayat]]></description>
         <link>https://mohsinht.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 04 May 2025 19:22:38 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Aug 2025 22:23:17 GMT</lastBuildDate>
         <atom:link href="https://mohsinht.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Advises from my mentors]]></title>
@@ -14,7 +14,16 @@
             <category><![CDATA[engineering]]></category>
             <category><![CDATA[remote work]]></category>
             <dc:creator><![CDATA[Mohsin Hayat]]></dc:creator>
-            <pubDate>Sat, 02 Apr 2022 21:00:00 GMT</pubDate>
+            <pubDate>Sat, 02 Apr 2022 19:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Stand-out in your job application]]></title>
+            <description><![CDATA[Some simple tips from me to stand out in the job application for remote jobs.]]></description>
+            <link>/posts/standout-in-your-job-application</link>
+            <guid isPermaLink="true">/posts/standout-in-your-job-application</guid>
+            <category><![CDATA[remote work]]></category>
+            <dc:creator><![CDATA[Mohsin Hayat]]></dc:creator>
+            <pubDate>Sat, 02 Apr 2022 19:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Applying for a remote job (from scratch)]]></title>
@@ -24,7 +33,7 @@
             <category><![CDATA[engineering]]></category>
             <category><![CDATA[remote work]]></category>
             <dc:creator><![CDATA[Mohsin Hayat]]></dc:creator>
-            <pubDate>Sat, 02 Apr 2022 21:00:00 GMT</pubDate>
+            <pubDate>Sat, 02 Apr 2022 19:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Shortlisting remote companies to apply]]></title>
@@ -34,7 +43,7 @@
             <category><![CDATA[engineering]]></category>
             <category><![CDATA[remote work]]></category>
             <dc:creator><![CDATA[Mohsin Hayat]]></dc:creator>
-            <pubDate>Fri, 20 May 2022 21:00:00 GMT</pubDate>
+            <pubDate>Fri, 20 May 2022 19:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Working remotely from Pakistan]]></title>
@@ -43,16 +52,7 @@
             <guid isPermaLink="true">/posts/working-remotely-from-pakistan</guid>
             <category><![CDATA[remote work]]></category>
             <dc:creator><![CDATA[Mohsin Hayat]]></dc:creator>
-            <pubDate>Fri, 01 Apr 2022 21:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Stand-out in your job application]]></title>
-            <description><![CDATA[Some simple tips from me to stand out in the job application for remote jobs.]]></description>
-            <link>/posts/standout-in-your-job-application</link>
-            <guid isPermaLink="true">/posts/standout-in-your-job-application</guid>
-            <category><![CDATA[remote work]]></category>
-            <dc:creator><![CDATA[Mohsin Hayat]]></dc:creator>
-            <pubDate>Sat, 02 Apr 2022 21:00:00 GMT</pubDate>
+            <pubDate>Fri, 01 Apr 2022 19:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Resume]]></title>
@@ -94,9 +94,23 @@ KIPSchool
 
 EXPERIENCE
 
+TRAFILEA TECH E-COMMERCE GROUP   
+AI Engineer    
+June 2025 – Present  &amp;nbsp; | &amp;nbsp; Remote (United States)
+
+Working on internal ecommerce tools driven by large language models that use data at scale.
+Implementing AI-powered solutions using LangChain, LangGraph, and OpenAI API for e-commerce automation.
+Utilizing Pinecone for vector database operations and data processing at scale.
+Collaborating with US-based teams to develop and deploy AI-driven e-commerce tools.
+Contributing to the development of scalable AI infrastructure for e-commerce operations.
+
+
+Languages: Python, JavaScript/TypeScript   
+Tools/Frameworks: LangChain, LangGraph, OpenAI API, Pinecone, Large Language Models (LLM)
+
 AWELL HEALTH   
 Senior Software Engineer    
-April 2021 – present  &amp;nbsp; | &amp;nbsp;  Remote
+April 2021 – May 2025  &amp;nbsp; | &amp;nbsp; Remote (Belgium)
 
 Led development of core backend systems (Orchestration, Task, and Design APIs) powering 100K+ clinical workflows/month, contributing to company growth from MVP to $1M+ ARR.
 Designed and implemented event-driven architecture (CQRS) to support versioned, composable workflows and streamline automation across health providers.
@@ -104,7 +118,7 @@ Optimized CI/CD pipelines (Docker, Kubernetes, GitLab), reducing deployment time
 Built and maintained 100+ end-to-end tests (Cypress) and unit tests (Jest), raising overall product quality by 40%.
 Collaborated with product and clinical teams to manage feature spikes, prioritize backlogs, and resolve integration issues with customer teams.
 Owned customer-facing proof-of-concepts (POCs) and led releases, including documentation, release notes, and test coordination.
-Contributed to Awell’s open-source tools: hosted-pages, ui-library, awell-extensions.
+Contributed to Awell&apos;s open-source tools: hosted-pages, ui-library, awell-extensions.
 
 Languages: Javascript/Typescript   
 Tools/Frameworks: React, ArangoDB, GraphQL, MongoDB, Meteor, MoleculerJS, NextJS, Docker &amp; Kubernetes
@@ -257,9 +271,19 @@ Click here to see recommendations from my previous companies, certifications and
         Firebase
     
 
+    
         
+        Python
+    
+
+    
         
-        Python]]&gt;</content:encoded>
+        AI/ML
+    
+
+    
+        
+        LLM]]&gt;</content:encoded>
         </item>
     </channel>
 </rss>

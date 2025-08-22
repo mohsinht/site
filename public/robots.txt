@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mohsinht.com/sitemap.xml
+
+# RSS Feed
+Sitemap: https://mohsinht.com/feed.xml
+
+# LLM Profile
+Sitemap: https://mohsinht.com/llm.txt
