@@ -108,12 +108,34 @@ export default function Nextra({ Component, pageProps }) {
         dangerouslySetInnerHTML={{
           __html: `
             if (typeof window !== 'undefined') {
-              import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
-                getCLS(console.log);
-                getFID(console.log);
-                getFCP(console.log);
-                getLCP(console.log);
-                getTTFB(console.log);
+              // Simple performance monitoring without external dependencies
+              const observer = new PerformanceObserver((list) => {
+                for (const entry of list.getEntries()) {
+                  if (entry.entryType === 'largest-contentful-paint') {
+                    console.log('LCP:', entry.startTime);
+                  }
+                  if (entry.entryType === 'first-input') {
+                    console.log('FID:', entry.processingStart - entry.startTime);
+                  }
+                  if (entry.entryType === 'layout-shift') {
+                    console.log('CLS:', entry.value);
+                  }
+                }
+              });
+              
+              try {
+                observer.observe({ entryTypes: ['largest-contentful-paint', 'first-input', 'layout-shift'] });
+              } catch (e) {
+                console.log('Performance monitoring not supported');
+              }
+              
+              // Log basic performance metrics
+              window.addEventListener('load', () => {
+                const navigation = performance.getEntriesByType('navigation')[0];
+                if (navigation) {
+                  console.log('Page Load Time:', navigation.loadEventEnd - navigation.loadEventStart);
+                  console.log('DOM Content Loaded:', navigation.domContentLoadedEventEnd - navigation.domContentLoadedEventStart);
+                }
               });
             }
           `,
