@@ -9,7 +9,11 @@ export async function getPosts() {
 
   return directories
     .filter((post) => post.name !== 'index')
-    .sort((a, b) => new Date(b.frontMatter.date) - new Date(a.frontMatter.date))
+    .sort(
+      (a, b) =>
+        new Date(b.frontMatter.date).getTime() -
+        new Date(a.frontMatter.date).getTime()
+    )
 }
 
 export async function getTags() {

@@ -1,73 +1,55 @@
 import nextra from 'nextra'
 
-const withNextra = nextra({
-  readingTime: true
-})
+const withNextra = nextra({ readingTime: true })
+
+const securityHeaders = [
+  {
+    key: 'Content-Security-Policy',
+    value:
+      "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'"
+  },
+  {
+    key: 'Strict-Transport-Security',
+    value: 'max-age=31536000; includeSubDomains'
+  },
+  { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+  {
+    key: 'Permissions-Policy',
+    value: 'camera=(), microphone=(), geolocation=(), payment=(), usb=()'
+  },
+  { key: 'X-Content-Type-Options', value: 'nosniff' }
+]
 
 export default withNextra({
   reactStrictMode: true,
   agentRules: false,
-
-  // Nextra's MDX component entry needs an explicit Turbopack alias.
   turbopack: {
-    resolveAlias: {
-      'next-mdx-import-source-file': './mdx-components.jsx'
-    }
+    resolveAlias: { 'next-mdx-import-source-file': './mdx-components.jsx' }
   },
-
-  // Performance optimizations
   compress: true,
   poweredByHeader: false,
-  
-  // Image optimization
   images: {
-    formats: ['image/webp', 'image/avif'],
+    formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384]
   },
-  
-  // Headers for performance and security
+  async redirects() {
+    return [
+      { source: '/more', destination: '/recommendations', permanent: true },
+      { source: '/llm.txt', destination: '/llms.txt', permanent: true },
+      {
+        source: '/www/:path*',
+        destination: 'https://mohsinht.com/:path*',
+        permanent: true
+      }
+    ]
+  },
   async headers() {
     return [
+      { source: '/:path*', headers: securityHeaders },
       {
-        source: '/(.*)',
-        headers: [
-          {
-            key: 'X-Content-Type-Options',
-            value: 'nosniff'
-          },
-          {
-            key: 'X-Frame-Options',
-            value: 'DENY'
-          },
-          {
-            key: 'X-XSS-Protection',
-            value: '1; mode=block'
-          },
-          {
-            key: 'Content-Security-Policy',
-            value:
-              "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://kit.fontawesome.com; style-src 'self' 'unsafe-inline'; font-src 'self' https://ka-f.fontawesome.com; img-src 'self' data: https:; connect-src 'self' https:; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'"
-          }
-        ]
-      },
-      {
-        source: '/fonts/(.*)',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
-          }
-        ]
-      },
-      {
-        source: '/images/(.*)',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
-          }
-        ]
+        source: '/downloads/:path*',
+        headers: [{ key: 'X-Robots-Tag', value: 'noindex, follow' }]
       }
     ]
   }

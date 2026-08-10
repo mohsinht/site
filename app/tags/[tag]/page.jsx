@@ -4,7 +4,8 @@ import { getPosts, getTags } from '../../posts/get-posts'
 export async function generateMetadata({ params }) {
   const { tag } = await params
   return {
-    title: `Posts Tagged with “${decodeURIComponent(tag)}”`
+    title: `Posts Tagged with “${decodeURIComponent(tag)}”`,
+    robots: { index: false, follow: true }
   }
 }
 

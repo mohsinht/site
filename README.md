@@ -15,6 +15,16 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+## Verification
+
+```bash
+yarn test
+yarn test:coverage
+yarn verify
+```
+
+`yarn verify` runs the unit/content checks and creates a production build. GitHub Actions runs the same checks for pull requests and pushes to `main`. In GitHub repository settings, require the **Verify / Test and build** status check before merging to `main`; Vercel's production deployment will then only occur after the verified pull request is merged.
+
 ## How to deploy
 
 This site is deployed like a standard Next.js app on Vercel, but you can deploy anywhere that supports Node.js 24.
