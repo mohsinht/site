@@ -1,18 +1,6 @@
 
-@font-face {
-  font-family: 'Inter', sans-serif;
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: swap;
-  src:url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-  font-named-instance: 'Italic';
-}
-
-/* Optimize font loading */
-@font-face {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
-  font-display: swap;
+html {
+  color-scheme: dark;
 }
 
 body {
@@ -41,6 +29,10 @@ h6 {
 h1 {
   font-variation-settings: 'wght' 850;
   color: #ffffff;
+  background-image: linear-gradient(90deg, #ffffff, #f5b402);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h2 {
   font-variation-settings: 'wght' 750;
