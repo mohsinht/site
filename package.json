@@ -1,25 +1,26 @@
 {
+  "name": "mohsin-hayat-site",
   "private": true,
+  "type": "module",
   "license": "MIT",
+  "engines": {
+    "node": "24.x"
+  },
+  "packageManager": "yarn@1.22.22",
   "scripts": {
-    "dev": "next",
-    "build": "node ./scripts/gen-rss.js && next build --webpack",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/react-fontawesome": "^0.1.18",
-    "gray-matter": "^4.0.2",
-    "he": "^1.2.0",
-    "next": ">=13",
-    "nextra": "^2.2.10",
-    "nextra-theme-blog": "^2.2.10",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "remove-markdown": "^0.6.2",
-    "rss": "^1.2.2",
-    "striptags": "^3.2.0",
-    "web-vitals": "^5.1.0"
+    "next": "16.3.0",
+    "nextra": "4.6.1",
+    "nextra-theme-blog": "4.6.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3"
   },
   "prettier": {
     "arrowParens": "always",
