@@ -24,16 +24,16 @@ export default function Nextra({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Mohsin Hayat – Senior Software Engineer (Healthtech, AI, Remote) | Lahore, Europe, US</title>
-        <meta name="description" content="Mohsin Hayat, Senior Full-Stack Engineer from Lahore, Pakistan. Remote experience with Awell Health (Belgium) and Trafilea. Expertise in healthtech, AI, Next.js, and distributed systems." />
-        <meta name="keywords" content="Mohsin Hayat, Software Engineer, AI Engineer, Healthtech, Remote Developer, Lahore Pakistan, Node.js, TypeScript, React, Next.js, Kubernetes, Microservices" />
+        <title>Mohsin Hayat | Senior Software Engineer, Applied AI & Backend Systems</title>
+        <meta name="description" content="Mohsin Hayat, Senior Software Engineer from Lahore building production AI agents and backend systems across airlines, e-commerce, and healthcare. Currently at OnService.AI." />
+        <meta name="keywords" content="Mohsin Hayat, Senior Software Engineer, Applied AI Engineer, Backend Engineer, LLM Agents, LangGraph, Python, Node.js, TypeScript, Airline Technology, Remote Developer, Lahore Pakistan" />
         <meta name="author" content="Mohsin Hayat" />
         <meta name="robots" content="follow, index" />
         
         {/* Open Graph Meta Tags */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Mohsin Hayat - Senior Software Engineer" />
-        <meta property="og:description" content="Senior Software Engineer specializing in healthtech, AI, and distributed systems. Remote developer from Lahore, Pakistan." />
+        <meta property="og:title" content="Mohsin Hayat | Senior Software Engineer, Applied AI & Backend Systems" />
+        <meta property="og:description" content="Senior Software Engineer specializing in applied AI, LLM agents, and backend systems across airline, e-commerce, and healthcare platforms." />
         <meta property="og:url" content="https://mohsinht.com" />
         <meta property="og:site_name" content="Mohsin Hayat" />
         <meta property="og:image" content="https://mohsinht.com/images/Mohsin_DP.jpg" />
@@ -43,7 +43,7 @@ export default function Nextra({ Component, pageProps }) {
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Mohsin Hayat - Senior Software Engineer" />
-        <meta name="twitter:description" content="Senior Software Engineer specializing in healthtech, AI, and distributed systems." />
+        <meta name="twitter:description" content="Senior Software Engineer specializing in applied AI, LLM agents, and backend systems." />
         <meta name="twitter:image" content="https://mohsinht.com/images/Mohsin_DP.jpg" />
         
         {/* JSON-LD Person Schema */}
@@ -55,7 +55,7 @@ export default function Nextra({ Component, pageProps }) {
               "@type": "Person",
               "name": "Mohsin Hayat",
               "jobTitle": "Senior Software Engineer",
-              "description": "Senior Full-Stack Engineer from Lahore, Pakistan. Remote experience with Awell Health (Belgium) and Trafilea. Expertise in healthtech, AI, Next.js, and distributed systems.",
+              "description": "Senior Software Engineer from Lahore building production AI agents and backend systems across airline, e-commerce, and healthcare platforms.",
               "url": "https://mohsinht.com",
               "image": "https://mohsinht.com/images/Mohsin_DP.jpg",
               "address": {
@@ -63,18 +63,10 @@ export default function Nextra({ Component, pageProps }) {
                 "addressLocality": "Lahore",
                 "addressCountry": "Pakistan"
               },
-              "worksFor": [
-                {
-                  "@type": "Organization",
-                  "name": "Trafilea",
-                  "url": "https://trafilea.com"
-                },
-                {
-                  "@type": "Organization", 
-                  "name": "Awell Health",
-                  "url": "https://awellhealth.com"
-                }
-              ],
+              "worksFor": {
+                "@type": "Organization",
+                "name": "OnService.AI"
+              },
               "alumniOf": {
                 "@type": "Organization",
                 "name": "FAST NUCES",
@@ -86,16 +78,20 @@ export default function Nextra({ Component, pageProps }) {
                 "https://facebook.com/mohsinhayatt"
               ],
               "knowsAbout": [
-                "Software Engineering",
-                "Healthtech",
-                "Artificial Intelligence", 
-                "Full-Stack Development",
+                "Applied AI",
+                "LLM Agents",
+                "LangGraph",
+                "RAG",
+                "NL-to-SQL",
+                "Python",
+                "Backend Systems",
                 "Node.js",
-                "Next.js",
                 "TypeScript",
                 "Microservices",
+                "Event Sourcing",
+                "CQRS",
                 "Kubernetes",
-                "Remote Development"
+                "Airline Technology"
               ]
             })
           }}
