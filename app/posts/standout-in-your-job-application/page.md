@@ -1,6 +1,7 @@
 ---
-title: Stand-out in your job application
+title: Stand Out in Your Job Application
 date: 2022-04-03
+dateModified: 2026-08-10
 description: Some simple tips from me to stand out in the job application for remote jobs.
 tags: [remote work]
 author: Mohsin Hayat
@@ -8,15 +9,15 @@ author: Mohsin Hayat
 
 ## Educational background is not important
 
-Whether you are from LUMS, FAST, GIKI, or whichever university in Pakistan, it doesn't matter to a person living in the US or Europe. You're all equal. Some don't even consider your CGPA or even if you don't have a bachelor's degree. So don't get intimidated by the fact that you didn't score well or you're not from a premium university. 
+Whether you are from LUMS, FAST, GIKI, or whichever university in Pakistan, it doesn't matter to a person living in the US or Europe. You're all equal. Some don't even consider your CGPA or even if you don't have a bachelor's degree. So don't get intimidated by the fact that you didn't score well or you're not from a premium university.
 
 ## Living your passion
 
 One of the most important things to stand out is your passion for the work you do. If you do it by your heart, no one in the world can stop you from getting your dream job. Objectively speaking, if you can tirelessly work on some problem without exhaustion or getting bored, you have passion for it. If you can spend 10 hours on a problem and you are willing to spend 2 more hours and still, you aren't satisfied. Then there's a high chance you have passion for it. Your excitement and willingness to complete something is the most valuable skill the recruiters look for.
 
-Getting exhausted or bored of working is not a bad thing, but it only happens when your brain doesn't want more of it. I never noticed this quality in myself but my family started to recognize that when I was working 10-12 hours without getting bored or tired. I never felt sleepy too. This was because I get too excited when I see a challenging problem. 
+Getting exhausted or bored of working is not a bad thing, but it only happens when your brain doesn't want more of it. I never noticed this quality in myself but my family started to recognize that when I was working 10-12 hours without getting bored or tired. I never felt sleepy too. This was because I get too excited when I see a challenging problem.
 
-How is that related to your job application? It just becomes easily evident in your resume and interviews whether you have a passion or not. If you live for your passion, your resume will have more side-projects, certifications, open-source contributions, etc. 
+How is that related to your job application? It just becomes easily evident in your resume and interviews whether you have a passion or not. If you live for your passion, your resume will have more side-projects, certifications, open-source contributions, etc.
 
 If you see people who developed React, Vue, NodeJS, etc. you'll notice this quality in them. They work really hard to solve problems that they like and you can feel the excitement and their depth of knowledge when they speak at conferences. They should be the benchmarks for you.
 
@@ -32,10 +33,10 @@ This project made my job application from zero to hero in 2 months. And I was ju
 
 ## Highlight your urge to have an impact
 
-Becoming a software engineer and knowing 5 different programming languages, 10 side projects, and 100 certifications is not as important as highlighting how you want to shape the world. Having a huge dream that keeps you awake at night is the most valuable thing startups look for in you these days. And you have to show this in your job application. If you are applying to some Gaming Startup, don't just say   
-_"I'm applying because I'm confident about my skills, blah blah.."_. 
-Instead, change it the other way around by saying   
-_" I'm applying because I want to disrupt the gaming industry. The world is quickly inclining towards the meta-verse and I want to become part of it as soon as possible"_.   
+Becoming a software engineer and knowing 5 different programming languages, 10 side projects, and 100 certifications is not as important as highlighting how you want to shape the world. Having a huge dream that keeps you awake at night is the most valuable thing startups look for in you these days. And you have to show this in your job application. If you are applying to some Gaming Startup, don't just say
+_"I'm applying because I'm confident about my skills, blah blah.."_.
+Instead, change it the other way around by saying
+_" I'm applying because I want to disrupt the gaming industry. The world is quickly inclining towards the meta-verse and I want to become part of it as soon as possible"_.
 This shows how you see the world from a bird-eye. You just don't want to grow yourself, you want the company to grow.
 
 ## Be company-centric, not self-centric
@@ -52,8 +53,9 @@ _This is quite unique to *** and the specific way we choose to do things so I'd 
 
 _We know our process requires some personal investment, thank you for that."_
 
-**Summary:**   
+**Summary:**
+
 - Stronger alignment with the company's culture
-- how you can have an impact 
-- the product you want to build 
-- what you want to do at the company 
+- how you can have an impact
+- the product you want to build
+- what you want to do at the company

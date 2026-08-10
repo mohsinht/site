@@ -1,0 +1,30 @@
+---
+title: Recommendations for Mohsin Hayat
+description: Verified recommendations for Mohsin Hayat from engineering leaders and collaborators.
+---
+
+import { profile, recommendationUrl } from '../../data/profile'
+
+<main id="main-content" className="recommendations-page">
+
+Perspectives from colleagues and engineering leaders I have worked with internationally.
+
+<div className="recommendation-grid full-page">
+  {profile.recommendations.map((item) => (
+    <article className="recommendation-card" key={item.name}>
+      <p>“{item.excerpt}”</p>
+      <footer>
+        <strong>{item.name}</strong>
+        <span>{item.role}</span>
+        <a href={recommendationUrl} target="_blank" rel="noreferrer">
+          View LinkedIn recommendation{' '}
+          <span className="sr-only">(opens in a new tab)</span>
+        </a>
+      </footer>
+    </article>
+  ))}
+</div>
+
+For earlier employer letters, freelancer testimonials, and beginner certificates, see the [Earlier Work archive](/earlier-work). It is retained for context and is not intended as a privacy boundary.
+
+</main>

@@ -1,6 +1,7 @@
 ---
 title: Shortlisting remote companies to apply
 date: 2022-05-21
+dateModified: 2026-08-10
 description: Comprehensive guide from start to end on how to find remote companies.
 tags: [engineering, remote work]
 author: Mohsin Hayat
@@ -17,15 +18,15 @@ Why?
 - It's easier to become an expert in a specific job rather than tinkering around multifarious stacks.
 - Your demand is much higher because some companies look for a specific skillset.
 
-It is your responsibility to explore each and every field on your own and try to map your skills on the specific ones. 
+It is your responsibility to explore each and every field on your own and try to map your skills on the specific ones.
 
-## Calibrating with timezone 
+## Calibrating with timezone
 
 The most common reason why remote companies usually decline your application is because they have a restriction on time difference. They have a cut off like '4hr' or '1hr'. Most countries in Europe have 4 hours difference from Pakistan, so applying to a European country is recommended. US has around 12 hours difference, so if you apply to a US company, more chances are they are going to reject your application.
 
-That doesn't mean you shouldn't apply to US companies, it just means you need to keep this in mind before you apply. 
+That doesn't mean you shouldn't apply to US companies, it just means you need to keep this in mind before you apply.
 
-- Always communicate your timezone restrictions with the company in your cover letter or interview. 
+- Always communicate your timezone restrictions with the company in your cover letter or interview.
 - If the company has >5 hour difference, negotiate your time for active collaboration with them. Ask them if 4 hour collaboration is enough, most will agree. And spend rest of 4 hours in your own schedule.
 - Don't consider a job if the company has active collaboration time in the night. This is very very unhealthy and counter-productive in the long-term. Even if they pay you extra, applying to such jobs is not suggested.
 

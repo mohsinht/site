@@ -1,6 +1,7 @@
 ---
 title: Applying for a remote job (from scratch)
 date: 2022-04-03
+dateModified: 2026-08-10
 description: Guide to find remote jobs if you are completely blank.
 tags: [engineering, remote work]
 author: Mohsin Hayat
@@ -27,6 +28,7 @@ Write the top 2 points in the google doc. Once you have decided why you want to 
 The second step is to start collecting and documenting things from your past experiences. These things will be important in making your resume, cover letter, and preparation for your interview.
 
 Write everything in your document. From your school days when you created some cool websites to your first semester when you coded your first project. It could be some seminar you attended or society work you did. Key points of each of the content should be:
+
 - What was your contribution to it?
 - What challenges did you face?
 - What did you learn from it?
@@ -51,10 +53,10 @@ The order of content in the resume should be:
 
 1. Contact info
 2. Summary/Objective
-3. Work experience   
-3.1. Awards (if any)
-4. Education   
-4.1. Distinctions (if any)
+3. Work experience
+   3.1. Awards (if any)
+4. Education
+   4.1. Distinctions (if any)
 5. Skills
 
 and all should be in reverse chronological order. This is standard and is followed almost everywhere. If you change this order, you're adding extra load on the job recruiter to go through your resume in a different approach.
@@ -65,7 +67,7 @@ Don't make it more than 1 page. If it is more than a page, reduce the details of
 
 ## Writing your cover letter
 
-Writing cover letters is the most underrated skill in the job application stage. People just ignore it and copy-paste their whole resume in the cover letters. 
+Writing cover letters is the most underrated skill in the job application stage. People just ignore it and copy-paste their whole resume in the cover letters.
 
 From my experience, the cover letter should be different for every job. You can have a template ready but that should be modified for every job application. There's a **15-minute rule** for writing cover letters and it is to always spend at least 15 minutes on your cover letter before applying to the job.
 
@@ -99,4 +101,4 @@ But don't stop just here, keep searching for other places too.
 
 ## Shortlisting
 
-[Click here](/posts/shortlisting-remote-companies) to see brief list to filter the jobs. 
+[Click here](/posts/shortlisting-remote-companies) to see brief list to filter the jobs.
