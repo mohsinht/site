@@ -18,6 +18,7 @@ This branch is ready to deploy only after the following external actions are com
    - `curl -I https://mohsinht.com/` returns `200` and includes `Content-Signal: search=yes, ai-input=yes, ai-train=no, use=reference`.
    - `curl -I https://mohsinht.com/robots.txt` includes the same `Content-Signal` response header; its body contains only valid robots directives and the canonical sitemap.
    - `curl https://mohsinht.com/robots.txt` contains only valid robots directives and `https://mohsinht.com/sitemap.xml` as its sitemap.
+   - Both `curl -I https://mohsinht.com/` and `curl -I -H 'Accept: text/markdown' https://mohsinht.com/` include `Vary: Accept` before enabling a Cloudflare cache rule.
    - `curl -sD - -H 'Accept: text/markdown' https://mohsinht.com/` returns `Content-Type: text/markdown; charset=utf-8` and `Vary: Accept`.
    - Repeat the Markdown request for `/resume`, `/recommendations`, `/posts`, and each public article.
 

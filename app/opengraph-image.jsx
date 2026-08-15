@@ -3,5 +3,5 @@ export const size = ogSize
 export const contentType = ogContentType
 export const runtime = 'edge'
 export default function Image() {
-  return <OpenGraphImage />
+  return OpenGraphImage()
 }

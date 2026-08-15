@@ -6,12 +6,11 @@ export function proxy(request) {
   const accept = request.headers.get('accept') ?? ''
   const pathname = request.nextUrl.pathname
   const isPublicArticle = /^\/posts\/[a-z0-9-]+$/.test(pathname)
+  const supportsMarkdown = markdownPaths.has(pathname) || isPublicArticle
 
-  if (
-    !accept.includes('text/markdown') ||
-    !(markdownPaths.has(pathname) || isPublicArticle)
-  )
-    return NextResponse.next()
+  if (!supportsMarkdown) return NextResponse.next()
+
+  if (!accept.includes('text/markdown')) return NextResponse.next()
 
   const destination = new URL('/agent-markdown', request.url)
   destination.searchParams.set('path', pathname)

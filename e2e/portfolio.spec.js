@@ -62,6 +62,11 @@ test('navigation, feed discovery, and internal routes work', async ({
   await expect(
     page.getByRole('link', { name: /Working Remotely from Pakistan/i }).first()
   ).toBeVisible()
+  await expect(page).toHaveTitle('Engineering Writing | Mohsin Hayat')
+  await page.goto('/resume')
+  await expect(
+    page.getByRole('link', { name: 'Download Resume (PDF)' })
+  ).toHaveAttribute('href', '/downloads/MohsinHayatResume.pdf')
 })
 
 test('utility endpoints and redirects have expected search behavior', async ({
@@ -119,4 +124,26 @@ test('utility endpoints and redirects have expected search behavior', async ({
     '/recommendations#earlier-recommendations'
   )
   expect(missing.status()).toBe(404)
+})
+
+test('Open Graph images are valid 1200 by 630 PNG responses', async ({
+  request
+}) => {
+  const images = await Promise.all(
+    [
+      '/opengraph-image',
+      '/resume/opengraph-image',
+      '/recommendations/opengraph-image',
+      '/posts/opengraph-image'
+    ].map((path) => request.get(path))
+  )
+
+  for (const image of images) {
+    await expect(image).toBeOK()
+    expect(image.headers()['content-type']).toContain('image/png')
+    const png = await image.body()
+    expect(png.subarray(1, 4).toString()).toBe('PNG')
+    expect(png.readUInt32BE(16)).toBe(1200)
+    expect(png.readUInt32BE(20)).toBe(630)
+  }
 })

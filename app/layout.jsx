@@ -15,7 +15,7 @@ export const metadata = {
   authors: [{ name: profile.name, url: siteUrl }],
   creator: profile.name,
   robots: { index: true, follow: true },
-  icons: { icon: '/icon.svg', apple: '/icon.svg' },
+  icons: { icon: '/icon.svg', apple: '/apple-icon.png' },
   alternates: {
     types: {
       'application/rss+xml': [{ url: '/feed.xml', title: 'Mohsin Hayat' }]

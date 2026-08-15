@@ -1,6 +1,11 @@
 import { describe, expect, test } from '@jest/globals'
+import { readFileSync } from 'node:fs'
 import config from '../next.config.js'
 import { contentSignal } from '../data/profile.js'
+
+const vercelConfig = JSON.parse(
+  readFileSync(new URL('../vercel.json', import.meta.url), 'utf8')
+)
 
 describe('production configuration', () => {
   test('applies a strict production security policy and keeps downloads out of search', async () => {
@@ -47,5 +52,21 @@ describe('production configuration', () => {
       destination: '/recommendations#earlier-recommendations',
       permanent: true
     })
+  })
+
+  test('varies negotiated public representations by Accept at Vercel’s response layer', () => {
+    const expectedRoutes = ['/', '/resume', '/recommendations', '/posts/:path*']
+    expect(vercelConfig.headers.map((rule) => rule.source)).toEqual(
+      expectedRoutes
+    )
+
+    for (const rule of vercelConfig.headers) {
+      expect(rule.headers).toContainEqual(
+        expect.objectContaining({
+          key: 'Vary',
+          value: expect.stringContaining('Accept')
+        })
+      )
+    }
   })
 })

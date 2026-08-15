@@ -5,7 +5,16 @@ import { contentSignal } from '../data/profile.js'
 
 describe('agent Markdown', () => {
   test('generates factual Markdown from the centralized portfolio data', async () => {
+    const home = await markdownForPath('/')
+    const resume = await markdownForPath('/resume')
     const markdown = await markdownForPath('/recommendations')
+    expect(home).toContain('## Professional experience')
+    expect(home).toContain('## Verified LinkedIn recommendations')
+    expect(home).toContain('Vasilica Coscotin')
+    expect(resume).toContain('## Earlier experience')
+    expect(resume).toContain('Respond.io')
+    expect(resume).toContain('## Selected projects')
+    expect(resume).toContain('FirstCustomer')
     expect(markdown).toContain('# Recommendations for Mohsin Hayat')
     expect(markdown).toContain('Tomás Malgarín')
     expect(markdown).toContain('Rocketbots Limited')

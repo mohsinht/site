@@ -4,7 +4,7 @@ import { getPosts, getTags } from './get-posts'
 import { pageMetadata } from '../../data/profile'
 
 export const metadata = pageMetadata({
-  title: 'Engineering Writing | Mohsin Hayat',
+  title: 'Engineering Writing',
   description:
     'Dated personal writing by Mohsin Hayat on engineering, remote work, and software careers.',
   path: '/posts',

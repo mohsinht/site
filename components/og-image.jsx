@@ -8,7 +8,7 @@ export function OpenGraphImage({
   eyebrow = 'MOHSINHAYAT.COM',
   title = profile.name,
   description = profile.title
-}) {
+} = {}) {
   return new ImageResponse(
     <div
       style={{

@@ -44,7 +44,11 @@ export const profile = {
       period: 'July 2026 – Present',
       location: 'Remote (United States)',
       summary:
-        'Building Python services and conversational AI experiences for airline systems, including workflows for World2Fly and LASER Airlines.'
+        'Building Python services and conversational AI experiences for airline systems, including workflows for World2Fly and LASER Airlines.',
+      highlights: [
+        'Building production conversational AI experiences for World2Fly and LASER Airlines across Python services, LLM agents, and airline booking workflows.',
+        'Integrating conversational agents with KIU PSS and related airline workflows for booking information, payments, check-in, flight changes, ancillary services, and passenger support.'
+      ]
     },
     {
       company: 'Trafilea Tech E-commerce Group',
@@ -52,7 +56,12 @@ export const profile = {
       period: 'June 2025 – July 2026',
       location: 'Remote (United States)',
       summary:
-        'Built a production NL-to-SQL agent across 30+ campaign-data tables and architected a hierarchical LangGraph budget copilot in the context of approximately $5M in monthly advertising spend.'
+        'Built a production NL-to-SQL agent across 30+ campaign-data tables and architected a hierarchical LangGraph budget copilot in the context of approximately $5M in monthly advertising spend.',
+      highlights: [
+        'Built a production NL-to-SQL agent used by leadership and marketing teams to query campaign data across 30+ tables in plain English.',
+        'Architected a three-level hierarchical LangGraph budget copilot reasoning in the context of approximately $5M/month in advertising spend across brands, countries, and channels.',
+        'Built an AI ingestion pipeline from AWS SNS through SQS to ClickHouse for multi-gigabyte advertising datasets and long-running LangGraph recommendation workflows.'
+      ]
     },
     {
       company: 'Awell Health',
@@ -60,7 +69,41 @@ export const profile = {
       period: 'April 2021 – May 2025',
       location: 'Remote (Belgium)',
       summary:
-        'Owned core APIs and event-driven systems that helped scale the platform to 100K+ clinical workflows per month.'
+        'Owned core APIs and event-driven systems that helped scale the platform to 100K+ clinical workflows per month.',
+      highlights: [
+        'Owned core APIs across orchestration, task management, and workflow design, helping scale the platform to 100K+ clinical workflows per month.',
+        'Designed and implemented event-driven architecture using CQRS, and contributed to hosted-pages, ui-library, and awell-extensions.'
+      ]
+    }
+  ],
+  earlierRoles: [
+    {
+      company: 'Tintash',
+      title: 'Software Engineer',
+      period: 'July 2020 – April 2021',
+      summary:
+        'Built full-stack interactive and booking products with Node.js and React.'
+    },
+    {
+      company: 'SolutionInn',
+      title: 'Web Developer Intern',
+      period: 'June 2019 – October 2019',
+      summary:
+        'Built real-time tutoring features across Node.js, React, Socket.io, PHP, MySQL, and iOS.'
+    },
+    {
+      company: 'Respond.io',
+      title: 'Frontend Developer Intern',
+      period: 'July 2018 – September 2018',
+      summary:
+        'Built Vue and Vuex product features, a Preact webchat plugin, Socket.io integrations, and Node.js APIs.'
+    },
+    {
+      company: 'Upwork & Fiverr',
+      title: 'Freelance Product Engineer',
+      period: 'July 2016 – September 2018',
+      summary:
+        'Delivered 15+ MVPs for international clients and achieved Top Rated status on Upwork.'
     }
   ],
   capabilities: [

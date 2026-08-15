@@ -277,7 +277,7 @@ export function ResumeDownload() {
   return (
     <a
       className="button button-secondary"
-      href="/downloads/Mohsin_Hayat_Resume.pdf"
+      href="/downloads/MohsinHayatResume.pdf"
       download
     >
       Download Resume (PDF)
