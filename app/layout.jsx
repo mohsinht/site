@@ -4,7 +4,6 @@ import { Footer, Layout, Navbar } from 'nextra-theme-blog'
 import 'nextra-theme-blog/style.css'
 import '../styles/main.css'
 import { profile, siteUrl } from '../data/profile'
-import { SocialLinks } from '../components/portfolio'
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -45,8 +44,7 @@ export default async function RootLayout({ children }) {
           <Navbar pageMap={await getPageMap()} />
           {children}
           <Footer>
-            <time>{new Date().getFullYear()}</time> © {profile.name}.{' '}
-            <SocialLinks />
+            <time>{new Date().getFullYear()}</time> © {profile.name}.
           </Footer>
         </Layout>
       </body>

@@ -108,6 +108,10 @@ export const profile = {
   projects: [
     {
       name: 'SnippetGraph',
+      homepageSummary:
+        'I built SnippetGraph to give AI teams a more dependable way to manage the context their agents use.',
+      homepageDetail:
+        'Instead of leaving knowledge scattered across documents and tools, SnippetGraph lets teams compose reusable snippets into pages and publish versioned, hash-verified releases through GitHub. This makes changes reviewable, traceable, and easier to use in production AI workflows.',
       problem:
         'AI teams need governed, dependable context instead of unversioned knowledge scattered across tools.',
       built:
@@ -123,6 +127,10 @@ export const profile = {
     },
     {
       name: 'FirstCustomer',
+      homepageSummary:
+        'FirstCustomer is a CI-native browser agent built around a problem I have seen repeatedly in software teams: a pull request can pass its automated tests and still break an important customer journey.',
+      homepageDetail:
+        'It connects code changes with the product flows they may affect, exercises those flows using browser agents and realistic personas, and produces a release-risk assessment before the change reaches customers.',
       problem:
         'Product teams need a practical way to connect pull-request changes with the user flows they could affect.',
       built:

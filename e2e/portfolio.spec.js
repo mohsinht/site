@@ -53,7 +53,7 @@ test('navigation, feed discovery, and internal routes work', async ({
   page
 }) => {
   await page.goto('/')
-  await page.getByRole('link', { name: /View résumé/i }).click()
+  await page.getByRole('link', { name: /Read my résumé/i }).click()
   await expect(page).toHaveURL(/\/resume$/)
   await page.goto('/posts')
   await expect(

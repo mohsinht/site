@@ -3,9 +3,9 @@ import { PortfolioHome } from '../components/portfolio'
 import { pageMetadata } from '../data/profile'
 
 export const metadata = pageMetadata({
-  title: 'Mohsin Hayat | Senior Software Engineer, Applied AI',
+  title: 'Mohsin Hayat | Senior Software Engineer in Applied AI',
   description:
-    'Mohsin Hayat is a Senior Software Engineer specializing in applied AI and backend systems. He builds reliable AI and backend systems for international teams from Lahore, Pakistan.',
+    'Mohsin Hayat is a senior software engineer in Lahore building applied AI, Python services, and reliable backend systems for international teams.',
   path: '/'
 })
 
