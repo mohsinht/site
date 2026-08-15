@@ -49,6 +49,18 @@ test('homepage accessibility', async ({ page }) => {
   expect(results.violations).toEqual([])
 })
 
+test('static portfolio pages omit article metadata while articles retain it', async ({
+  page
+}) => {
+  for (const path of ['/resume', '/recommendations']) {
+    await page.goto(path)
+    await expect(page.locator('body')).not.toContainText(/\d+ min read/)
+  }
+
+  await page.goto('/posts/working-remotely-from-pakistan')
+  await expect(page.locator('body')).toContainText(/\d+ min read/)
+})
+
 test('navigation, feed discovery, and internal routes work', async ({
   page
 }) => {
