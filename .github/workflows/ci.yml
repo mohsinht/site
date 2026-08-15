@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: read
+  statuses: write
 
 concurrency:
   group: verify-${{ github.workflow }}-${{ github.ref }}
@@ -44,4 +45,6 @@ jobs:
         run: yarn test:e2e
 
       - name: Run Lighthouse CI
+        env:
+          LHCI_GITHUB_TOKEN: ${{ github.token }}
         run: yarn lighthouse
