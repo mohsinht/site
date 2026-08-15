@@ -73,7 +73,7 @@ export function PortfolioHome() {
               Explore selected work <Icon name="arrow" size={16} />
             </a>
             <Link href="/resume" className="button button-secondary">
-              Read my résumé
+              Read my Resume
             </Link>
           </div>
           <SocialLinks />
@@ -280,7 +280,7 @@ export function ResumeDownload() {
       href="/downloads/Mohsin_Hayat_Resume.pdf"
       download
     >
-      Download résumé (PDF)
+      Download Resume (PDF)
     </a>
   )
 }

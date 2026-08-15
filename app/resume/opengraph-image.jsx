@@ -9,7 +9,7 @@ export const runtime = 'edge'
 export default function Image() {
   return (
     <OpenGraphImage
-      eyebrow="RÉSUMÉ"
+      eyebrow="Resume"
       title="Mohsin Hayat"
       description="Applied AI and Backend Systems"
     />

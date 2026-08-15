@@ -1,6 +1,6 @@
 export default {
   index: { type: 'page', title: 'Home' },
-  resume: { type: 'page', title: 'Résumé' },
+  resume: { type: 'page', title: 'Resume' },
   recommendations: { type: 'page', title: 'Recommendations' },
   posts: {
     type: 'page',

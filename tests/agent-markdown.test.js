@@ -34,6 +34,6 @@ describe('agent Markdown', () => {
     expect(response.headers.get('Vary')).toBe('Accept')
     expect(response.headers.get('Content-Signal')).toBe(contentSignal)
     expect(response.headers.get('X-Robots-Tag')).toBe('noindex, follow')
-    expect(await response.text()).toContain('# Mohsin Hayat Résumé')
+    expect(await response.text()).toContain('# Mohsin Hayat Resume')
   })
 })
