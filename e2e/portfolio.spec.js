@@ -67,15 +67,15 @@ test('navigation, feed discovery, and internal routes work', async ({
 test('utility endpoints and redirects have expected search behavior', async ({
   request
 }) => {
-  const [robots, sitemap, feed, llms, full, earlier, redirect, missing] =
+  const [robots, sitemap, feed, llms, full, redirect, earlier, missing] =
     await Promise.all([
       request.get('/robots.txt'),
       request.get('/sitemap.xml'),
       request.get('/feed.xml'),
       request.get('/llms.txt'),
       request.get('/llms-full.txt'),
-      request.get('/earlier-work'),
       request.get('/llm.txt', { maxRedirects: 0 }),
+      request.get('/earlier-work', { maxRedirects: 0 }),
       request.get('/not-a-public-page')
     ])
   await expect(robots).toBeOK()
@@ -90,8 +90,11 @@ test('utility endpoints and redirects have expected search behavior', async ({
   expect(await feed.text()).toContain('xmlns:atom')
   expect(await llms.text()).toContain('# Mohsin Hayat')
   expect(await full.text()).toContain('Last updated:')
-  expect(await earlier.text()).toContain('Earlier Work')
   expect(redirect.status()).toBe(308)
   expect(redirect.headers().location).toBe('/llms.txt')
+  expect(earlier.status()).toBe(308)
+  expect(earlier.headers().location).toBe(
+    '/recommendations#earlier-recommendations'
+  )
   expect(missing.status()).toBe(404)
 })

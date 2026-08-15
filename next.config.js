@@ -37,6 +37,11 @@ export default withNextra({
   async redirects() {
     return [
       { source: '/more', destination: '/recommendations', permanent: true },
+      {
+        source: '/earlier-work',
+        destination: '/recommendations#earlier-recommendations',
+        permanent: true
+      },
       { source: '/llm.txt', destination: '/llms.txt', permanent: true },
       {
         source: '/www/:path*',

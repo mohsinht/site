@@ -40,5 +40,10 @@ describe('production configuration', () => {
       destination: '/recommendations',
       permanent: true
     })
+    expect(redirects).toContainEqual({
+      source: '/earlier-work',
+      destination: '/recommendations#earlier-recommendations',
+      permanent: true
+    })
   })
 })

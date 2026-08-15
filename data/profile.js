@@ -184,6 +184,28 @@ export const profile = {
         'Mohsin is a great person, a passionate developer and a hard working team member. He is not afraid of taking responsibility in difficult situations and always tries to raise the bar for himself.'
     }
   ],
+  earlierRecommendations: [
+    {
+      name: 'Georgia Hampton',
+      role: 'Client feedback · Fiverr',
+      excerpt: 'I can’t tell you how much I LOVE my new website!'
+    },
+    {
+      name: 'Vibhav Mishra',
+      role: 'Client feedback · Upwork',
+      excerpt: 'Mohsin’s biggest strength is his availability and his patience.'
+    },
+    {
+      name: 'Bizsavvy',
+      role: 'Client feedback · Fiverr',
+      excerpt:
+        'Communication was great and he responded in a professional and timely manner.'
+    }
+  ],
+  earlierRecommendationLetter: {
+    label: 'Read the Rocketbots employer recommendation letter (PDF)',
+    href: '/downloads/Letter%20of%20Recommendation%20-%20Mohsin.pdf'
+  },
   education:
     'Bachelor of Science in Computer Science, National University of Computer and Emerging Sciences (FAST-NUCES), Lahore, Pakistan (2016–2020).',
   achievements: [

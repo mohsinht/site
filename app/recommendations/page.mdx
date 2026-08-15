@@ -25,6 +25,35 @@ Perspectives from colleagues and engineering leaders I have worked with internat
   ))}
 </div>
 
-For earlier employer letters, freelancer testimonials, and beginner certificates, see the [Earlier Work archive](/earlier-work). It is retained for context and is not intended as a privacy boundary.
+<details id="earlier-recommendations" className="earlier-recommendations">
+  <summary>
+    <span>View earlier recommendations</span>
+    <span>Early freelance feedback and an employer reference</span>
+  </summary>
+
+  <div className="earlier-recommendations-content">
+    <p>
+      These references are from earlier work and are retained as supporting
+      context alongside the senior-level recommendations above.
+    </p>
+    <div className="recommendation-grid">
+      {profile.earlierRecommendations.map((item) => (
+        <article className="recommendation-card" key={item.name}>
+          <p>“{item.excerpt}”</p>
+          <footer>
+            <strong>{item.name}</strong>
+            <span>{item.role}</span>
+          </footer>
+        </article>
+      ))}
+    </div>
+    <a
+      className="text-link earlier-reference-link"
+      href={profile.earlierRecommendationLetter.href}
+    >
+      {profile.earlierRecommendationLetter.label}
+    </a>
+  </div>
+</details>
 
 </main>

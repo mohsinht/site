@@ -262,6 +262,40 @@ li {
   margin-top: 0.55rem;
   font-size: 0.9rem;
 }
+.earlier-recommendations {
+  margin-top: 2.5rem;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.earlier-recommendations summary {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.15rem 0;
+  color: var(--link);
+  cursor: pointer;
+  font-weight: 700;
+}
+.earlier-recommendations summary:hover {
+  color: #c7e3ff;
+}
+.earlier-recommendations summary span:last-child {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.earlier-recommendations-content {
+  padding: 0 0 1.5rem;
+}
+.earlier-recommendations-content > p {
+  max-width: 44rem;
+  margin-top: 0;
+  color: var(--muted);
+}
+.earlier-reference-link {
+  margin-top: 1.5rem;
+}
 .featured-work {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -413,6 +447,10 @@ li {
     grid-template-columns: 1fr;
   }
   .writing-section {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .earlier-recommendations summary {
     align-items: flex-start;
     flex-direction: column;
   }
