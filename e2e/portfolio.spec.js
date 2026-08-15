@@ -100,7 +100,7 @@ test('utility endpoints and redirects have expected search behavior', async ({
   expect(await robots.text()).toContain(
     'Sitemap: https://mohsinht.com/sitemap.xml'
   )
-  expect(await robots.text()).toContain('Content-Signal: search=yes')
+  expect(robots.headers()['content-signal']).toContain('search=yes')
   expect(await sitemap.text()).not.toContain('earlier-work')
   expect(await feed.text()).toContain('xmlns:atom')
   expect(await llms.text()).toContain('# Mohsin Hayat')

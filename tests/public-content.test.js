@@ -42,11 +42,11 @@ describe('public discovery content', () => {
     expect(entries.every((entry) => !('priority' in entry))).toBe(true)
   })
 
-  test('robots advertises the content signal and canonical sitemap only', async () => {
+  test('robots exposes the content signal as a response header and only a canonical sitemap', async () => {
     const result = robotsGet()
     const body = await result.text()
     expect(result.headers.get('Content-Signal')).toBe(contentSignal)
-    expect(body).toContain(`Content-Signal: ${contentSignal}`)
+    expect(body).not.toContain('Content-Signal:')
     expect(body).toContain('Sitemap: https://mohsinht.com/sitemap.xml')
     expect(body).not.toMatch(/feed\.xml|llm\.txt/)
   })

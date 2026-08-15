@@ -4,7 +4,7 @@ export const dynamic = 'force-static'
 
 export function GET() {
   return new Response(
-    `User-agent: *\nContent-Signal: ${contentSignal}\nAllow: /\nDisallow: /agent-markdown\n\nSitemap: ${siteUrl}/sitemap.xml\n`,
+    `User-agent: *\nAllow: /\nDisallow: /agent-markdown\n\nSitemap: ${siteUrl}/sitemap.xml\n`,
     {
       headers: {
         'Content-Signal': contentSignal,
