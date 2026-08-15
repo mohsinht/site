@@ -1,0 +1,93 @@
+---
+title: Recommendations for Mohsin Hayat
+description: Verified recommendations for Mohsin Hayat from engineering leaders and collaborators.
+---
+
+import { profile, recommendationUrl } from '../../data/profile'
+
+<main id="main-content" className="recommendations-page">
+
+Perspectives from colleagues and engineering leaders I have worked with internationally.
+
+## Verified LinkedIn recommendations
+
+<div className="recommendation-grid recommendation-list full-page">
+  {profile.recommendations.map((item) => (
+    <article
+      className="recommendation-card recommendation-full"
+      key={item.name}
+    >
+      <p className="recommendation-company">{item.company}</p>
+      <blockquote>“{item.excerpt}”</blockquote>
+      <footer>
+        <strong>– {item.name}</strong>
+        <span>{item.role}</span>
+        {item.additionalRole && <span>{item.additionalRole}</span>}
+        <a href={recommendationUrl} target="_blank" rel="noreferrer">
+          View LinkedIn recommendation{' '}
+          <span className="sr-only">(opens in a new tab)</span>
+        </a>
+      </footer>
+    </article>
+  ))}
+</div>
+
+## Employer references
+
+<div
+  id="earlier-recommendations"
+  className="recommendation-grid recommendation-list full-page"
+>
+  {profile.employerRecommendations.map((item) => (
+    <article
+      className="recommendation-card recommendation-full"
+      key={item.name}
+    >
+      <p className="recommendation-company">{item.company}</p>
+      <blockquote>“{item.excerpt}”</blockquote>
+      <footer>
+        <strong>– {item.name}</strong>
+        <span>{item.role}</span>
+        <a href={item.href} target="_blank" rel="noreferrer">
+          {item.linkLabel} <span className="sr-only">(opens in a new tab)</span>
+        </a>
+      </footer>
+    </article>
+  ))}
+</div>
+
+## Clients’ testimonials
+
+<div className="recommendation-grid testimonial-list full-page">
+  {profile.clientTestimonials.map((item) => (
+    <article
+      className="recommendation-card recommendation-full"
+      key={item.project}
+    >
+      <p className="recommendation-company">{item.project}</p>
+      <blockquote>“{item.excerpt}”</blockquote>
+      <footer>
+        <strong>— {item.name}</strong>
+        <span>{item.role}</span>
+      </footer>
+    </article>
+  ))}
+</div>
+
+## Certifications
+
+<ul className="certification-list">
+  {profile.certifications.map((item) => (
+    <li key={item.name}>
+      <strong>{item.name}</strong>
+      <span>
+        {item.issuer} · {item.date}
+      </span>
+      <a href={item.href} target="_blank" rel="noreferrer">
+        {item.linkLabel} <span className="sr-only">(opens in a new tab)</span>
+      </a>
+    </li>
+  ))}
+</ul>
+
+</main>

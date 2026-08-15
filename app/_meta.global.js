@@ -1,15 +1,10 @@
 export default {
-  index: {
-    type: 'page',
-    title: 'About'
-  },
-  resume: {
-    type: 'page',
-    title: 'Resume'
-  },
+  index: { type: 'page', title: 'Home' },
+  resume: { type: 'page', title: 'Resume' },
+  recommendations: { type: 'page', title: 'Recommendations' },
   posts: {
     type: 'page',
-    title: 'Posts',
+    title: 'Writing',
     items: {
       'shortlisting-remote-companies': 'Shortlisting Remote Companies',
       'working-remotely-from-pakistan': 'Working Remotely from Pakistan',
@@ -17,9 +12,5 @@ export default {
       'standout-in-your-job-application': 'Stand Out in Your Job Application',
       'advises-from-my-mentors': 'Advice from My Mentors'
     }
-  },
-  more: {
-    type: 'page',
-    title: 'More'
   }
 }

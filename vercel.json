@@ -1,0 +1,40 @@
+{
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Vary",
+          "value": "Accept, RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding"
+        }
+      ]
+    },
+    {
+      "source": "/resume",
+      "headers": [
+        {
+          "key": "Vary",
+          "value": "Accept, RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding"
+        }
+      ]
+    },
+    {
+      "source": "/recommendations",
+      "headers": [
+        {
+          "key": "Vary",
+          "value": "Accept, RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding"
+        }
+      ]
+    },
+    {
+      "source": "/posts/:path*",
+      "headers": [
+        {
+          "key": "Vary",
+          "value": "Accept, RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding"
+        }
+      ]
+    }
+  ]
+}

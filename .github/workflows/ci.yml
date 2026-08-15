@@ -1,0 +1,50 @@
+name: Verify
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  statuses: write
+
+concurrency:
+  group: verify-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Test and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Lint, format, type-check, and test
+        run: yarn lint && yarn format:check && yarn typecheck && yarn test:coverage
+
+      - name: Build the production application
+        run: yarn build
+
+      - name: Verify build output
+        run: test -f .next/BUILD_ID
+
+      - name: Install Playwright browser
+        run: yarn playwright install --with-deps chromium
+
+      - name: Run browser and accessibility tests
+        run: yarn test:e2e
+
+      - name: Run Lighthouse CI
+        env:
+          LHCI_GITHUB_TOKEN: ${{ github.token }}
+        run: yarn lighthouse
