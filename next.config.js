@@ -1,12 +1,13 @@
 import nextra from 'nextra'
 
 const withNextra = nextra({ readingTime: true })
+const developmentScriptSource =
+  process.env.NODE_ENV === 'development' ? " 'unsafe-eval'" : ''
 
 const securityHeaders = [
   {
     key: 'Content-Security-Policy',
-    value:
-      "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'"
+    value: `default-src 'self'; script-src 'self' 'unsafe-inline'${developmentScriptSource}; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'`
   },
   {
     key: 'Strict-Transport-Security',
