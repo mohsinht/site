@@ -9,9 +9,24 @@ const blogComponents = getBlogMDXComponents({
     })
 })
 
+function PortfolioMdxWrapper({ children, metadata }) {
+  if (metadata.filePath?.startsWith('app/posts/')) {
+    const BlogWrapper = blogComponents.wrapper
+    return <BlogWrapper metadata={metadata}>{children}</BlogWrapper>
+  }
+
+  return (
+    <>
+      <h1>{metadata.title}</h1>
+      {children}
+    </>
+  )
+}
+
 export function useMDXComponents(components) {
   return {
     ...blogComponents,
+    wrapper: PortfolioMdxWrapper,
     ...components
   }
 }
