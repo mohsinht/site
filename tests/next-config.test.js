@@ -1,5 +1,6 @@
 import { describe, expect, test } from '@jest/globals'
 import config from '../next.config.js'
+import { contentSignal } from '../data/profile.js'
 
 describe('production configuration', () => {
   test('applies a strict production security policy and keeps downloads out of search', async () => {
@@ -20,6 +21,7 @@ describe('production configuration', () => {
     expect(headers['Content-Security-Policy']).not.toContain('fontawesome')
     expect(headers['Strict-Transport-Security']).toContain('max-age=31536000')
     expect(headers['Referrer-Policy']).toBe('strict-origin-when-cross-origin')
+    expect(headers['Content-Signal']).toBe(contentSignal)
 
     const downloads = rules.find((rule) => rule.source === '/downloads/:path*')
     expect(downloads.headers).toContainEqual({

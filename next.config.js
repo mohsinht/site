@@ -1,4 +1,5 @@
 import nextra from 'nextra'
+import { contentSignal } from './data/profile.js'
 
 const withNextra = nextra({ readingTime: true })
 const developmentScriptSource =
@@ -9,6 +10,7 @@ const securityHeaders = [
     key: 'Content-Security-Policy',
     value: `default-src 'self'; script-src 'self' 'unsafe-inline'${developmentScriptSource}; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'`
   },
+  { key: 'Content-Signal', value: contentSignal },
   {
     key: 'Strict-Transport-Security',
     value: 'max-age=31536000; includeSubDomains'

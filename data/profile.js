@@ -1,4 +1,7 @@
 export const siteUrl = 'https://mohsinht.com'
+export const siteLastUpdated = '2026-08-15'
+export const contentSignal =
+  'search=yes, ai-input=yes, ai-train=no, use=reference'
 
 export const profile = {
   name: 'Mohsin Hayat',

@@ -67,17 +67,31 @@ test('navigation, feed discovery, and internal routes work', async ({
 test('utility endpoints and redirects have expected search behavior', async ({
   request
 }) => {
-  const [robots, sitemap, feed, llms, full, redirect, earlier, missing] =
-    await Promise.all([
-      request.get('/robots.txt'),
-      request.get('/sitemap.xml'),
-      request.get('/feed.xml'),
-      request.get('/llms.txt'),
-      request.get('/llms-full.txt'),
-      request.get('/llm.txt', { maxRedirects: 0 }),
-      request.get('/earlier-work', { maxRedirects: 0 }),
-      request.get('/not-a-public-page')
-    ])
+  const [
+    robots,
+    sitemap,
+    feed,
+    llms,
+    full,
+    markdown,
+    articleMarkdown,
+    redirect,
+    earlier,
+    missing
+  ] = await Promise.all([
+    request.get('/robots.txt'),
+    request.get('/sitemap.xml'),
+    request.get('/feed.xml'),
+    request.get('/llms.txt'),
+    request.get('/llms-full.txt'),
+    request.get('/', { headers: { Accept: 'text/markdown' } }),
+    request.get('/posts/working-remotely-from-pakistan', {
+      headers: { Accept: 'text/markdown' }
+    }),
+    request.get('/llm.txt', { maxRedirects: 0 }),
+    request.get('/earlier-work', { maxRedirects: 0 }),
+    request.get('/not-a-public-page')
+  ])
   await expect(robots).toBeOK()
   await expect(sitemap).toBeOK()
   await expect(feed).toBeOK()
@@ -86,10 +100,18 @@ test('utility endpoints and redirects have expected search behavior', async ({
   expect(await robots.text()).toContain(
     'Sitemap: https://mohsinht.com/sitemap.xml'
   )
+  expect(await robots.text()).toContain('Content-Signal: search=yes')
   expect(await sitemap.text()).not.toContain('earlier-work')
   expect(await feed.text()).toContain('xmlns:atom')
   expect(await llms.text()).toContain('# Mohsin Hayat')
   expect(await full.text()).toContain('Last updated:')
+  expect(markdown.headers()['content-type']).toContain('text/markdown')
+  expect(markdown.headers().vary).toContain('Accept')
+  expect(markdown.headers()['content-signal']).toContain('ai-input=yes')
+  expect(await markdown.text()).toContain('# Mohsin Hayat')
+  expect(await articleMarkdown.text()).toContain(
+    '# Working Remotely from Pakistan: A 2022 Retrospective'
+  )
   expect(redirect.status()).toBe(308)
   expect(redirect.headers().location).toBe('/llms.txt')
   expect(earlier.status()).toBe(308)

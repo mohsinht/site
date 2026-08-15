@@ -1,11 +1,11 @@
 import { describe, expect, test } from '@jest/globals'
-import { profile, siteUrl } from '../data/profile.js'
+import { contentSignal, profile, siteUrl } from '../data/profile.js'
 import {
   llmsFull,
   llmsIndex,
   publicSitemapEntries
 } from '../lib/public-content.js'
-import robots from '../app/robots.js'
+import { GET as robotsGet } from '../app/robots.txt/route.js'
 
 describe('public discovery content', () => {
   test('uses the one canonical host everywhere', () => {
@@ -15,7 +15,7 @@ describe('public discovery content', () => {
     expect(content).not.toContain('/drafts')
   })
 
-  test('sitemap has public HTML pages and excludes utility or archive routes', () => {
+  test('sitemap has public HTML pages without speculative fields or utility routes', () => {
     const entries = publicSitemapEntries([
       { route: '/posts/example', frontMatter: { date: '2022-01-01' } }
     ])
@@ -38,12 +38,17 @@ describe('public discovery content', () => {
           /^\d{4}-\d{2}-\d{2}$/.test(entry.lastModified)
       )
     ).toBe(true)
+    expect(entries.every((entry) => !('changeFrequency' in entry))).toBe(true)
+    expect(entries.every((entry) => !('priority' in entry))).toBe(true)
   })
 
-  test('robots only advertises the canonical sitemap', () => {
-    const result = robots()
-    expect(result.rules).toEqual({ userAgent: '*', allow: '/' })
-    expect(result.sitemap).toBe('https://mohsinht.com/sitemap.xml')
+  test('robots advertises the content signal and canonical sitemap only', async () => {
+    const result = robotsGet()
+    const body = await result.text()
+    expect(result.headers.get('Content-Signal')).toBe(contentSignal)
+    expect(body).toContain(`Content-Signal: ${contentSignal}`)
+    expect(body).toContain('Sitemap: https://mohsinht.com/sitemap.xml')
+    expect(body).not.toMatch(/feed\.xml|llm\.txt/)
   })
 
   test('centralized projects and recommendations are complete and factual interfaces are linked', () => {
@@ -62,6 +67,14 @@ describe('public discovery content', () => {
         'Vasilica Coscotin'
       ])
     )
+    expect(profile.employerRecommendations).toHaveLength(3)
+    expect(profile.clientTestimonials).toHaveLength(7)
+    expect(profile.certifications).toHaveLength(4)
+    for (const item of [
+      ...profile.employerRecommendations,
+      ...profile.clientTestimonials
+    ])
+      expect(item.name && item.role && item.excerpt).toBeTruthy()
     for (const project of profile.projects)
       expect(
         project.problem &&
@@ -70,6 +83,6 @@ describe('public discovery content', () => {
           project.technologies.length
       ).toBeTruthy()
     expect(llmsIndex()).toContain('Recommendations')
-    expect(llmsFull()).toContain('Last updated: 2026-08-10')
+    expect(llmsFull()).toContain('Last updated: 2026-08-15')
   })
 })
