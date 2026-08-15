@@ -160,52 +160,148 @@ export const profile = {
   ],
   recommendations: [
     {
+      company: 'Trafilea',
       name: 'Tomás Malgarín',
       role: 'Data Analytics, Trafilea',
       excerpt:
+        'One of those hires you notice from day one. Adapted incredibly fast, brought fresh technical perspectives, and consistently went beyond what was required.',
+      homepageExcerpt:
         'One of those hires you notice from day one. Adapted incredibly fast, brought fresh technical perspectives, and consistently went beyond what was required.'
     },
     {
+      company: 'Awell Health',
       name: 'Etienne Bömcke',
       role: 'Head of Technology, Awell Health',
       excerpt:
+        'I worked with Mohsin for four years at Awell. Over this time he consistently proved his value as a smart, capable, autonomous and reliable software engineer. He particularly impressed me with his ability to intuitively pick sound technical and architectural decisions even when he did not necessarily have first hand experience with the technology involved.',
+      homepageExcerpt:
         'Over this time he consistently proved his value as a smart, capable, autonomous and reliable software engineer.'
     },
     {
+      company: 'Awell Health',
       name: 'Jonathan Belanger',
       role: 'Head of Engineering, Awell Health',
       excerpt:
-        'Mohsin is a thoughtful, diligent, hard-working, and methodical engineer — a strong “slow thinker” (in a Kahneman/Tversky way).'
+        'Mohsin is a thoughtful, diligent, hard-working, and methodical engineer — a strong “slow thinker” (in a Kahneman/Tversky way). He is happy to jump in and tackle difficult problems, and when he does, he does so with humility and a desire to learn. At Awell, he has been able to contribute to our code base across the stack.'
     },
     {
+      company: 'Awell Health',
       name: 'Vasilica Coscotin',
       role: 'Head of Technology & Engineering, Awell Health',
+      additionalRole: 'ex Software Architect, Voxbone ($1B+)',
       excerpt:
-        'Mohsin is a great person, a passionate developer and a hard working team member. He is not afraid of taking responsibility in difficult situations and always tries to raise the bar for himself.'
+        'Mohsin is a great person, a passionate developer and a hard working team member. He is not afraid of taking responsibility in difficult situations and always tries to raise the bar for himself. From a technical perspective he is quite skilled, but his most important skill is the desire to constantly improve.'
     }
   ],
-  earlierRecommendations: [
+  employerRecommendations: [
     {
+      company: 'Tintash',
+      name: 'Salman Mughal',
+      role: 'HR Manager, Tintash',
+      excerpt:
+        'Mohsin always demonstrated excellence in professionalism and strong technical skills. He was a valued and dedicated member of our organization and we always found him to be a committed team player with effective analytical skills. He was very focused hard-working dedicated and result-oriented.',
+      href: '/downloads/Tintash_certificate.pdf',
+      linkLabel: 'View Tintash certificate'
+    },
+    {
+      company: 'SolutionInn LLC',
+      name: 'Rahman Gul',
+      role: 'HR Manager, SolutionInn',
+      excerpt:
+        'Mohsin was a motivated, devoted, professional, hard-working and innovative person. He contributed much to our organization’s goals and targets and his performance was proven to be among the most efficient employees of our organization.',
+      href: '/downloads/SolutionInn_Certificate.pdf',
+      linkLabel: 'View SolutionInn certificate'
+    },
+    {
+      company: 'Rocketbots Limited',
+      name: 'Hassan Ahmed',
+      role: 'Executive Director, Rocketbots',
+      excerpt:
+        'During his time, Mohsin produced excellent results in all the assigned tasks. We found him to be hardworking, devoted and a diligent person. For these reasons, I believe that he will prove himself to be an asset to any organization. If you have any question, do not hesitate to contact me.',
+      href: '/downloads/Letter%20of%20Recommendation%20-%20Mohsin.pdf',
+      linkLabel: 'View Rocketbots letter'
+    }
+  ],
+  clientTestimonials: [
+    {
+      project: 'GJD Investments Project',
       name: 'Georgia Hampton',
       role: 'Client feedback · Fiverr',
-      excerpt: 'I can’t tell you how much I LOVE my new website!'
+      excerpt:
+        'I can’t tell you how much I LOVE my new website! If anyone has a question about hiring you have them contact me; you were a pleasure to work with and you took great attention to detail. I look forward to working w/you in the future.'
     },
     {
+      project: 'Marymount LLC Project',
       name: 'Vibhav Mishra',
       role: 'Client feedback · Upwork',
-      excerpt: 'Mohsin’s biggest strength is his availability and his patience.'
+      excerpt:
+        'I hired Mohsin for developing a website for my real estate company from scratch. Mohsin’s biggest strength is his available and his patience. He is willing to work as long as it takes.'
     },
     {
+      project: 'Bizsavvy Affiliates Project',
       name: 'Bizsavvy',
       role: 'Client feedback · Fiverr',
       excerpt:
-        'Communication was great and he responded in a professional and timely manner.'
+        'I loved working with Mohsinhayat. He did exactly what he said he would do and even more. Communication was great and he responded in a professional and timely matter. We transferred a site from Wix to Wordpress and he was able to duplicate the site into Wordpress way ahead of schedule.'
+    },
+    {
+      project: 'Aavant Backdrops Project',
+      name: 'Aavant',
+      role: 'Client feedback · Fiverr',
+      excerpt:
+        'Knows Wordpress like the back of his hand. Does good and fast work. You just can depend on him and sit back. He will deliver. Wonderful job.'
+    },
+    {
+      project: 'Skin Swim Project',
+      name: 'Skin Swim',
+      role: 'Client feedback · Upwork',
+      excerpt:
+        'Great experience with Mohsin. Easy to communicate and completed the job successfully. Very pleased with my website, I will use him in the future!'
+    },
+    {
+      project: 'Smile-Fashion Project',
+      name: 'Lamar Williams',
+      role: 'Client feedback · Upwork',
+      excerpt:
+        'Work completed on time and done perfectly. Always a pleasure working with Mohsin.'
+    },
+    {
+      project: 'Quick House Canada Project',
+      name: 'QuickHouseCA',
+      role: 'Client feedback · Upwork',
+      excerpt: 'Thanks again Mohsin! Looking forward to working together again!'
     }
   ],
-  earlierRecommendationLetter: {
-    label: 'Read the Rocketbots employer recommendation letter (PDF)',
-    href: '/downloads/Letter%20of%20Recommendation%20-%20Mohsin.pdf'
-  },
+  certifications: [
+    {
+      name: 'The Complete Node.js Course',
+      issuer: 'Code With Mosh',
+      date: 'October 2020',
+      href: '/downloads/certificate-of-completion-for-the-complete-node-js-course.pdf',
+      linkLabel: 'View Node.js course certificate'
+    },
+    {
+      name: 'The Ultimate JavaScript Mastery Series - Part 1',
+      issuer: 'Code With Mosh',
+      date: 'June 2019',
+      href: '/downloads/certificate-of-completion-for-javascript-basics.pdf',
+      linkLabel: 'View JavaScript course certificate'
+    },
+    {
+      name: 'Learn React.js: Part I',
+      issuer: 'Codecademy',
+      date: 'June 2019',
+      href: '/downloads/Mohsin%20Hayat%20_%20Codecademy_Part1.pdf',
+      linkLabel: 'View React.js course certificate'
+    },
+    {
+      name: 'Learn React.js: Part II',
+      issuer: 'Codecademy',
+      date: 'June 2018',
+      href: '/downloads/Mohsin%20Hayat%20_%20Codecademy_Part2.pdf',
+      linkLabel: 'View React.js Part II certificate'
+    }
+  ],
   education:
     'Bachelor of Science in Computer Science, National University of Computer and Emerging Sciences (FAST-NUCES), Lahore, Pakistan (2016–2020).',
   achievements: [

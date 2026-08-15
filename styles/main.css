@@ -243,7 +243,7 @@ li {
   border-radius: 0.7rem;
   background: var(--surface-soft);
 }
-.recommendation-card > p {
+.recommendation-card > p:not(.recommendation-company) {
   margin: 0;
   font-size: 1.05rem;
   font-weight: 550;
@@ -262,39 +262,68 @@ li {
   margin-top: 0.55rem;
   font-size: 0.9rem;
 }
-.earlier-recommendations {
-  margin-top: 2.5rem;
+.recommendations-page > h2 {
+  margin-top: 3.5rem;
+  padding-top: 1.5rem;
   border-top: 1px solid var(--border);
+}
+.recommendation-list {
+  grid-template-columns: 1fr;
+}
+.recommendation-full {
+  padding: clamp(1.35rem, 3vw, 2rem);
+}
+.recommendation-company {
+  margin: 0 0 1rem;
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.recommendation-full blockquote {
+  max-width: 52rem;
+  margin: 0;
+  color: var(--text);
+  font-size: 1.08rem;
+  font-weight: 550;
+  line-height: 1.7;
+}
+.recommendation-full footer {
+  margin-top: 1.4rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--border);
+}
+.testimonial-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.testimonial-list .recommendation-full blockquote {
+  font-size: 1rem;
+}
+.certification-list {
+  display: grid;
+  gap: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--border);
+}
+.certification-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.25rem 1.5rem;
+  padding: 1.15rem 0;
   border-bottom: 1px solid var(--border);
 }
-.earlier-recommendations summary {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 1.15rem 0;
-  color: var(--link);
-  cursor: pointer;
+.certification-list span {
+  grid-column: 1;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.certification-list a {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: center;
   font-weight: 700;
-}
-.earlier-recommendations summary:hover {
-  color: #c7e3ff;
-}
-.earlier-recommendations summary span:last-child {
-  color: var(--muted);
-  font-size: 0.85rem;
-  font-weight: 500;
-}
-.earlier-recommendations-content {
-  padding: 0 0 1.5rem;
-}
-.earlier-recommendations-content > p {
-  max-width: 44rem;
-  margin-top: 0;
-  color: var(--muted);
-}
-.earlier-reference-link {
-  margin-top: 1.5rem;
 }
 .featured-work {
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -450,9 +479,8 @@ li {
     align-items: flex-start;
     flex-direction: column;
   }
-  .earlier-recommendations summary {
-    align-items: flex-start;
-    flex-direction: column;
+  .testimonial-list {
+    grid-template-columns: 1fr;
   }
 }
 @media (max-width: 560px) {
@@ -474,6 +502,14 @@ li {
   .recommendation-card,
   .work-feature {
     padding: 1.2rem;
+  }
+  .certification-list li {
+    grid-template-columns: 1fr;
+  }
+  .certification-list a {
+    grid-column: 1;
+    grid-row: auto;
+    margin-top: 0.45rem;
   }
 }
 @media (prefers-reduced-motion: reduce) {

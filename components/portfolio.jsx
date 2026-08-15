@@ -110,7 +110,7 @@ export function PortfolioHome() {
         <div className="recommendation-grid">
           {profile.recommendations.slice(0, 2).map((item) => (
             <article className="recommendation-card" key={item.name}>
-              <p>“{item.excerpt}”</p>
+              <p>“{item.homepageExcerpt ?? item.excerpt}”</p>
               <footer>
                 <strong>{item.name}</strong>
                 <span>{item.role}</span>
