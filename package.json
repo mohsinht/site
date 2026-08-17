@@ -33,7 +33,7 @@
     "@axe-core/playwright": "^4.13.0",
     "@eslint/js": "^10.0.1",
     "@lhci/cli": "^0.15.1",
-    "@next/eslint-plugin-next": "^16.3.0",
+    "@next/eslint-plugin-next": "^16.3.1",
     "@playwright/test": "^1.62.1",
     "eslint": "^10.8.1",
     "jest": "30.4.2",
