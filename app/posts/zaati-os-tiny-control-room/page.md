@@ -25,7 +25,7 @@ That idea became [Zaati OS](https://github.com/mohsinht/zaati-os).
 
 “Zaati” means personal in Urdu, which fits the project well. It is an operating system for your own life, built around the AI tools you already use.
 
-![Zaati OS dashboard showing a daily overview](https://raw.githubusercontent.com/mohsinht/zaati-os/e6266bc90c27e13774f1141907f7b99f6b810ca9/docs/assets/dashboard-light.png)
+![Zaati OS dashboard showing a daily overview](/images/zaati-os/dashboard-light.png)
 
 _The screenshots in this post use synthetic data._
 
@@ -94,7 +94,7 @@ The setup asks for a few basic preferences. The tutorial then creates synthetic 
 
 This lets you test the complete flow without connecting an account or adding a key.
 
-![Zaati OS setup screen](https://raw.githubusercontent.com/mohsinht/zaati-os/e6266bc90c27e13774f1141907f7b99f6b810ca9/docs/assets/onboarding-light.png)
+![Zaati OS setup screen](/images/zaati-os/onboarding-light.png)
 
 If you use Make, you can run:
 
@@ -109,7 +109,7 @@ Once it opens, try the different sections, switch between light and dark mode, a
 
 Every section shows when its information was generated. If a source is old, missing, or failed, the dashboard says so instead of quietly showing misleading information.
 
-![Zaati OS dashboard on mobile](https://raw.githubusercontent.com/mohsinht/zaati-os/e6266bc90c27e13774f1141907f7b99f6b810ca9/docs/assets/dashboard-mobile.png)
+![Zaati OS dashboard on mobile](/images/zaati-os/dashboard-mobile.png)
 
 ## Connecting your own information
 
