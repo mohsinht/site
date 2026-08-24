@@ -1,5 +1,5 @@
 ---
-title: "Zaati OS: A Tiny Control Room for Your Life"
+title: 'Zaati OS: A Tiny Control Room for Your Life'
 date: 2026-08-24
 dateModified: 2026-08-24
 description: A friendly, no-jargon guide to turning the AI you already use into a private daily dashboard.
