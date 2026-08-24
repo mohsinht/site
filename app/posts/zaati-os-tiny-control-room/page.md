@@ -1,5 +1,5 @@
 ---
-title: 'Zaati OS: A Tiny Control Room for Your Life'
+title: "Zaati OS: A Tiny Control Room for Your Life"
 date: 2026-08-24
 dateModified: 2026-08-24
 description: A friendly, no-jargon guide to turning the AI you already use into a private daily dashboard.
@@ -17,7 +17,7 @@ No new company needs to own your life story. No mystery account sits in the midd
 
 ![Zaati OS dashboard showing a daily overview](https://raw.githubusercontent.com/mohsinht/zaati-os/e6266bc90c27e13774f1141907f7b99f6b810ca9/docs/assets/dashboard-light.png)
 
-*The dashboard above uses pretend data. Nobody's real inbox or bank balance was sacrificed for this screenshot.*
+_The dashboard above uses pretend data. Nobody's real inbox or bank balance was sacrificed for this screenshot._
 
 ## Explain it like I am five
 
@@ -52,7 +52,7 @@ You do not need all of that on day one. Start with three things, such as your ca
 
 ![Zaati OS setup screen with three guided steps](https://raw.githubusercontent.com/mohsinht/zaati-os/e6266bc90c27e13774f1141907f7b99f6b810ca9/docs/assets/onboarding-light.png)
 
-*The guided start asks only for the basics. The knobs and switches can wait until you actually want them.*
+_The guided start asks only for the basics. The knobs and switches can wait until you actually want them._
 
 ## Why does this make sense now?
 
@@ -107,7 +107,7 @@ Try the light and dark themes. Make the window narrow to see the phone layout. O
 
 ![Zaati OS dashboard on a mobile screen](https://raw.githubusercontent.com/mohsinht/zaati-os/e6266bc90c27e13774f1141907f7b99f6b810ca9/docs/assets/dashboard-mobile.png)
 
-*It works on smaller screens too, because life rarely waits for us to return to a laptop.*
+_It works on smaller screens too, because life rarely waits for us to return to a laptop._
 
 ## Now make it yours
 
