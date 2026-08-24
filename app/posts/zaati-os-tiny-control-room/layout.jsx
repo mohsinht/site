@@ -2,9 +2,9 @@ import { ArticleJsonLd } from '../../../components/article-json-ld'
 import { articleMetadata } from '../../../data/profile'
 
 const details = {
-  title: 'Zaati OS: A Tiny Control Room for Your Life',
+  title: 'Why I Built Zaati OS',
   description:
-    'A friendly, no-jargon guide to turning the AI you already use into a private daily dashboard.',
+    'Zaati OS turns the AI tools you already use into a private dashboard for your calendar, inbox, work, finances, news, and goals.',
   path: '/posts/zaati-os-tiny-control-room',
   publishedTime: '2026-08-24',
   modifiedTime: '2026-08-24',
