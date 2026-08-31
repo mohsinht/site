@@ -23,7 +23,7 @@
     "verify": "yarn lint && yarn format:check && yarn typecheck && yarn test && yarn build"
   },
   "dependencies": {
-    "next": "16.3.2",
+    "next": "16.3.3",
     "nextra": "4.6.1",
     "nextra-theme-blog": "4.6.1",
     "react": "19.2.8",
