@@ -35,7 +35,7 @@
     "@lhci/cli": "^0.15.1",
     "@next/eslint-plugin-next": "^16.3.2",
     "@playwright/test": "^1.62.1",
-    "eslint": "^10.8.1",
+    "eslint": "^10.9.1",
     "jest": "30.4.2",
     "prettier": "^3.9.6",
     "typescript": "6.0.3"
