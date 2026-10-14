@@ -31,7 +31,9 @@ for (const route of routes) {
         () => document.documentElement.scrollWidth <= window.innerWidth + 1
       )
     ).toBe(true)
+    // The embedded YouTube player is third-party content; test our titled iframe separately.
     const result = await new AxeBuilder({ page })
+      .exclude('.video-embed')
       .withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa'])
       .analyze()
     expect(result.violations).toEqual([])
