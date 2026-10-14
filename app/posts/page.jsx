@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { PostCard } from 'nextra-theme-blog'
+import { PortfolioPostCard } from '../../components/post-card'
 import { getPosts, getTags } from './get-posts'
 import { pageMetadata } from '../../data/profile'
 
@@ -22,7 +22,12 @@ export default async function PostsPage() {
   }
 
   return (
-    <div data-pagefind-ignore="all">
+    <div
+      id="main-content"
+      className="writing-list"
+      data-pagefind-ignore="all"
+      tabIndex={-1}
+    >
       <h1>Engineering Writing</h1>
       <div
         className="not-prose"
@@ -39,7 +44,7 @@ export default async function PostsPage() {
         ))}
       </div>
       {posts.map((post) => (
-        <PostCard key={post.route} post={post} />
+        <PortfolioPostCard key={post.route} post={post} />
       ))}
     </div>
   )

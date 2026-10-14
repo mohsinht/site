@@ -1,7 +1,7 @@
 module.exports = {
   ci: {
     collect: {
-      startServerCommand: 'yarn --ignore-engines start',
+      startServerCommand: 'corepack yarn start --hostname 127.0.0.1',
       startServerReadyPattern: 'Ready',
       startServerReadyTimeout: 120000,
       url: [

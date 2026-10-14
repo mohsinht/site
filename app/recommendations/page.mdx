@@ -1,13 +1,13 @@
 ---
-title: Recommendations for Mohsin Hayat
+title: Recommendations
 description: Verified recommendations for Mohsin Hayat from engineering leaders and collaborators.
 ---
 
 import { profile, recommendationUrl } from '../../data/profile'
 
-<main id="main-content" className="recommendations-page">
+<main id="main-content" className="recommendations-page" tabIndex={-1}>
 
-Perspectives from colleagues and engineering leaders I have worked with internationally.
+Perspectives from colleagues and engineering leaders I have worked with internationally. Minor spelling and punctuation corrections to archived employer and client quotes are marked by the original wording available beneath each edited quote.
 
 ## Verified LinkedIn recommendations
 
@@ -18,7 +18,13 @@ Perspectives from colleagues and engineering leaders I have worked with internat
       key={item.name}
     >
       <p className="recommendation-company">{item.company}</p>
-      <blockquote>“{item.excerpt}”</blockquote>
+      <blockquote>“{item.editedExcerpt ?? item.excerpt}”</blockquote>
+      {item.editedExcerpt && (
+        <details className="original-quote">
+          <summary>Read original wording</summary>
+          <p>“{item.excerpt}”</p>
+        </details>
+      )}
       <footer>
         <strong>– {item.name}</strong>
         <span>{item.role}</span>
@@ -44,7 +50,13 @@ Perspectives from colleagues and engineering leaders I have worked with internat
       key={item.name}
     >
       <p className="recommendation-company">{item.company}</p>
-      <blockquote>“{item.excerpt}”</blockquote>
+      <blockquote>“{item.editedExcerpt ?? item.excerpt}”</blockquote>
+      {item.editedExcerpt && (
+        <details className="original-quote">
+          <summary>Read original wording</summary>
+          <p>“{item.excerpt}”</p>
+        </details>
+      )}
       <footer>
         <strong>– {item.name}</strong>
         <span>{item.role}</span>
@@ -65,7 +77,13 @@ Perspectives from colleagues and engineering leaders I have worked with internat
       key={item.project}
     >
       <p className="recommendation-company">{item.project}</p>
-      <blockquote>“{item.excerpt}”</blockquote>
+      <blockquote>“{item.editedExcerpt ?? item.excerpt}”</blockquote>
+      {item.editedExcerpt && (
+        <details className="original-quote">
+          <summary>Read original wording</summary>
+          <p>“{item.excerpt}”</p>
+        </details>
+      )}
       <footer>
         <strong>— {item.name}</strong>
         <span>{item.role}</span>

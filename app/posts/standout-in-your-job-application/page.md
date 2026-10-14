@@ -9,7 +9,7 @@ author: Mohsin Hayat
 
 ## Educational background is not important
 
-Whether you are from LUMS, FAST, GIKI, or whichever university in Pakistan, it doesn't matter to a person living in the US or Europe. You're all equal. Some don't even consider your CGPA or even if you don't have a bachelor's degree. So don't get intimidated by the fact that you didn't score well or you're not from a premium university.
+Whether you are from LUMS, FAST, GIKI, or whichever university in Pakistan, it doesn't matter to a person living in the US or Europe. You're all equal. Some don't even consider your CGPA or even if you don't have a bachelor's degree. So don't get intimidated by the fact that you didn't score well or you're not from a leading university.
 
 ## Living your passion
 

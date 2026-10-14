@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { profile, recommendationUrl } from '../data/profile'
 import { Icon } from './icons'
 
+/** @param {import('react').AnchorHTMLAttributes<HTMLAnchorElement>} props */
+
 function ExternalLink({ href, children = null, className = '', ...props }) {
   return (
     <a
@@ -48,7 +50,7 @@ export function SocialLinks() {
 
 export function PortfolioHome() {
   return (
-    <main id="main-content" className="portfolio-home">
+    <main id="main-content" className="portfolio-home" tabIndex={-1}>
       <section className="hero" aria-labelledby="portfolio-title">
         <div className="hero-copy">
           <p className="eyebrow">
@@ -130,7 +132,7 @@ export function PortfolioHome() {
       >
         <div className="section-heading">
           <div>
-            <p className="eyebrow">Selected work</p>
+            <p className="eyebrow">Independent projects</p>
             <h2 id="work-title">Selected work</h2>
           </div>
         </div>
@@ -143,6 +145,9 @@ export function PortfolioHome() {
           {profile.projects.slice(0, 2).map((project) => (
             <article className="work-feature" key={project.name}>
               <h3>{project.name}</h3>
+              {project.status && (
+                <span className="project-status">{project.status}</span>
+              )}
               <p>{project.homepageSummary}</p>
               <p>{project.homepageDetail}</p>
               <ul
@@ -153,6 +158,16 @@ export function PortfolioHome() {
                   <li key={technology}>{technology}</li>
                 ))}
               </ul>
+              {project.storyHref && (
+                <Link href={project.storyHref} className="text-link">
+                  Read how it evolved <Icon name="arrow" size={16} />
+                </Link>
+              )}
+              {project.sourceHref && (
+                <ExternalLink href={project.sourceHref} className="text-link">
+                  Explore source <Icon name="arrow" size={16} />
+                </ExternalLink>
+              )}
               {project.href && (
                 <ExternalLink href={project.href} className="text-link">
                   Visit {project.name} <Icon name="arrow" size={16} />
@@ -242,9 +257,9 @@ export function PortfolioHome() {
           </h2>
           <p>
             I occasionally write about engineering, remote work, and lessons
-            from building an international software career from Pakistan. The
-            existing notes were written in 2022 and reflect what I was learning
-            at that point in my career.
+            from building an international software career from Pakistan. Some
+            early career notes date from 2022; newer writing follows independent
+            projects and what I am building now.
           </p>
         </div>
         <Link href="/posts" className="button button-secondary">

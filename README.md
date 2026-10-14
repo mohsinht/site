@@ -1,6 +1,6 @@
 ## About
 
-This repository is bootstraped using the blog theme of [shuding/nextra](https://github.com/shuding/nextra). You can learn more about the Nextra template here: https://nextra.site/docs/blog-theme.
+This repository is bootstrapped using the blog theme of [shuding/nextra](https://github.com/shuding/nextra). You can learn more about the Nextra template here: https://nextra.site/docs/blog-theme.
 
 ## How to run
 
@@ -22,6 +22,8 @@ yarn test
 yarn test:coverage
 yarn verify
 ```
+
+Regenerate the downloadable resume after changing `data/profile.js` with `python scripts/build-resume.py`.
 
 `yarn verify` runs the unit/content checks and creates a production build. GitHub Actions runs the same checks for pull requests and pushes to `main`. In GitHub repository settings, require the **Verify / Test and build** status check before merging to `main`; Vercel's production deployment will then only occur after the verified pull request is merged.
 

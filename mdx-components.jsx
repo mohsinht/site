@@ -15,9 +15,15 @@ function PortfolioMdxWrapper({ children, metadata }) {
     return <BlogWrapper metadata={metadata}>{children}</BlogWrapper>
   }
 
+  const heading = metadata.filePath?.startsWith('app/resume/')
+    ? 'Mohsin Hayat Resume'
+    : metadata.filePath?.startsWith('app/recommendations/')
+      ? 'Recommendations for Mohsin Hayat'
+      : metadata.title
+
   return (
     <>
-      <h1>{metadata.title}</h1>
+      <h1>{heading}</h1>
       {children}
     </>
   )

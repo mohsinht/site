@@ -1,6 +1,6 @@
 import { pageMetadata } from '../../data/profile'
 export const metadata = pageMetadata({
-  title: 'Recommendations for Mohsin Hayat',
+  title: 'Recommendations',
   description:
     'Verified LinkedIn recommendations for Mohsin Hayat from engineering leaders and collaborators.',
   path: '/recommendations',
