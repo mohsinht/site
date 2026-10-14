@@ -3,6 +3,21 @@ export const siteLastUpdated = '2026-10-14'
 export const contentSignal =
   'search=yes, ai-input=yes, ai-train=no, use=reference'
 
+const publicLocation = {
+  city: 'Lahore',
+  country: 'Pakistan',
+  countryCode: 'PK'
+}
+
+const educationRecord = {
+  institution:
+    'National University of Computer and Emerging Sciences (FAST-NUCES)',
+  studyType: 'Bachelor of Science',
+  area: 'Computer Science',
+  startDate: '2016',
+  endDate: '2020'
+}
+
 export const profile = {
   name: 'Mohsin Hayat',
   title:
@@ -12,7 +27,14 @@ export const profile = {
     'Mohsin Hayat is a Senior Software Engineer specializing in applied AI and backend systems. Based in Lahore, Pakistan, he builds reliable Python services and conversational AI experiences for international teams.',
   summary:
     'I build production AI and backend systems where reliable engineering matters: conversational experiences, data-intensive agents, and the services around them.',
-  location: 'Lahore, Pakistan',
+  resumeSummary:
+    'Senior Software Engineer with 6+ years of international remote experience building production backend and applied AI systems across airline, ecommerce, and healthcare platforms. I focus on dependable services, useful agents, and the data and workflows around them.',
+  learningApproach:
+    'I’m a confident, curious engineer who learns something new every day. The tools listed here reflect my experience so far, not the limits of what I can build or learn. I choose technologies to fit the problem and enjoy getting comfortable with unfamiliar systems.',
+  timezone: 'Asia/Karachi',
+  utcOffset: '+05:00',
+  locationDetails: publicLocation,
+  location: `${publicLocation.city}, ${publicLocation.country}`,
   email: 'mohsinhayat104@gmail.com',
   portrait: '/images/Mohsin_DP.jpg',
   links: {
@@ -24,19 +46,24 @@ export const profile = {
   },
   roles: [
     {
+      id: 'onservice',
       company: 'OnService.AI',
+      focusTitle: 'Airline conversational systems',
       title: 'Senior Software Engineer',
       period: 'July 2026 – Present',
       location: 'Remote (United States)',
       summary:
-        'Building Python services and conversational AI experiences for airline systems, including workflows for World2Fly and LASER Airlines.',
+        'I build Python services and conversational AI experiences for airline systems, including workflows for World2Fly and LASER Airlines.',
       highlights: [
         'Building production conversational AI experiences for World2Fly and LASER Airlines across Python services, LLM agents, and airline booking workflows.',
         'Integrating conversational agents with KIU PSS and related airline workflows for booking information, payments, check-in, flight changes, ancillary services, and passenger support.'
       ]
     },
     {
+      id: 'trafilea',
+      recommendationIds: ['tomas-malgarin'],
       company: 'Trafilea Tech E-commerce Group',
+      focusTitle: 'AI for ecommerce analytics',
       title: 'AI Engineer',
       period: 'June 2025 – July 2026',
       location: 'Remote (United States)',
@@ -49,7 +76,28 @@ export const profile = {
       ]
     },
     {
+      id: 'awell',
+      recommendationIds: [
+        'etienne-bomcke',
+        'jonathan-belanger',
+        'vasilica-coscotin'
+      ],
+      publicWork: [
+        {
+          name: 'hosted-pages',
+          url: 'https://github.com/awell-health/hosted-pages'
+        },
+        {
+          name: 'ui-library',
+          url: 'https://github.com/awell-health/ui-library'
+        },
+        {
+          name: 'awell-extensions',
+          url: 'https://github.com/awell-health/awell-extensions'
+        }
+      ],
       company: 'Awell Health',
+      focusTitle: 'Event-driven healthcare platforms',
       title: 'Senior Software Engineer',
       period: 'April 2021 – May 2025',
       location: 'Remote (Belgium)',
@@ -63,6 +111,8 @@ export const profile = {
   ],
   earlierRoles: [
     {
+      id: 'tintash',
+      referenceId: 'tintash',
       company: 'Tintash',
       title: 'Software Engineer',
       period: 'July 2020 – April 2021',
@@ -70,6 +120,8 @@ export const profile = {
         'Built full-stack interactive and booking products with Node.js and React.'
     },
     {
+      id: 'solutioninn',
+      referenceId: 'solutioninn',
       company: 'SolutionInn',
       title: 'Web Developer Intern',
       period: 'June 2019 – October 2019',
@@ -77,6 +129,8 @@ export const profile = {
         'Built real-time tutoring features across Node.js, React, Socket.io, PHP, MySQL, and iOS.'
     },
     {
+      id: 'respondio',
+      referenceId: 'respondio',
       company: 'Respond.io (formerly Rocketbots Limited)',
       title: 'Frontend Developer Intern',
       period: 'July 2018 – September 2018',
@@ -84,6 +138,7 @@ export const profile = {
         'Built Vue and Vuex product features, a Preact webchat plugin, Socket.io integrations, and Node.js APIs.'
     },
     {
+      id: 'freelance',
       company: 'Upwork & Fiverr',
       title: 'Freelance Product Engineer',
       period: 'July 2016 – September 2018',
@@ -138,6 +193,8 @@ export const profile = {
   },
   projects: [
     {
+      id: 'snippetgraph',
+      kind: 'independent',
       name: 'SnippetGraph',
       homepageSummary:
         'I built SnippetGraph to give AI teams a more dependable way to manage the context their agents use.',
@@ -159,6 +216,8 @@ export const profile = {
       status: 'Independent proof of concept'
     },
     {
+      id: 'firstcustomer',
+      kind: 'independent',
       name: 'FirstCustomer',
       homepageSummary:
         'A weekend project that gives landing pages an honest first impression and practical fixes, shaped by feedback from people who tried its first version.',
@@ -173,9 +232,12 @@ export const profile = {
         'Iterated after early users tried the weekend prototype and shared feedback.',
       href: 'https://firstcustomer.ai',
       status: 'Independent project',
+      demoHref: 'https://www.youtube.com/watch?v=_9TQfAzmIPE',
       storyHref: '/posts/firstcustomer-from-weekend-project-to-feedback'
     },
     {
+      id: 'zaati-os',
+      kind: 'independent',
       name: 'Zaati OS',
       homepageSummary:
         'I built Zaati OS to turn the AI tools I already use into one private place to catch up on my day.',
@@ -193,6 +255,8 @@ export const profile = {
       storyHref: '/posts/zaati-os-tiny-control-room'
     },
     {
+      id: 'professional-systems',
+      kind: 'professional',
       name: 'Production AI and backend systems',
       problem:
         'Operational AI needs dependable services, data boundaries, and understandable workflows—not just a model call.',
@@ -213,6 +277,7 @@ export const profile = {
   recommendations: [
     {
       company: 'Trafilea',
+      id: 'tomas-malgarin',
       name: 'Tomás Malgarín',
       role: 'Data Analytics, Trafilea',
       excerpt:
@@ -222,6 +287,7 @@ export const profile = {
     },
     {
       company: 'Awell Health',
+      id: 'etienne-bomcke',
       name: 'Etienne Bömcke',
       role: 'Head of Technology, Awell Health',
       excerpt:
@@ -231,6 +297,7 @@ export const profile = {
     },
     {
       company: 'Awell Health',
+      id: 'jonathan-belanger',
       name: 'Jonathan Belanger',
       role: 'Head of Engineering, Awell Health',
       excerpt:
@@ -238,6 +305,7 @@ export const profile = {
     },
     {
       company: 'Awell Health',
+      id: 'vasilica-coscotin',
       name: 'Vasilica Coscotin',
       role: 'Head of Technology & Engineering, Awell Health',
       additionalRole: 'ex Software Architect, Voxbone ($1B+)',
@@ -247,6 +315,7 @@ export const profile = {
   ],
   employerRecommendations: [
     {
+      id: 'tintash',
       company: 'Tintash',
       name: 'Salman Mughal',
       role: 'HR Manager, Tintash',
@@ -258,6 +327,7 @@ export const profile = {
       linkLabel: 'View Tintash certificate'
     },
     {
+      id: 'solutioninn',
       company: 'SolutionInn LLC',
       name: 'Rahman Gul',
       role: 'HR Manager, SolutionInn',
@@ -267,6 +337,7 @@ export const profile = {
       linkLabel: 'View SolutionInn certificate'
     },
     {
+      id: 'respondio',
       company: 'Rocketbots Limited (now Respond.io)',
       name: 'Hassan Ahmed',
       role: 'Executive Director, Rocketbots',
@@ -364,8 +435,8 @@ export const profile = {
       linkLabel: 'View React.js Part II certificate'
     }
   ],
-  education:
-    'Bachelor of Science in Computer Science, National University of Computer and Emerging Sciences (FAST-NUCES), Lahore, Pakistan (2016–2020).',
+  educationRecord,
+  education: `${educationRecord.studyType} in ${educationRecord.area}, ${educationRecord.institution}, Lahore, Pakistan (${educationRecord.startDate}–${educationRecord.endDate}).`,
   achievements: [
     'FAST-NUCES Bronze Medalist and Dean’s List honoree',
     'First place in an ACM programming competition',
@@ -390,7 +461,44 @@ export function pageMetadata({
   return {
     title,
     description,
-    alternates: { canonical: url },
+    alternates: {
+      canonical: url,
+      types: {
+        ...(['/', '/resume', '/recommendations', '/posts'].includes(path) ||
+        path.startsWith('/posts/')
+          ? {
+              'text/markdown': [
+                {
+                  url: absoluteUrl(
+                    `/agent-markdown?path=${encodeURIComponent(path)}`
+                  ),
+                  title: `${title} (Markdown)`
+                }
+              ]
+            }
+          : {}),
+        ...(path === '/'
+          ? {
+              'application/json': [
+                {
+                  url: absoluteUrl(publicEndpoints.profile),
+                  title: 'Public profile JSON'
+                }
+              ]
+            }
+          : {}),
+        ...(path === '/resume'
+          ? {
+              'application/json': [
+                {
+                  url: absoluteUrl(publicEndpoints.resume),
+                  title: 'JSON Resume'
+                }
+              ]
+            }
+          : {})
+      }
+    },
     robots: { index: true, follow: true },
     openGraph: {
       type: 'website',
@@ -451,4 +559,88 @@ export function articleMetadata({
       ]
     }
   }
+}
+
+export const independentProjects = profile.projects.filter(
+  (project) => project.kind === 'independent'
+)
+
+export const publicEndpoints = {
+  guide: '/ai',
+  index: '/llms.txt',
+  markdown: '/profile.md',
+  fullMarkdown: '/llms-full.txt',
+  profile: '/profile.json',
+  resume: '/resume.json',
+  mcp: '/api/mcp'
+}
+
+export const publicFaq = [
+  {
+    id: 'timezone',
+    question: 'Where is Mohsin based, and what is his timezone?',
+    answer: `${profile.location}. His timezone is ${profile.timezone} (UTC${profile.utcOffset}). Specific working hours and overlap should be confirmed directly.`,
+    keywords: [
+      'timezone',
+      'time zone',
+      'hours',
+      'overlap',
+      'location',
+      'based',
+      'pakistan',
+      'lahore'
+    ]
+  },
+  {
+    id: 'collaboration',
+    question: 'How can I discuss a role or collaboration with Mohsin?',
+    answer: `Contact Mohsin at ${profile.email} or through his LinkedIn profile. Current availability, working arrangements, and contract terms need to be confirmed directly with him.`,
+    keywords: [
+      'hire',
+      'hiring',
+      'available',
+      'availability',
+      'contract',
+      'eor',
+      'contact',
+      'salary',
+      'rate',
+      'collaboration'
+    ]
+  },
+  {
+    id: 'learning',
+    question: 'Is Mohsin limited to the technologies listed on his resume?',
+    answer: profile.learningApproach,
+    keywords: [
+      'learn',
+      'learning',
+      'adapt',
+      'unfamiliar',
+      'limited',
+      'technologies',
+      'new tools'
+    ]
+  },
+  {
+    id: 'evidence',
+    question: 'How should I assess the statements in this profile?',
+    answer:
+      'The career history and project descriptions are self-reported. Linked recommendations, employer letters, repositories, and demos provide supporting context. A repository or recommendation does not independently verify every contribution or numerical claim.',
+    keywords: [
+      'verify',
+      'verification',
+      'proof',
+      'evidence',
+      'recommendation',
+      'reference'
+    ]
+  }
+]
+
+export const skillGroupLabels = {
+  languages: 'Languages',
+  ai: 'Applied AI',
+  backend: 'Backend and data',
+  platform: 'Cloud and architecture'
 }

@@ -1,19 +1,7 @@
 export default {
+  ai: { type: 'page', title: 'AI access', display: 'hidden' },
   index: { type: 'page', title: 'Home' },
   resume: { type: 'page', title: 'Resume' },
   recommendations: { type: 'page', title: 'Recommendations' },
-  posts: {
-    type: 'page',
-    title: 'Writing',
-    items: {
-      'zaati-os-tiny-control-room': 'Why I Built Zaati OS',
-      'shortlisting-remote-companies': 'Shortlisting Remote Companies',
-      'working-remotely-from-pakistan': 'Working Remotely from Pakistan',
-      'apply-for-remote-jobs': 'Applying for Remote Jobs',
-      'standout-in-your-job-application': 'Stand Out in Your Job Application',
-      'advises-from-my-mentors': 'Advice from My Mentors',
-      'firstcustomer-from-weekend-project-to-feedback':
-        'FirstCustomer: From a Weekend Project to Real Feedback'
-    }
-  }
+  posts: { type: 'page', title: 'Writing' }
 }

@@ -3,7 +3,8 @@ import { getPageMap } from 'nextra/page-map'
 import { Footer, Layout, Navbar } from 'nextra-theme-blog'
 import 'nextra-theme-blog/style.css'
 import '../styles/main.css'
-import { profile, siteUrl } from '../data/profile'
+import { AgentGateway } from '../components/agent-gateway'
+import { profile, publicEndpoints, siteUrl } from '../data/profile'
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -35,6 +36,11 @@ export default async function RootLayout({ children }) {
           title="Mohsin Hayat"
           href={`${siteUrl}/feed.xml`}
         />
+        <link
+          rel="describedby"
+          type="text/markdown"
+          href={`${siteUrl}${publicEndpoints.index}`}
+        />
       </Head>
       <body>
         <a className="skip-link" href="#main-content">
@@ -43,6 +49,7 @@ export default async function RootLayout({ children }) {
         <Layout nextThemes={{ defaultTheme: 'dark', forcedTheme: 'dark' }}>
           <Navbar pageMap={await getPageMap()} />
           {children}
+          <AgentGateway />
           <Footer>
             <time>{new Date().getFullYear()}</time> © {profile.name}.
           </Footer>

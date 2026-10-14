@@ -23,7 +23,7 @@ yarn test:coverage
 yarn verify
 ```
 
-Regenerate the downloadable resume after changing `data/profile.js` with `python scripts/build-resume.py`.
+The normal `yarn build` regenerates the downloadable PDF from `data/profile.js` using Node.js. Run `yarn prebuild` to regenerate only the PDF. No Python or separate resume copy is required.
 
 `yarn verify` runs the unit/content checks and creates a production build. GitHub Actions runs the same checks for pull requests and pushes to `main`. In GitHub repository settings, require the **Verify / Test and build** status check before merging to `main`; Vercel's production deployment will then only occur after the verified pull request is merged.
 

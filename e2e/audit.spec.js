@@ -7,6 +7,7 @@ const routes = [
   '/resume',
   '/recommendations',
   '/posts',
+  '/ai',
   '/tags/artificial%20intelligence',
   '/posts/firstcustomer-from-weekend-project-to-feedback',
   '/posts/zaati-os-tiny-control-room',
