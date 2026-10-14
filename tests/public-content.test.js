@@ -56,6 +56,7 @@ describe('public discovery content', () => {
       expect.arrayContaining([
         'SnippetGraph',
         'FirstCustomer',
+        'Zaati OS',
         'Production AI and backend systems'
       ])
     )

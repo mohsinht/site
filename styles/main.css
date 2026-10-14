@@ -245,7 +245,6 @@ li {
 }
 .recommendation-card > blockquote {
   margin: 0;
-  margin: 0;
   font-size: 1.05rem;
   font-weight: 550;
 }
@@ -535,14 +534,6 @@ li {
   height: 100%;
   border: 0;
 }
-.original-quote {
-  margin-top: 0.7rem;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-.original-quote summary {
-  cursor: pointer;
-}
 .project-status {
   color: var(--accent);
   font-size: 0.85rem;
@@ -593,4 +584,61 @@ li {
 
 .button-primary:focus-visible {
   outline-color: #fff;
+}
+
+@media (min-width: 1000px) {
+  .featured-work {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media print {
+  :root {
+    --bg: #fff;
+    --surface: #fff;
+    --surface-soft: #fff;
+    --border: #ccc;
+    --text: #111;
+    --muted: #444;
+    --link: #0645ad;
+    --accent: #111;
+  }
+  html {
+    color-scheme: light;
+  }
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+  body * {
+    color: #111 !important;
+  }
+  header,
+  .skip-link,
+  .social-links,
+  .hero-actions,
+  .resume-page .button {
+    display: none !important;
+  }
+  .resume-page,
+  .recommendations-page {
+    max-width: none;
+    padding: 0;
+  }
+  h1,
+  h2,
+  h3 {
+    color: #111 !important;
+    break-after: avoid;
+  }
+  p,
+  li {
+    line-height: 1.5;
+  }
+  .recommendation-card,
+  .work-feature {
+    break-inside: avoid;
+  }
+  a {
+    color: #0645ad !important;
+  }
 }

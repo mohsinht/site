@@ -176,6 +176,23 @@ export const profile = {
       storyHref: '/posts/firstcustomer-from-weekend-project-to-feedback'
     },
     {
+      name: 'Zaati OS',
+      homepageSummary:
+        'I built Zaati OS to turn the AI tools I already use into one private place to catch up on my day.',
+      homepageDetail:
+        'It brings calendar, inbox, work, finances, and goals into a personal dashboard. The AI prepares the information, files keep the history, and I stay in control of the data.',
+      problem:
+        'Useful personal information is scattered across tools and short-lived AI conversations.',
+      built:
+        'An open-source personal dashboard that combines AI-prepared information with files stored under the user’s control.',
+      technologies: ['JavaScript', 'file-based data', 'AI tools'],
+      outcome:
+        'A working personal dashboard with a synthetic-data tutorial for trying the complete loop before connecting real sources.',
+      href: 'https://github.com/mohsinht/zaati-os',
+      status: 'Independent open-source project',
+      storyHref: '/posts/zaati-os-tiny-control-room'
+    },
+    {
       name: 'Production AI and backend systems',
       problem:
         'Operational AI needs dependable services, data boundaries, and understandable workflows—not just a model call.',

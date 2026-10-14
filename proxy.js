@@ -5,6 +5,16 @@ const markdownPaths = new Set(['/', '/resume', '/recommendations', '/posts'])
 export function proxy(request) {
   const accept = request.headers.get('accept') ?? ''
   const pathname = request.nextUrl.pathname
+  if (pathname.startsWith('/tags/')) {
+    // Reject malformed encodings before the framework decodes dynamic params.
+    try {
+      if (decodeURIComponent(pathname).includes('%')) {
+        return new NextResponse('Not found', { status: 404 })
+      }
+    } catch {
+      return new NextResponse('Not found', { status: 404 })
+    }
+  }
   const isPublicArticle = /^\/posts\/[a-z0-9-]+$/.test(pathname)
   const supportsMarkdown = markdownPaths.has(pathname) || isPublicArticle
 
@@ -22,5 +32,5 @@ export function proxy(request) {
 }
 
 export const config = {
-  matcher: ['/', '/resume', '/recommendations', '/posts/:path*']
+  matcher: ['/', '/resume', '/recommendations', '/posts/:path*', '/tags/:path*']
 }

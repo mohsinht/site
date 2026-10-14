@@ -7,7 +7,7 @@ import { profile, recommendationUrl } from '../../data/profile'
 
 <main id="main-content" className="recommendations-page" tabIndex={-1}>
 
-Perspectives from colleagues and engineering leaders I have worked with internationally. Minor spelling and punctuation corrections to archived employer and client quotes are marked by the original wording available beneath each edited quote.
+Perspectives from colleagues and engineering leaders I have worked with internationally. Quotes are lightly edited for spelling and punctuation.
 
 ## Verified LinkedIn recommendations
 
@@ -19,12 +19,6 @@ Perspectives from colleagues and engineering leaders I have worked with internat
     >
       <p className="recommendation-company">{item.company}</p>
       <blockquote>“{item.editedExcerpt ?? item.excerpt}”</blockquote>
-      {item.editedExcerpt && (
-        <details className="original-quote">
-          <summary>Read original wording</summary>
-          <p>“{item.excerpt}”</p>
-        </details>
-      )}
       <footer>
         <strong>– {item.name}</strong>
         <span>{item.role}</span>
@@ -51,12 +45,6 @@ Perspectives from colleagues and engineering leaders I have worked with internat
     >
       <p className="recommendation-company">{item.company}</p>
       <blockquote>“{item.editedExcerpt ?? item.excerpt}”</blockquote>
-      {item.editedExcerpt && (
-        <details className="original-quote">
-          <summary>Read original wording</summary>
-          <p>“{item.excerpt}”</p>
-        </details>
-      )}
       <footer>
         <strong>– {item.name}</strong>
         <span>{item.role}</span>
@@ -78,12 +66,6 @@ Perspectives from colleagues and engineering leaders I have worked with internat
     >
       <p className="recommendation-company">{item.project}</p>
       <blockquote>“{item.editedExcerpt ?? item.excerpt}”</blockquote>
-      {item.editedExcerpt && (
-        <details className="original-quote">
-          <summary>Read original wording</summary>
-          <p>“{item.excerpt}”</p>
-        </details>
-      )}
       <footer>
         <strong>— {item.name}</strong>
         <span>{item.role}</span>
