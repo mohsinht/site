@@ -243,7 +243,8 @@ li {
   border-radius: 0.7rem;
   background: var(--surface-soft);
 }
-.recommendation-card > p:not(.recommendation-company) {
+.recommendation-card > blockquote {
+  margin: 0;
   margin: 0;
   font-size: 1.05rem;
   font-weight: 550;
@@ -588,4 +589,8 @@ li {
   min-height: 44px;
   display: inline-flex;
   align-items: center;
+}
+
+.button-primary:focus-visible {
+  outline-color: #fff;
 }

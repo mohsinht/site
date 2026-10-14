@@ -22,7 +22,7 @@ function ExternalLink({ href, children = null, className = '', ...props }) {
 
 export function SocialLinks() {
   return (
-    <div className="social-links" aria-label="Professional links">
+    <nav className="social-links" aria-label="Professional profiles">
       <ExternalLink
         href={profile.links.github}
         className="icon-link"
@@ -44,7 +44,7 @@ export function SocialLinks() {
       >
         <Icon name="mail" />
       </a>
-    </div>
+    </nav>
   )
 }
 
@@ -112,7 +112,7 @@ export function PortfolioHome() {
         <div className="recommendation-grid">
           {profile.recommendations.slice(0, 2).map((item) => (
             <article className="recommendation-card" key={item.name}>
-              <p>“{item.homepageExcerpt ?? item.excerpt}”</p>
+              <blockquote>“{item.homepageExcerpt ?? item.excerpt}”</blockquote>
               <footer>
                 <strong>{item.name}</strong>
                 <span>{item.role}</span>

@@ -22,21 +22,6 @@ export const profile = {
     snippetGraph: 'https://snippetgraph.com',
     firstCustomer: 'https://firstcustomer.ai'
   },
-  metrics: [
-    {
-      value: '30+',
-      label: 'campaign-data tables used by a production NL-to-SQL agent'
-    },
-    {
-      value: '~$5M/month',
-      label: 'advertising-spend context for a LangGraph budget copilot'
-    },
-    {
-      value: '100K+',
-      label: 'clinical workflows per month supported at Awell'
-    },
-    { value: '6+ years', label: 'international remote engineering experience' }
-  ],
   roles: [
     {
       company: 'OnService.AI',
@@ -205,7 +190,7 @@ export const profile = {
         'CQRS'
       ],
       outcome:
-        'Includes systems operating across 30+ tables, approximately $5M/month of planning context, and 100K+ monthly workflows.'
+        'Work that made complex data and operational workflows more useful to the people relying on them.'
     }
   ],
   recommendations: [
