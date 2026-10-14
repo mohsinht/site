@@ -10,7 +10,9 @@ export default {
       'working-remotely-from-pakistan': 'Working Remotely from Pakistan',
       'apply-for-remote-jobs': 'Applying for Remote Jobs',
       'standout-in-your-job-application': 'Stand Out in Your Job Application',
-      'advises-from-my-mentors': 'Advice from My Mentors'
+      'advises-from-my-mentors': 'Advice from My Mentors',
+      'firstcustomer-from-weekend-project-to-feedback':
+        'FirstCustomer: From a Weekend Project to Real Feedback'
     }
   }
 }

@@ -1,5 +1,5 @@
 ---
-title: Shortlisting remote companies to apply
+title: Shortlisting remote companies to apply to
 date: 2022-05-21
 dateModified: 2026-08-10
 description: Comprehensive guide from start to end on how to find remote companies.

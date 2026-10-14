@@ -2,7 +2,7 @@ import { ArticleJsonLd } from '../../../components/article-json-ld'
 import { articleMetadata } from '../../../data/profile'
 
 const details = {
-  title: 'Shortlisting Remote Companies to Apply',
+  title: 'Shortlisting Remote Companies to Apply To',
   description:
     'Comprehensive guide from start to end on how to find remote companies.',
   path: '/posts/shortlisting-remote-companies',

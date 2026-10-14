@@ -1,4 +1,4 @@
-import { PostCard } from 'nextra-theme-blog'
+import { PortfolioPostCard } from '../../../components/post-card'
 import { getPosts, getTags } from '../../posts/get-posts'
 
 export async function generateMetadata({ params }) {
@@ -20,13 +20,13 @@ export default async function TagPage({ params }) {
   const posts = await getPosts()
 
   return (
-    <>
+    <div id="main-content" className="writing-list" tabIndex={-1}>
       <h1>Posts Tagged with “{decodedTag}”</h1>
       {posts
         .filter((post) => post.frontMatter.tags?.includes(decodedTag))
         .map((post) => (
-          <PostCard key={post.route} post={post} />
+          <PortfolioPostCard key={post.route} post={post} />
         ))}
-    </>
+    </div>
   )
 }

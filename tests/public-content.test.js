@@ -83,6 +83,6 @@ describe('public discovery content', () => {
           project.technologies.length
       ).toBeTruthy()
     expect(llmsIndex()).toContain('Recommendations')
-    expect(llmsFull()).toContain('Last updated: 2026-08-15')
+    expect(llmsFull()).toContain('Last updated: 2026-10-14')
   })
 })

@@ -1,7 +1,7 @@
 import { pageMetadata } from '../../data/profile'
 
 export const metadata = pageMetadata({
-  title: 'Mohsin Hayat Resume | Applied AI and Backend Systems',
+  title: 'Resume',
   description:
     'Resume of Mohsin Hayat, Senior Software Engineer specializing in applied AI, LLM agents, Python services, and backend systems.',
   path: '/resume',

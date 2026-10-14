@@ -1,5 +1,5 @@
 export const siteUrl = 'https://mohsinht.com'
-export const siteLastUpdated = '2026-08-15'
+export const siteLastUpdated = '2026-10-14'
 export const contentSignal =
   'search=yes, ai-input=yes, ai-train=no, use=reference'
 
@@ -22,21 +22,6 @@ export const profile = {
     snippetGraph: 'https://snippetgraph.com',
     firstCustomer: 'https://firstcustomer.ai'
   },
-  metrics: [
-    {
-      value: '30+',
-      label: 'campaign-data tables used by a production NL-to-SQL agent'
-    },
-    {
-      value: '~$5M/month',
-      label: 'advertising-spend context for a LangGraph budget copilot'
-    },
-    {
-      value: '100K+',
-      label: 'clinical workflows per month supported at Awell'
-    },
-    { value: '6+ years', label: 'international remote engineering experience' }
-  ],
   roles: [
     {
       company: 'OnService.AI',
@@ -58,7 +43,7 @@ export const profile = {
       summary:
         'Built a production NL-to-SQL agent across 30+ campaign-data tables and architected a hierarchical LangGraph budget copilot in the context of approximately $5M in monthly advertising spend.',
       highlights: [
-        'Built a production NL-to-SQL agent used by leadership and marketing teams to query campaign data across 30+ tables in plain English.',
+        'Built a production NL-to-SQL agent used by leadership and marketing teams to query campaign data across 30+ tables in plain English, with schema-aware retrieval, table allowlists, date-bound queries, structured outputs, and validation checks.',
         'Architected a three-level hierarchical LangGraph budget copilot reasoning in the context of approximately $5M/month in advertising spend across brands, countries, and channels.',
         'Built an AI ingestion pipeline from AWS SNS through SQS to ClickHouse for multi-gigabyte advertising datasets and long-running LangGraph recommendation workflows.'
       ]
@@ -72,7 +57,7 @@ export const profile = {
         'Owned core APIs and event-driven systems that helped scale the platform to 100K+ clinical workflows per month.',
       highlights: [
         'Owned core APIs across orchestration, task management, and workflow design, helping scale the platform to 100K+ clinical workflows per month.',
-        'Designed and implemented event-driven architecture using CQRS, and contributed to hosted-pages, ui-library, and awell-extensions.'
+        'Designed event-driven systems using CQRS, added 100+ Cypress end-to-end tests, helped reduce deployment time by about 50%, and contributed to hosted-pages, ui-library, and awell-extensions.'
       ]
     }
   ],
@@ -92,7 +77,7 @@ export const profile = {
         'Built real-time tutoring features across Node.js, React, Socket.io, PHP, MySQL, and iOS.'
     },
     {
-      company: 'Respond.io',
+      company: 'Respond.io (formerly Rocketbots Limited)',
       title: 'Frontend Developer Intern',
       period: 'July 2018 – September 2018',
       summary:
@@ -169,22 +154,26 @@ export const profile = {
       ],
       outcome:
         'Designed for governed context publishing for AI-agent workflows.',
-      href: 'https://snippetgraph.com'
+      href: 'https://snippetgraph.com',
+      sourceHref: 'https://github.com/mohsinht/SnippetGraph',
+      status: 'Independent proof of concept'
     },
     {
       name: 'FirstCustomer',
       homepageSummary:
-        'FirstCustomer is a CI-native browser agent built around a problem I have seen repeatedly in software teams: a pull request can pass its automated tests and still break an important customer journey.',
+        'A weekend project that gives landing pages an honest first impression and practical fixes, shaped by feedback from people who tried its first version.',
       homepageDetail:
-        'It connects code changes with the product flows they may affect, exercises those flows using browser agents and realistic personas, and produces a release-risk assessment before the change reaches customers.',
+        'The current version checks 20+ website signals in milliseconds with negligible analysis cost, then uses an LLM to turn structured findings into a readable report. Five customer personas bring different perspectives to the review.',
       problem:
-        'Product teams need a practical way to connect pull-request changes with the user flows they could affect.',
+        'Founders need actionable feedback on a landing page before their first customers see it.',
       built:
-        'A CI-native browser agent that maps pull-request changes to affected user flows, tests real product paths with personas, and returns a confidence-scored release-risk assessment.',
-      technologies: ['CI', 'browser agents', 'release risk assessment'],
+        'A landing-page review tool that evaluates 20+ deterministic signals and synthesizes a human-readable report with an LLM.',
+      technologies: ['TypeSafe AI', 'structured analysis', 'LLM synthesis'],
       outcome:
-        'Connects code changes to user-facing verification before release.',
-      href: 'https://firstcustomer.ai'
+        'Iterated after early users tried the weekend prototype and shared feedback.',
+      href: 'https://firstcustomer.ai',
+      status: 'Independent project',
+      storyHref: '/posts/firstcustomer-from-weekend-project-to-feedback'
     },
     {
       name: 'Production AI and backend systems',
@@ -201,7 +190,7 @@ export const profile = {
         'CQRS'
       ],
       outcome:
-        'Includes systems operating across 30+ tables, approximately $5M/month of planning context, and 100K+ monthly workflows.'
+        'Work that made complex data and operational workflows more useful to the people relying on them.'
     }
   ],
   recommendations: [
@@ -246,6 +235,8 @@ export const profile = {
       role: 'HR Manager, Tintash',
       excerpt:
         'Mohsin always demonstrated excellence in professionalism and strong technical skills. He was a valued and dedicated member of our organization and we always found him to be a committed team player with effective analytical skills. He was very focused hard-working dedicated and result-oriented.',
+      editedExcerpt:
+        'Mohsin always demonstrated excellence in professionalism and strong technical skills. He was a valued and dedicated member of our organization and we always found him to be a committed team player with effective analytical skills. He was very focused, hard-working, dedicated, and result-oriented.',
       href: '/downloads/Tintash_certificate.pdf',
       linkLabel: 'View Tintash certificate'
     },
@@ -259,11 +250,13 @@ export const profile = {
       linkLabel: 'View SolutionInn certificate'
     },
     {
-      company: 'Rocketbots Limited',
+      company: 'Rocketbots Limited (now Respond.io)',
       name: 'Hassan Ahmed',
       role: 'Executive Director, Rocketbots',
       excerpt:
         'During his time, Mohsin produced excellent results in all the assigned tasks. We found him to be hardworking, devoted and a diligent person. For these reasons, I believe that he will prove himself to be an asset to any organization. If you have any question, do not hesitate to contact me.',
+      editedExcerpt:
+        'During his time, Mohsin produced excellent results in all the assigned tasks. We found him to be hardworking, devoted and a diligent person. For these reasons, I believe that he will prove himself to be an asset to any organization. If you have any questions, do not hesitate to contact me.',
       href: '/downloads/Letter%20of%20Recommendation%20-%20Mohsin.pdf',
       linkLabel: 'View Rocketbots letter'
     }
@@ -281,21 +274,27 @@ export const profile = {
       name: 'Vibhav Mishra',
       role: 'Client feedback · Upwork',
       excerpt:
-        'I hired Mohsin for developing a website for my real estate company from scratch. Mohsin’s biggest strength is his available and his patience. He is willing to work as long as it takes.'
+        'I hired Mohsin for developing a website for my real estate company from scratch. Mohsin’s biggest strength is his available and his patience. He is willing to work as long as it takes.',
+      editedExcerpt:
+        'I hired Mohsin for developing a website for my real estate company from scratch. Mohsin’s biggest strength is his availability and his patience. He is willing to work as long as it takes.'
     },
     {
       project: 'Bizsavvy Affiliates Project',
       name: 'Bizsavvy',
       role: 'Client feedback · Fiverr',
       excerpt:
-        'I loved working with Mohsinhayat. He did exactly what he said he would do and even more. Communication was great and he responded in a professional and timely matter. We transferred a site from Wix to Wordpress and he was able to duplicate the site into Wordpress way ahead of schedule.'
+        'I loved working with Mohsinhayat. He did exactly what he said he would do and even more. Communication was great and he responded in a professional and timely matter. We transferred a site from Wix to Wordpress and he was able to duplicate the site into Wordpress way ahead of schedule.',
+      editedExcerpt:
+        'I loved working with Mohsinhayat. He did exactly what he said he would do and even more. Communication was great and he responded in a professional and timely manner. We transferred a site from Wix to WordPress and he was able to duplicate the site into WordPress way ahead of schedule.'
     },
     {
       project: 'Aavant Backdrops Project',
       name: 'Aavant',
       role: 'Client feedback · Fiverr',
       excerpt:
-        'Knows Wordpress like the back of his hand. Does good and fast work. You just can depend on him and sit back. He will deliver. Wonderful job.'
+        'Knows Wordpress like the back of his hand. Does good and fast work. You just can depend on him and sit back. He will deliver. Wonderful job.',
+      editedExcerpt:
+        'Knows WordPress like the back of his hand. Does good and fast work. You just can depend on him and sit back. He will deliver. Wonderful job.'
     },
     {
       project: 'Skin Swim Project',
