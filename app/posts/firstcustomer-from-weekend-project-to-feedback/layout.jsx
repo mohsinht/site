@@ -1,31 +1,14 @@
-import { ArticleJsonLd } from '../../../components/article-json-ld'
-import { articleMetadata } from '../../../data/profile'
+import {
+  ArticleShell,
+  metadataForArticle
+} from '../../../components/article-layout'
 
-const details = {
-  title: 'FirstCustomer: From a Weekend Project to Real Feedback',
-  description:
-    'How an experiment in roasting landing pages became a structured website review tool after its first users sent feedback.',
-  path: '/posts/firstcustomer-from-weekend-project-to-feedback',
-  publishedTime: '2026-10-14',
-  modifiedTime: '2026-10-14',
-  tags: [
-    'artificial intelligence',
-    'independent projects',
-    'product development'
-  ]
+const route = '/posts/firstcustomer-from-weekend-project-to-feedback'
+
+export async function generateMetadata() {
+  return metadataForArticle(route)
 }
 
-export const metadata = articleMetadata(details)
-
 export default function ArticleLayout({ children }) {
-  return (
-    <>
-      <ArticleJsonLd
-        {...details}
-        datePublished={details.publishedTime}
-        dateModified={details.modifiedTime}
-      />
-      {children}
-    </>
-  )
+  return <ArticleShell route={route}>{children}</ArticleShell>
 }

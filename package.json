@@ -20,25 +20,30 @@
     "test:e2e": "playwright test",
     "test:a11y": "playwright test --grep accessibility",
     "lighthouse": "lhci autorun",
-    "verify": "yarn lint && yarn format:check && yarn typecheck && yarn test && yarn build"
+    "verify": "yarn lint && yarn format:check && yarn typecheck && yarn test && yarn build",
+    "prebuild": "node scripts/build-resume.mjs"
   },
   "dependencies": {
+    "@modelcontextprotocol/server": "2.3.1",
     "next": "16.3.2",
     "nextra": "4.6.1",
     "nextra-theme-blog": "4.6.1",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "zod": "4.6.7"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
     "@eslint/js": "^10.0.1",
     "@lhci/cli": "^0.15.1",
+    "@modelcontextprotocol/client": "2.3.1",
     "@next/eslint-plugin-next": "^16.3.2",
     "@playwright/test": "^1.62.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^10.8.1",
     "jest": "30.4.2",
+    "pdfkit": "^0.20.2",
     "prettier": "^3.9.6",
     "typescript": "6.0.3"
   },

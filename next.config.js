@@ -11,6 +11,7 @@ const securityHeaders = [
     value: `default-src 'self'; script-src 'self' 'unsafe-inline'${developmentScriptSource}; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; frame-src https://www.youtube-nocookie.com; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'`
   },
   { key: 'Content-Signal', value: contentSignal },
+  { key: 'Link', value: '</llms.txt>; rel="describedby"' },
   {
     key: 'Strict-Transport-Security',
     value: 'max-age=31536000; includeSubDomains'
@@ -24,6 +25,7 @@ const securityHeaders = [
 ]
 
 export default withNextra({
+  outputFileTracingIncludes: { '/agent-markdown': ['./app/posts/**/page.md'] },
   reactStrictMode: true,
   agentRules: false,
   turbopack: {

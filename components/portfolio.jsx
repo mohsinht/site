@@ -1,6 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { profile, recommendationUrl } from '../data/profile'
+import {
+  independentProjects,
+  profile,
+  recommendationUrl
+} from '../data/profile'
 import { Icon } from './icons'
 
 /** @param {import('react').AnchorHTMLAttributes<HTMLAnchorElement>} props */
@@ -59,16 +63,11 @@ export function PortfolioHome() {
           <h1 id="portfolio-title">Mohsin Hayat</h1>
           <p className="hero-title">{profile.title}</p>
           <p className="hero-summary">
-            I’m a software engineer based in Lahore, Pakistan. For more than six
-            years, I’ve worked remotely with international teams building
-            software for airlines, ecommerce companies, and healthcare
-            platforms.
+            I’m a software engineer based in {profile.location}.{' '}
+            {profile.summary}
           </p>
           <p className="hero-summary">
-            I’m currently at OnService.AI, where I work on Python services and
-            conversational AI for airline workflows, including integrations with
-            KIU PSS. Before that, I built AI tools at Trafilea and backend and
-            event-driven systems at Awell Health.
+            Currently at {profile.roles[0].company}. {profile.roles[0].summary}
           </p>
           <div className="hero-actions">
             <a href="#selected-work" className="button button-primary">
@@ -142,7 +141,7 @@ export function PortfolioHome() {
           problems.
         </p>
         <div className="featured-work">
-          {profile.projects.slice(0, 3).map((project) => (
+          {independentProjects.map((project) => (
             <article className="work-feature" key={project.name}>
               <h3>{project.name}</h3>
               {project.status && (
@@ -192,34 +191,15 @@ export function PortfolioHome() {
           worked on and the engineering behind them.
         </p>
         <div className="experience-grid">
-          <article>
-            <h3>Airline conversational systems</h3>
-            <p>
-              At OnService.AI, I build Python services and conversational
-              experiences for airline workflows. My work includes integrating AI
-              agents with KIU PSS and supporting journeys around booking
-              information, payments, check-in, flight changes, ancillary
-              services, and passenger support.
-            </p>
-          </article>
-          <article>
-            <h3>AI for ecommerce analytics</h3>
-            <p>
-              At Trafilea, I worked on production AI tools for marketing and
-              analytics teams. This included a conversational NL-to-SQL system,
-              LangGraph workflows for budget planning, and data pipelines
-              supporting long-running analytical agents.
-            </p>
-          </article>
-          <article>
-            <h3>Event-driven healthcare platforms</h3>
-            <p>
-              At Awell Health, I worked on the backend systems behind clinical
-              workflow automation. I contributed across orchestration, task
-              management, workflow design, event-driven architecture, testing,
-              deployment, and open-source tools.
-            </p>
-          </article>
+          {profile.roles.map((role) => (
+            <article key={role.id}>
+              <h3>{role.focusTitle}</h3>
+              <p>
+                <strong>{role.company}</strong>
+              </p>
+              <p>{role.summary}</p>
+            </article>
+          ))}
         </div>
         <Link href="/resume" className="text-link experience-link">
           See my complete work history <Icon name="arrow" size={16} />
@@ -232,17 +212,16 @@ export function PortfolioHome() {
       >
         <p className="eyebrow">Engineering focus</p>
         <h2 id="capabilities-title">Applied AI, backed by solid systems</h2>
+        <p>{profile.learningApproach}</p>
         <p>
-          I work primarily on applied AI systems and the backend infrastructure
-          needed to make them dependable. My recent work includes LLM agents,
-          multi-agent orchestration, NL-to-SQL, RAG, Python services, analytical
-          data pipelines, event-driven systems, and developer tooling.
-        </p>
-        <p>
-          I regularly work with Python, TypeScript, LangGraph, LangChain,
-          FastAPI, Node.js, AWS, ClickHouse, PostgreSQL, Docker, and Kubernetes.
-          I care more about choosing the right tool for the system than
-          collecting technologies for a list.
+          Recent tools include{' '}
+          {profile.skills.languages
+            .concat(
+              profile.skills.ai.slice(0, 2),
+              profile.skills.backend.slice(0, 2)
+            )
+            .join(', ')}
+          .
         </p>
       </section>
 
