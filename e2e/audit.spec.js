@@ -7,6 +7,7 @@ const routes = [
   '/resume',
   '/recommendations',
   '/posts',
+  '/tags/artificial%20intelligence',
   '/posts/firstcustomer-from-weekend-project-to-feedback',
   '/posts/zaati-os-tiny-control-room',
   '/posts/working-remotely-from-pakistan',
@@ -116,4 +117,37 @@ test('primary navigation stays consistent and local links resolve', async ({
       )
     }
   }
+})
+
+test('unknown and malformed tags do not produce server errors', async ({
+  request
+}) => {
+  for (const path of ['/tags/not-a-real-tag', '/tags/%25bad']) {
+    const response = await request.get(path)
+    expect(response.status()).toBe(404)
+  }
+})
+
+test('resume prints on white with readable headings', async ({ page }) => {
+  await page.goto('/resume')
+  await page.emulateMedia({ media: 'print' })
+  await expect(page.locator('body')).toHaveCSS(
+    'background-color',
+    'rgb(255, 255, 255)'
+  )
+  await expect(page.locator('h1')).toHaveCSS('color', 'rgb(17, 17, 17)')
+  await expect(page.locator('.resume-page p').first()).toHaveCSS(
+    'color',
+    'rgb(17, 17, 17)'
+  )
+  await expect(page.locator('.resume-page strong').first()).toHaveCSS(
+    'color',
+    'rgb(17, 17, 17)'
+  )
+  await expect(
+    page.getByRole('link', { name: 'Download Resume (PDF)' })
+  ).toBeHidden()
+  await expect(
+    page.getByRole('link', { name: 'mohsinhayat104@gmail.com' })
+  ).toBeVisible()
 })

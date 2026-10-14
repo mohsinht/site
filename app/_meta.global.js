@@ -6,6 +6,7 @@ export default {
     type: 'page',
     title: 'Writing',
     items: {
+      'zaati-os-tiny-control-room': 'Why I Built Zaati OS',
       'shortlisting-remote-companies': 'Shortlisting Remote Companies',
       'working-remotely-from-pakistan': 'Working Remotely from Pakistan',
       'apply-for-remote-jobs': 'Applying for Remote Jobs',

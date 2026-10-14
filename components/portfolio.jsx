@@ -142,7 +142,7 @@ export function PortfolioHome() {
           problems.
         </p>
         <div className="featured-work">
-          {profile.projects.slice(0, 2).map((project) => (
+          {profile.projects.slice(0, 3).map((project) => (
             <article className="work-feature" key={project.name}>
               <h3>{project.name}</h3>
               {project.status && (
