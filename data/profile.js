@@ -577,6 +577,12 @@ export const publicEndpoints = {
 
 export const publicFaq = [
   {
+    id: 'current-work',
+    question: 'What does Mohsin currently work on?',
+    answer: `${profile.roles[0].title} at ${profile.roles[0].company} (${profile.roles[0].period}). ${profile.roles[0].summary} His broader experience includes ${profile.capabilities.join(', ')}.`,
+    keywords: ['current', 'currently', 'background', 'specialize', 'specialise']
+  },
+  {
     id: 'timezone',
     question: 'Where is Mohsin based, and what is his timezone?',
     answer: `${profile.location}. His timezone is ${profile.timezone} (UTC${profile.utcOffset}). Specific working hours and overlap should be confirmed directly.`,

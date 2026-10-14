@@ -68,6 +68,16 @@ describe('public profile projections', () => {
       `${profile.resumeSummary} ${profile.learningApproach}`
     )
     expect(resume.education).toEqual([profile.educationRecord])
+    expect(data.certifications).toHaveLength(profile.certifications.length)
+    expect(resume.certificates.map((item) => item.name)).toEqual(
+      data.certifications.map((item) => item.name)
+    )
+    expect(profileMarkdown(data)).toContain(data.certifications[0].url)
+    expect(data.projects[0].problem).toBe(independentProjects[0].problem)
+    expect(profileMarkdown(data)).toContain(data.projects[0].outcome)
+    expect(
+      answerFollowup('What is his current role?').answers[0].answer
+    ).toContain(profile.roles[0].company)
     expect(profileMarkdown(data)).toContain(profile.learningApproach)
     expect(profileMarkdown(data)).toContain('experience.awell')
   })
